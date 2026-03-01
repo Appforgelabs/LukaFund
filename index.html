@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LukaFund</title>
+<script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:#0d1117;color:#e6edf3;font-family:'Inter',system-ui,sans-serif;min-height:100vh}
+  a{color:#f0b429}
+  .header{background:#161b22;border-bottom:1px solid #30363d;padding:16px 24px;display:flex;align-items:center;justify-content:space-between}
+  .header h1{font-size:1.4rem;font-weight:700;color:#f0b429;letter-spacing:-0.5px}
+  .header h1 span{color:#e6edf3;font-weight:300}
+  .sync{font-size:0.75rem;color:#8b949e;display:flex;align-items:center;gap:6px}
+  .dot{width:8px;height:8px;border-radius:50%;background:#3fb950}
+  .tabs{display:flex;gap:0;border-bottom:1px solid #30363d;background:#161b22;padding:0 24px}
+  .tab{padding:12px 20px;cursor:pointer;color:#8b949e;font-size:0.875rem;border-bottom:2px solid transparent;transition:all .2s}
+  .tab.active{color:#f0b429;border-bottom-color:#f0b429}
+  .tab:hover{color:#e6edf3}
+  .content{padding:24px;max-width:1400px;margin:0 auto}
+  .panel{display:none}.panel.active{display:block}
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px;margin-bottom:24px}
+  .card{background:#161b22;border:1px solid #30363d;border-radius:8px;padding:16px}
+  .card-label{font-size:0.75rem;color:#8b949e;text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px}
+  .card-value{font-size:1.5rem;font-weight:600;color:#e6edf3}
+  .card-value.pos{color:#3fb950}.card-value.neg{color:#f85149}
+  table{width:100%;border-collapse:collapse;background:#161b22;border-radius:8px;overflow:hidden}
+  th{background:#21262d;padding:10px 14px;text-align:left;font-size:0.75rem;color:#8b949e;text-transform:uppercase;letter-spacing:.5px}
+  td{padding:10px 14px;font-size:0.875rem;border-top:1px solid #21262d}
+  tr:hover td{background:#1c2128}
+  .badge{display:inline-block;padding:2px 8px;border-radius:12px;font-size:0.7rem;font-weight:500;background:#21262d;color:#8b949e}
+  .badge.covered_call{background:#1a3a4a;color:#58a6ff}
+  .badge.leap{background:#1a3a1a;color:#3fb950}
+  .badge.bear_put_spread{background:#3a1a1a;color:#f85149}
+  .badge.bull_call_spread{background:#1a3a1a;color:#3fb950}
+  .badge.short_stock{background:#3a1a1a;color:#f85149}
+  .badge.long_stock{background:#1a2a3a;color:#f0b429}
+  .pos{color:#3fb950}.neg{color:#f85149}
+  .section-title{font-size:1rem;font-weight:600;margin-bottom:16px;color:#e6edf3}
+  .empty{text-align:center;color:#8b949e;padding:40px;font-size:0.875rem}
+  .chart-wrap{background:#161b22;border:1px solid #30363d;border-radius:8px;padding:16px}
+  .filters{display:flex;gap:8px;margin-bottom:16px;flex-wrap:wrap}
+  .filter-btn{padding:4px 12px;border-radius:16px;border:1px solid #30363d;background:transparent;color:#8b949e;cursor:pointer;font-size:0.8rem}
+  .filter-btn.active{border-color:#f0b429;color:#f0b429;background:#1a1600}
+  .stat-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin-bottom:24px}
+  .stat{background:#161b22;border:1px solid #30363d;border-radius:8px;padding:12px;text-align:center}
+  .stat-val{font-size:1.2rem;font-weight:600;color:#f0b429}
+  .stat-lbl{font-size:0.7rem;color:#8b949e;margin-top:4px}
+  .form-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;max-width:600px}
+  .form-group{display:flex;flex-direction:column;gap:6px}
+  label{font-size:0.8rem;color:#8b949e}
+  input,select{background:#21262d;border:1px solid #30363d;color:#e6edf3;padding:8px 12px;border-radius:6px;font-size:0.875rem;width:100%}
+  input:focus,select:focus{outline:none;border-color:#f0b429}
+  .btn{background:#f0b429;color:#0d1117;border:none;padding:10px 24px;border-radius:6px;font-weight:600;cursor:pointer;font-size:0.875rem;margin-top:8px}
+  .btn:hover{background:#d9a020}
+  .note{font-size:0.75rem;color:#8b949e;margin-top:12px;padding:10px;background:#161b22;border-radius:6px;border-left:3px solid #f0b429}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div>
+    <h1>LukaFund <span>/ Paper Trading</span></h1>
+    <div style="font-size:0.75rem;color:#8b949e;margin-top:2px">Alpaca Markets · Options Level 3</div>
+  </div>
+  <div class="sync"><div class="dot" id="syncDot"></div><span id="syncTime">Loading...</span></div>
+</div>
+
+<div class="tabs">
+  <div class="tab active" onclick="showTab('portfolio')">Portfolio</div>
+  <div class="tab" onclick="showTab('trades')">Trades</div>
+  <div class="tab" onclick="showTab('pnl')">P&amp;L Chart</div>
+  <div class="tab" onclick="showTab('place')">Place Trade</div>
+</div>
+
+<div class="content">
+
+  <!-- PORTFOLIO -->
+  <div class="panel active" id="panel-portfolio">
+    <div class="cards" id="accountCards">
+      <div class="card"><div class="card-label">Total Equity</div><div class="card-value" id="equity">—</div></div>
+      <div class="card"><div class="card-label">Cash</div><div class="card-value" id="cash">—</div></div>
+      <div class="card"><div class="card-label">Buying Power</div><div class="card-value" id="bp">—</div></div>
+      <div class="card"><div class="card-label">Options BP</div><div class="card-value" id="obp">—</div></div>
+      <div class="card"><div class="card-label">Daily P&amp;L</div><div class="card-value" id="dpl">—</div></div>
+    </div>
+    <div class="section-title">Open Positions</div>
+    <table id="posTable">
+      <thead><tr><th>Symbol</th><th>Side</th><th>Qty</th><th>Avg Entry</th><th>Current</th><th>Mkt Value</th><th>Unrealized P&L</th><th>Strategy</th></tr></thead>
+      <tbody id="posBody"><tr><td colspan="8" class="empty">Loading positions...</td></tr></tbody>
+    </table>
+  </div>
+
+  <!-- TRADES -->
+  <div class="panel" id="panel-trades">
+    <div class="stat-grid" id="tradeStats"></div>
+    <div class="filters" id="filters">
+      <button class="filter-btn active" onclick="filterTrades('all',this)">All</button>
+      <button class="filter-btn" onclick="filterTrades('covered_call',this)">Covered Call</button>
+      <button class="filter-btn" onclick="filterTrades('leap',this)">LEAP</button>
+      <button class="filter-btn" onclick="filterTrades('bear_put_spread',this)">Bear Put Spread</button>
+      <button class="filter-btn" onclick="filterTrades('bull_call_spread',this)">Bull Call Spread</button>
+      <button class="filter-btn" onclick="filterTrades('short_stock',this)">Short</button>
+      <button class="filter-btn" onclick="filterTrades('long_stock',this)">Long</button>
+    </div>
+    <table id="tradeTable">
+      <thead><tr><th>Symbol</th><th>Side</th><th>Qty</th><th>Price</th><th>Strategy</th><th>Status</th><th>Date</th></tr></thead>
+      <tbody id="tradeBody"><tr><td colspan="7" class="empty">Loading trades...</td></tr></tbody>
+    </table>
+  </div>
+
+  <!-- P&L CHART -->
+  <div class="panel" id="panel-pnl">
+    <div class="chart-wrap"><div id="pnlChart" style="height:400px"></div></div>
+  </div>
+
+  <!-- PLACE TRADE -->
+  <div class="panel" id="panel-place">
+    <div class="section-title">Place Paper Trade</div>
+    <div class="form-grid">
+      <div class="form-group"><label>Symbol</label><input id="f-symbol" placeholder="e.g. RIVN, TSLA" style="text-transform:uppercase"></div>
+      <div class="form-group"><label>Side</label><select id="f-side"><option value="buy">Buy</option><option value="sell">Sell</option></select></div>
+      <div class="form-group"><label>Order Type</label><select id="f-type"><option value="limit">Limit</option><option value="market">Market</option></select></div>
+      <div class="form-group"><label>Quantity</label><input id="f-qty" type="number" placeholder="1" min="1"></div>
+      <div class="form-group"><label>Limit Price</label><input id="f-price" type="number" step="0.01" placeholder="0.00"></div>
+      <div class="form-group"><label>Strategy</label>
+        <select id="f-strategy">
+          <option value="unknown">— Select —</option>
+          <option value="covered_call">Covered Call</option>
+          <option value="leap">LEAP</option>
+          <option value="bear_put_spread">Bear Put Spread</option>
+          <option value="bull_call_spread">Bull Call Spread</option>
+          <option value="short_stock">Short Stock</option>
+          <option value="long_stock">Long Stock</option>
+        </select>
+      </div>
+    </div>
+    <button class="btn" onclick="previewOrder()">Preview Order</button>
+    <div id="orderPreview" style="margin-top:16px;display:none">
+      <div class="note" id="previewText"></div>
+      <div style="margin-top:8px;font-size:0.75rem;color:#8b949e">Run this command to execute:</div>
+      <div style="background:#21262d;border-radius:6px;padding:12px;margin-top:6px;font-family:monospace;font-size:0.8rem;color:#f0b429" id="previewCmd"></div>
+    </div>
+    <div class="note" style="margin-top:16px">⏰ Market is closed on weekends. Orders placed now will queue for Monday open (9:30 AM ET).</div>
+  </div>
+
+</div>
+
+<script>
+let allOrders = [], allTrades = [];
+
+function fmt$(v){ return v==null?'—':'$'+Number(v).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2}); }
+function fmtPct(v){ return v==null?'—':(v>=0?'+':'')+Number(v).toFixed(2)+'%'; }
+function fmtDate(s){ if(!s)return'—'; const d=new Date(s); return d.toLocaleDateString('en-US',{month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'}); }
+function badge(s){ return `<span class="badge ${s||'unknown'}">${(s||'unknown').replace(/_/g,' ')}</span>`; }
+function plClass(v){ return v>0?'pos':v<0?'neg':''; }
+
+function showTab(name){
+  document.querySelectorAll('.tab').forEach((t,i)=>t.classList.toggle('active',['portfolio','trades','pnl','place'][i]===name));
+  document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active'));
+  document.getElementById('panel-'+name).classList.add('active');
+  if(name==='pnl') renderChart();
+}
+
+async function loadAccount(){
+  try{
+    const d=await fetch('data/account.json').then(r=>r.json());
+    document.getElementById('equity').textContent=fmt$(d.equity);
+    document.getElementById('cash').textContent=fmt$(d.cash);
+    document.getElementById('bp').textContent=fmt$(d.buying_power);
+    document.getElementById('obp').textContent=fmt$(d.options_buying_power);
+    const dpl=document.getElementById('dpl');
+    dpl.textContent=fmt$(d.daily_pl)+' ('+fmtPct(d.daily_pl_pct)+')';
+    dpl.className='card-value '+plClass(d.daily_pl);
+    document.getElementById('syncTime').textContent='Synced '+fmtDate(d.last_updated);
+  }catch(e){ document.getElementById('syncTime').textContent='No data yet — run pipeline'; document.getElementById('syncDot').style.background='#f85149'; }
+}
+
+async function loadPositions(){
+  try{
+    const d=await fetch('data/positions.json').then(r=>r.json());
+    const tbody=document.getElementById('posBody');
+    if(!d.positions||!d.positions.length){ tbody.innerHTML='<tr><td colspan="8" class="empty">No open positions</td></tr>'; return; }
+    tbody.innerHTML=d.positions.map(p=>`<tr>
+      <td><strong>${p.symbol}</strong></td>
+      <td>${p.side}</td>
+      <td>${p.qty}</td>
+      <td>${fmt$(p.avg_entry_price)}</td>
+      <td>${fmt$(p.current_price)}</td>
+      <td>${fmt$(p.market_value)}</td>
+      <td class="${plClass(p.unrealized_pl)}">${fmt$(p.unrealized_pl)} (${fmtPct(p.unrealized_plpc)})</td>
+      <td>${badge(p.strategy)}</td>
+    </tr>`).join('');
+  }catch(e){}
+}
+
+async function loadTrades(){
+  try{
+    const [ordersData, tradesData] = await Promise.all([
+      fetch('data/orders.json').then(r=>r.json()),
+      fetch('data/trades.json').then(r=>r.json())
+    ]);
+    allOrders = ordersData.orders||[];
+    allTrades = tradesData.trades||[];
+    // Merge strategy tags from trades.json into orders
+    const smap={};
+    allTrades.forEach(t=>{ smap[t.id]=t.strategy; });
+    allOrders.forEach(o=>{ if(!o.strategy) o.strategy=smap[o.id]||'unknown'; });
+    renderTrades('all');
+    renderTradeStats();
+  }catch(e){}
+}
+
+function renderTrades(filter){
+  const tbody=document.getElementById('tradeBody');
+  let orders=filter==='all'?allOrders:allOrders.filter(o=>o.strategy===filter);
+  if(!orders.length){ tbody.innerHTML='<tr><td colspan="7" class="empty">No trades yet</td></tr>'; return; }
+  tbody.innerHTML=orders.map(o=>`<tr>
+    <td><strong>${o.symbol||'—'}</strong></td>
+    <td>${o.side}</td>
+    <td>${o.filled_qty||o.qty||'—'}</td>
+    <td>${o.filled_avg_price?fmt$(o.filled_avg_price):o.limit_price?fmt$(o.limit_price):'MKT'}</td>
+    <td>${badge(o.strategy)}</td>
+    <td><span class="badge">${o.status}</span></td>
+    <td>${fmtDate(o.filled_at||o.submitted_at)}</td>
+  </tr>`).join('');
+}
+
+function renderTradeStats(){
+  const filled=allOrders.filter(o=>o.status==='filled');
+  const strats=[...new Set(allOrders.map(o=>o.strategy))].filter(s=>s&&s!=='unknown');
+  document.getElementById('tradeStats').innerHTML=`
+    <div class="stat"><div class="stat-val">${allOrders.length}</div><div class="stat-lbl">Total Orders</div></div>
+    <div class="stat"><div class="stat-val">${filled.length}</div><div class="stat-lbl">Filled</div></div>
+    <div class="stat"><div class="stat-val">${strats.length}</div><div class="stat-lbl">Strategies</div></div>
+  `;
+}
+
+function filterTrades(filter, btn){
+  document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  renderTrades(filter);
+}
+
+async function renderChart(){
+  try{
+    const d=await fetch('data/pnl_history.json').then(r=>r.json());
+    const hist=d.history||[];
+    if(!hist.length){ document.getElementById('pnlChart').innerHTML='<div class="empty">No P&L history yet — run pipeline</div>'; return; }
+    const x=hist.map(h=>h.timestamp), y=hist.map(h=>h.equity);
+    const baseline=Array(x.length).fill(100000);
+    Plotly.newPlot('pnlChart',[
+      {x,y,mode:'lines',name:'LukaFund Equity',line:{color:'#f0b429',width:2},fill:'tozeroy',fillcolor:'rgba(240,180,41,0.08)'},
+      {x,y:baseline,mode:'lines',name:'Baseline $100K',line:{color:'#8b949e',width:1,dash:'dot'}}
+    ],{
+      paper_bgcolor:'#161b22',plot_bgcolor:'#161b22',
+      font:{color:'#e6edf3',family:'Inter,system-ui'},
+      xaxis:{gridcolor:'#21262d',zerolinecolor:'#30363d'},
+      yaxis:{gridcolor:'#21262d',zerolinecolor:'#30363d',tickprefix:'$'},
+      legend:{bgcolor:'transparent'},
+      margin:{t:20,r:20,b:40,l:80}
+    },{responsive:true});
+  }catch(e){}
+}
+
+function previewOrder(){
+  const sym=document.getElementById('f-symbol').value.trim().toUpperCase();
+  const side=document.getElementById('f-side').value;
+  const type=document.getElementById('f-type').value;
+  const qty=document.getElementById('f-qty').value;
+  const price=document.getElementById('f-price').value;
+  const strat=document.getElementById('f-strategy').value;
+  if(!sym||!qty){ alert('Symbol and quantity required'); return; }
+  const priceFlag=type==='limit'&&price?` --limit_price ${price}`:'';
+  const cmd=`python scripts/place_order.py --symbol ${sym} --side ${side} --qty ${qty} --type ${type}${priceFlag} --strategy ${strat}`;
+  document.getElementById('previewText').textContent=`${side.toUpperCase()} ${qty}x ${sym} @ ${price?'$'+price:'MKT'} [${strat}]`;
+  document.getElementById('previewCmd').textContent=cmd;
+  document.getElementById('orderPreview').style.display='block';
+}
+
+// Init
+loadAccount(); loadPositions(); loadTrades();
+</script>
+</body>
+</html>
