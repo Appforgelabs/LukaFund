@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-03-02 13:01 ET",
+  "generated_at": "2026-03-02 14:03 ET",
   "portfolio": {
     "name": "LukaFund",
     "inception_date": "2026-02-28",
     "starting_capital": 10000.0,
-    "cash": 9258.31,
+    "cash": 8510.88,
     "positions": [
       {
         "symbol": "SOFI",
-        "quantity": 41,
-        "avg_cost": 18.09,
-        "current_price": 18.09,
+        "quantity": 82,
+        "avg_cost": 18.16,
+        "current_price": 18.23,
         "entry_date": "2026-03-02"
       }
     ],
-    "total_value": 10000.0,
-    "total_return_pct": 0.0,
+    "total_value": 10005.74,
+    "total_return_pct": 0.06,
     "last_updated": "2026-03-02",
     "benchmark": "SPY",
     "benchmark_start_price": 685.99
@@ -23,18 +23,36 @@
   "positions": [
     {
       "symbol": "SOFI",
-      "quantity": 41,
-      "avg_cost": 18.09,
-      "current_price": 18.09,
-      "market_value": 741.69,
-      "pnl_dollar": 0.0,
-      "pnl_pct": 0.0,
-      "conviction": 2,
+      "quantity": 82,
+      "avg_cost": 18.16,
+      "current_price": 18.23,
+      "market_value": 1494.86,
+      "pnl_dollar": 5.74,
+      "pnl_pct": 0.39,
+      "conviction": 3,
       "entry_date": "2026-03-02",
       "type": "long"
     }
   ],
   "recent_trades": [
+    {
+      "date": "2026-03-02",
+      "symbol": "SOFI",
+      "action": "BUY",
+      "quantity": 41,
+      "price": 18.23,
+      "total_cost": 747.43,
+      "reasoning": "OVERSOLD DIP: price $18.23 is 8.9% below 20-day SMA, RSI 27.5 \u2014 capitulation zone, small position entry",
+      "cash_after": 8510.88,
+      "portfolio_value_after": 10005.74,
+      "indicators": {
+        "rsi": 27.5,
+        "sma20": 20.01,
+        "vol_ratio": 1.61,
+        "change_pct": 2.65
+      },
+      "conviction": 3
+    },
     {
       "date": "2026-03-02",
       "symbol": "SOFI",
@@ -55,6 +73,29 @@
     }
   ],
   "recent_decisions": [
+    {
+      "date": "2026-03-02",
+      "summary": "1 trades executed",
+      "portfolio_value": 10005.74,
+      "active_trades": [
+        {
+          "date": "2026-03-02",
+          "action": "BUY",
+          "symbol": "SOFI",
+          "quantity": 41,
+          "price": 18.23,
+          "reasoning": "OVERSOLD DIP: price $18.23 is 8.9% below 20-day SMA, RSI 27.5 \u2014 capitulation zone, small position entry",
+          "conviction": 3,
+          "indicators": {
+            "rsi": 27.5,
+            "sma20": 20.01,
+            "vol_ratio": 1.61,
+            "change_pct": 2.65
+          }
+        }
+      ],
+      "holds": 6
+    },
     {
       "date": "2026-03-02",
       "summary": "1 trades executed",
@@ -102,25 +143,25 @@
     },
     {
       "date": "2026-03-02",
-      "value": 10000.0,
-      "spy_value": 10000.15,
-      "cash": 9258.31
+      "value": 10005.74,
+      "spy_value": 9989.5,
+      "cash": 8510.88
     }
   ],
   "stats": {
-    "total_return_pct": 0.0,
-    "total_return_dollar": 0.0,
+    "total_return_pct": 0.06,
+    "total_return_dollar": 5.74,
     "win_rate": 0.0,
-    "total_trades": 1,
+    "total_trades": 2,
     "days_active": 2,
-    "cash_pct": 92.6,
+    "cash_pct": 85.1,
     "best_position": {
       "symbol": "SOFI",
-      "pnl_pct": 0.0
+      "pnl_pct": 0.39
     },
     "worst_position": {
       "symbol": "SOFI",
-      "pnl_pct": 0.0
+      "pnl_pct": 0.39
     }
   }
 }
