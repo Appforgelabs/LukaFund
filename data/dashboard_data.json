@@ -1,0 +1,126 @@
+{
+  "generated_at": "2026-03-02 12:11 ET",
+  "portfolio": {
+    "name": "LukaFund",
+    "inception_date": "2026-02-28",
+    "starting_capital": 10000.0,
+    "cash": 9258.31,
+    "positions": [
+      {
+        "symbol": "SOFI",
+        "quantity": 41,
+        "avg_cost": 18.09,
+        "current_price": 18.09,
+        "entry_date": "2026-03-02"
+      }
+    ],
+    "total_value": 10000.0,
+    "total_return_pct": 0.0,
+    "last_updated": "2026-03-02",
+    "benchmark": "SPY",
+    "benchmark_start_price": 685.99
+  },
+  "positions": [
+    {
+      "symbol": "SOFI",
+      "quantity": 41,
+      "avg_cost": 18.09,
+      "current_price": 18.09,
+      "market_value": 741.69,
+      "pnl_dollar": 0.0,
+      "pnl_pct": 0.0,
+      "conviction": 2,
+      "entry_date": "2026-03-02",
+      "type": "long"
+    }
+  ],
+  "recent_trades": [
+    {
+      "date": "2026-03-02",
+      "symbol": "SOFI",
+      "action": "BUY",
+      "quantity": 41,
+      "price": 18.09,
+      "total_cost": 741.69,
+      "reasoning": "OVERSOLD DIP: price $18.09 is 9.6% below 20-day SMA, RSI 27.5 \u2014 capitulation zone, small position entry",
+      "cash_after": 9258.31,
+      "portfolio_value_after": 10000.0,
+      "indicators": {
+        "rsi": 27.5,
+        "sma20": 20.01,
+        "vol_ratio": 1.61,
+        "change_pct": 1.86
+      },
+      "conviction": 3
+    }
+  ],
+  "recent_decisions": [
+    {
+      "date": "2026-03-02",
+      "summary": "1 trades executed",
+      "portfolio_value": 10000.0,
+      "active_trades": [
+        {
+          "date": "2026-03-02",
+          "action": "BUY",
+          "symbol": "SOFI",
+          "quantity": 41,
+          "price": 18.09,
+          "reasoning": "OVERSOLD DIP: price $18.09 is 9.6% below 20-day SMA, RSI 27.5 \u2014 capitulation zone, small position entry",
+          "conviction": 3,
+          "indicators": {
+            "rsi": 27.5,
+            "sma20": 20.01,
+            "vol_ratio": 1.61,
+            "change_pct": 1.86
+          }
+        }
+      ],
+      "holds": 6
+    },
+    {
+      "date": "2026-02-28",
+      "summary": "0 trades executed",
+      "portfolio_value": 10000.0,
+      "active_trades": [],
+      "holds": 4
+    },
+    {
+      "date": "2026-02-28",
+      "summary": "0 trades executed",
+      "portfolio_value": 10000.0,
+      "active_trades": [],
+      "holds": 0
+    }
+  ],
+  "equity_curve": [
+    {
+      "date": "2026-02-28",
+      "value": 10000.0,
+      "spy_value": 10000.0,
+      "cash": 10000.0
+    },
+    {
+      "date": "2026-03-02",
+      "value": 10000.0,
+      "spy_value": 10000.15,
+      "cash": 9258.31
+    }
+  ],
+  "stats": {
+    "total_return_pct": 0.0,
+    "total_return_dollar": 0.0,
+    "win_rate": 0.0,
+    "total_trades": 1,
+    "days_active": 2,
+    "cash_pct": 92.6,
+    "best_position": {
+      "symbol": "SOFI",
+      "pnl_pct": 0.0
+    },
+    "worst_position": {
+      "symbol": "SOFI",
+      "pnl_pct": 0.0
+    }
+  }
+}
