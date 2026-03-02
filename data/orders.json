@@ -1,4 +1,33 @@
 {
-  "last_updated": "2026-03-01T13:59:53.402821+00:00",
-  "orders": []
+  "last_updated": "2026-03-02T16:41:55.474816+00:00",
+  "orders": [
+    {
+      "id": "7988a473-e27d-4581-bc1b-9cee6348a10e",
+      "symbol": "RIVN260417P00015000",
+      "side": "buy",
+      "type": "limit",
+      "qty": "1",
+      "filled_qty": "0",
+      "limit_price": "1.15",
+      "filled_avg_price": null,
+      "status": "new",
+      "submitted_at": "2026-03-02T14:30:06.446545Z",
+      "filled_at": null,
+      "order_class": "simple"
+    },
+    {
+      "id": "58ba2d35-a4a0-4182-908d-59c84475f275",
+      "symbol": "RIVN260417P00012000",
+      "side": "sell",
+      "type": "limit",
+      "qty": "1",
+      "filled_qty": "1",
+      "limit_price": "0.24",
+      "filled_avg_price": "0.24",
+      "status": "filled",
+      "submitted_at": "2026-03-02T14:30:06.43906Z",
+      "filled_at": "2026-03-02T14:30:23.505805Z",
+      "order_class": "simple"
+    }
+  ]
 }
