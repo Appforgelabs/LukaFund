@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-02 16:23 ET",
+  "generated_at": "2026-03-03 09:16 ET",
   "portfolio": {
     "name": "LukaFund",
     "inception_date": "2026-02-28",
@@ -16,7 +16,7 @@
     ],
     "total_value": 10018.86,
     "total_return_pct": 0.19,
-    "last_updated": "2026-03-02",
+    "last_updated": "2026-03-03",
     "benchmark": "SPY",
     "benchmark_start_price": 685.99
   },
@@ -73,6 +73,13 @@
     }
   ],
   "recent_decisions": [
+    {
+      "date": "2026-03-03",
+      "summary": "0 trades executed",
+      "portfolio_value": 10018.86,
+      "active_trades": [],
+      "holds": 0
+    },
     {
       "date": "2026-03-02",
       "summary": "0 trades executed",
@@ -132,13 +139,6 @@
         }
       ],
       "holds": 6
-    },
-    {
-      "date": "2026-02-28",
-      "summary": "0 trades executed",
-      "portfolio_value": 10000.0,
-      "active_trades": [],
-      "holds": 4
     }
   ],
   "equity_curve": [
@@ -153,6 +153,12 @@
       "value": 10018.86,
       "spy_value": 10005.69,
       "cash": 8510.88
+    },
+    {
+      "date": "2026-03-03",
+      "value": 10018.86,
+      "spy_value": 10000.0,
+      "cash": 8510.88
     }
   ],
   "stats": {
@@ -160,7 +166,7 @@
     "total_return_dollar": 18.86,
     "win_rate": 0.0,
     "total_trades": 2,
-    "days_active": 2,
+    "days_active": 3,
     "cash_pct": 84.9,
     "best_position": {
       "symbol": "SOFI",
