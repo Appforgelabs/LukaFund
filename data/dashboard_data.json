@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-03 09:16 ET",
+  "generated_at": "2026-03-03 16:20 ET",
   "portfolio": {
     "name": "LukaFund",
     "inception_date": "2026-02-28",
@@ -81,6 +81,13 @@
       "holds": 0
     },
     {
+      "date": "2026-03-03",
+      "summary": "0 trades executed",
+      "portfolio_value": 10018.86,
+      "active_trades": [],
+      "holds": 0
+    },
+    {
       "date": "2026-03-02",
       "summary": "0 trades executed",
       "portfolio_value": 10018.86,
@@ -112,29 +119,6 @@
             "sma20": 20.01,
             "vol_ratio": 1.61,
             "change_pct": 2.65
-          }
-        }
-      ],
-      "holds": 6
-    },
-    {
-      "date": "2026-03-02",
-      "summary": "1 trades executed",
-      "portfolio_value": 10000.0,
-      "active_trades": [
-        {
-          "date": "2026-03-02",
-          "action": "BUY",
-          "symbol": "SOFI",
-          "quantity": 41,
-          "price": 18.09,
-          "reasoning": "OVERSOLD DIP: price $18.09 is 9.6% below 20-day SMA, RSI 27.5 \u2014 capitulation zone, small position entry",
-          "conviction": 3,
-          "indicators": {
-            "rsi": 27.5,
-            "sma20": 20.01,
-            "vol_ratio": 1.61,
-            "change_pct": 1.86
           }
         }
       ],
