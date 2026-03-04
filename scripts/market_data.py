@@ -9,10 +9,10 @@ import time
 import json
 from datetime import datetime, timedelta
 
-FINNHUB_API_KEY = "FINNHUB_KEY_REDACTED"
+FINNHUB_API_KEY = "d6952r9r01qs7u9kq240d6952r9r01qs7u9kq24g"
 FINNHUB_BASE = "https://finnhub.io/api/v1"
 
-POLYGON_API_KEY = "POLYGON_KEY_REDACTED"
+POLYGON_API_KEY = "D2BcKzvYOpCfDBmHedtLAHu2CV3jKtU7"
 POLYGON_BASE = "https://api.polygon.io"
 
 _cache = {}

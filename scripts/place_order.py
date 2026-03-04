@@ -4,8 +4,8 @@
 import json, os, sys, argparse, requests
 from datetime import datetime, timezone
 
-API_KEY    = "ALPACA_KEY_REDACTED"
-API_SECRET = "ALPACA_SECRET_REDACTED"
+API_KEY    = "PKSAEPZ4YMNDN4ERB6Z7DLVWOK"
+API_SECRET = "FeJjXmsXSmYX1tdXTxp6qb8fUX1SLE8LGyrLEvmAsAcK"
 BASE       = "https://paper-api.alpaca.markets/v2"
 HEADERS    = {"APCA-API-KEY-ID": API_KEY, "APCA-API-SECRET-KEY": API_SECRET, "Content-Type": "application/json"}
 DATA_DIR   = os.path.join(os.path.dirname(__file__), "..", "data")
