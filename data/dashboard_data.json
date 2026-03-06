@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-05 16:23 ET",
+  "generated_at": "2026-03-06 18:08 ET",
   "portfolio": {
     "name": "LukaFund",
     "inception_date": "2026-02-28",
@@ -10,13 +10,13 @@
         "symbol": "SOFI",
         "quantity": 82,
         "avg_cost": 18.16,
-        "current_price": 19.25,
+        "current_price": 18.9,
         "entry_date": "2026-03-02"
       }
     ],
-    "total_value": 10089.38,
-    "total_return_pct": 0.89,
-    "last_updated": "2026-03-05",
+    "total_value": 10060.68,
+    "total_return_pct": 0.61,
+    "last_updated": "2026-03-06",
     "benchmark": "SPY",
     "benchmark_start_price": 685.99
   },
@@ -25,10 +25,10 @@
       "symbol": "SOFI",
       "quantity": 82,
       "avg_cost": 18.16,
-      "current_price": 19.25,
-      "market_value": 1578.5,
-      "pnl_dollar": 89.38,
-      "pnl_pct": 6.0,
+      "current_price": 18.9,
+      "market_value": 1549.8,
+      "pnl_dollar": 60.68,
+      "pnl_pct": 4.07,
       "conviction": 3,
       "entry_date": "2026-03-02",
       "type": "long"
@@ -74,6 +74,13 @@
   ],
   "recent_decisions": [
     {
+      "date": "2026-03-06",
+      "summary": "0 trades executed",
+      "portfolio_value": 10060.68,
+      "active_trades": [],
+      "holds": 7
+    },
+    {
       "date": "2026-03-05",
       "summary": "0 trades executed",
       "portfolio_value": 10089.38,
@@ -96,13 +103,6 @@
     },
     {
       "date": "2026-03-04",
-      "summary": "0 trades executed",
-      "portfolio_value": 10018.86,
-      "active_trades": [],
-      "holds": 0
-    },
-    {
-      "date": "2026-03-03",
       "summary": "0 trades executed",
       "portfolio_value": 10018.86,
       "active_trades": [],
@@ -139,22 +139,28 @@
       "value": 10089.38,
       "spy_value": 9931.78,
       "cash": 8510.88
+    },
+    {
+      "date": "2026-03-06",
+      "value": 10060.68,
+      "spy_value": 9801.6,
+      "cash": 8510.88
     }
   ],
   "stats": {
-    "total_return_pct": 0.89,
-    "total_return_dollar": 89.38,
+    "total_return_pct": 0.61,
+    "total_return_dollar": 60.68,
     "win_rate": 0.0,
     "total_trades": 2,
-    "days_active": 5,
-    "cash_pct": 84.4,
+    "days_active": 6,
+    "cash_pct": 84.6,
     "best_position": {
       "symbol": "SOFI",
-      "pnl_pct": 6.0
+      "pnl_pct": 4.07
     },
     "worst_position": {
       "symbol": "SOFI",
-      "pnl_pct": 6.0
+      "pnl_pct": 4.07
     }
   }
 }
