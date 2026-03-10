@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-10 09:17 ET",
+  "generated_at": "2026-03-10 16:23 ET",
   "portfolio": {
     "name": "LukaFund",
     "inception_date": "2026-02-28",
@@ -10,19 +10,19 @@
         "symbol": "SOFI",
         "quantity": 82,
         "avg_cost": 18.16,
-        "current_price": 18.79,
+        "current_price": 18.29,
         "entry_date": "2026-03-02"
       },
       {
         "symbol": "TSLA",
         "quantity": 1,
         "avg_cost": 396.73,
-        "current_price": 398.68,
+        "current_price": 399.24,
         "entry_date": "2026-03-09"
       }
     ],
-    "total_value": 10053.61,
-    "total_return_pct": 0.54,
+    "total_value": 10013.17,
+    "total_return_pct": 0.13,
     "last_updated": "2026-03-10",
     "benchmark": "SPY",
     "benchmark_start_price": 685.99
@@ -32,10 +32,10 @@
       "symbol": "SOFI",
       "quantity": 82,
       "avg_cost": 18.16,
-      "current_price": 18.79,
-      "market_value": 1540.78,
-      "pnl_dollar": 51.66,
-      "pnl_pct": 3.47,
+      "current_price": 18.29,
+      "market_value": 1499.78,
+      "pnl_dollar": 10.66,
+      "pnl_pct": 0.72,
       "conviction": 3,
       "entry_date": "2026-03-02",
       "type": "long"
@@ -44,10 +44,10 @@
       "symbol": "TSLA",
       "quantity": 1,
       "avg_cost": 396.73,
-      "current_price": 398.68,
-      "market_value": 398.68,
-      "pnl_dollar": 1.95,
-      "pnl_pct": 0.49,
+      "current_price": 399.24,
+      "market_value": 399.24,
+      "pnl_dollar": 2.51,
+      "pnl_pct": 0.63,
       "conviction": 3,
       "entry_date": "2026-03-09",
       "type": "long"
@@ -113,6 +113,13 @@
     {
       "date": "2026-03-10",
       "summary": "0 trades executed",
+      "portfolio_value": 10013.17,
+      "active_trades": [],
+      "holds": 7
+    },
+    {
+      "date": "2026-03-10",
+      "summary": "0 trades executed",
       "portfolio_value": 10053.61,
       "active_trades": [],
       "holds": 7
@@ -151,13 +158,6 @@
       "date": "2026-03-06",
       "summary": "0 trades executed",
       "portfolio_value": 10060.68,
-      "active_trades": [],
-      "holds": 7
-    },
-    {
-      "date": "2026-03-05",
-      "summary": "0 trades executed",
-      "portfolio_value": 10089.38,
       "active_trades": [],
       "holds": 7
     }
@@ -207,25 +207,25 @@
     },
     {
       "date": "2026-03-10",
-      "value": 10053.61,
-      "spy_value": 9887.46,
+      "value": 10013.17,
+      "spy_value": 9871.57,
       "cash": 8114.15
     }
   ],
   "stats": {
-    "total_return_pct": 0.54,
-    "total_return_dollar": 53.61,
+    "total_return_pct": 0.13,
+    "total_return_dollar": 13.17,
     "win_rate": 0.0,
     "total_trades": 3,
     "days_active": 10,
-    "cash_pct": 80.7,
+    "cash_pct": 81.0,
     "best_position": {
       "symbol": "SOFI",
-      "pnl_pct": 3.47
+      "pnl_pct": 0.72
     },
     "worst_position": {
       "symbol": "TSLA",
-      "pnl_pct": 0.49
+      "pnl_pct": 0.63
     }
   }
 }
