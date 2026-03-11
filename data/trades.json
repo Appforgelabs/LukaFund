@@ -53,6 +53,24 @@
         "change_pct": -2.17
       },
       "conviction": 3
+    },
+    {
+      "date": "2026-03-11",
+      "symbol": "NIO",
+      "action": "SHORT",
+      "quantity": 131,
+      "price": 5.7,
+      "total_cost": 746.7,
+      "reasoning": "BEARISH PLAY: NIO near resistance (RSI 66.1, 14.2% above SMA) \u2014 structurally weak EV play, simulating put via short position",
+      "cash_after": 8114.15,
+      "portfolio_value_after": 9266.47,
+      "indicators": {
+        "rsi": 66.1,
+        "sma20": 4.99,
+        "vol_ratio": 3.57,
+        "change_pct": 15.38
+      },
+      "conviction": 4
     }
   ]
 }

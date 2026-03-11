@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-10 16:23 ET",
+  "generated_at": "2026-03-11 09:18 ET",
   "portfolio": {
     "name": "LukaFund",
     "inception_date": "2026-02-28",
@@ -19,11 +19,19 @@
         "avg_cost": 396.73,
         "current_price": 399.24,
         "entry_date": "2026-03-09"
+      },
+      {
+        "symbol": "NIO",
+        "quantity": -131,
+        "avg_cost": 5.7,
+        "current_price": 5.7,
+        "entry_date": "2026-03-11",
+        "type": "short"
       }
     ],
-    "total_value": 10013.17,
-    "total_return_pct": 0.13,
-    "last_updated": "2026-03-10",
+    "total_value": 9266.47,
+    "total_return_pct": -7.34,
+    "last_updated": "2026-03-11",
     "benchmark": "SPY",
     "benchmark_start_price": 685.99
   },
@@ -51,9 +59,39 @@
       "conviction": 3,
       "entry_date": "2026-03-09",
       "type": "long"
+    },
+    {
+      "symbol": "NIO",
+      "quantity": -131,
+      "avg_cost": 5.7,
+      "current_price": 5.7,
+      "market_value": -746.7,
+      "pnl_dollar": -0.0,
+      "pnl_pct": 0.0,
+      "conviction": 2,
+      "entry_date": "2026-03-11",
+      "type": "short"
     }
   ],
   "recent_trades": [
+    {
+      "date": "2026-03-11",
+      "symbol": "NIO",
+      "action": "SHORT",
+      "quantity": 131,
+      "price": 5.7,
+      "total_cost": 746.7,
+      "reasoning": "BEARISH PLAY: NIO near resistance (RSI 66.1, 14.2% above SMA) \u2014 structurally weak EV play, simulating put via short position",
+      "cash_after": 8114.15,
+      "portfolio_value_after": 9266.47,
+      "indicators": {
+        "rsi": 66.1,
+        "sma20": 4.99,
+        "vol_ratio": 3.57,
+        "change_pct": 15.38
+      },
+      "conviction": 4
+    },
     {
       "date": "2026-03-09",
       "symbol": "TSLA",
@@ -111,6 +149,29 @@
   ],
   "recent_decisions": [
     {
+      "date": "2026-03-11",
+      "summary": "1 trades executed",
+      "portfolio_value": 9266.47,
+      "active_trades": [
+        {
+          "date": "2026-03-11",
+          "action": "SHORT",
+          "symbol": "NIO",
+          "quantity": 131,
+          "price": 5.7,
+          "reasoning": "BEARISH PLAY: NIO near resistance (RSI 66.1, 14.2% above SMA) \u2014 structurally weak EV play, simulating put via short position",
+          "conviction": 4,
+          "indicators": {
+            "rsi": 66.1,
+            "sma20": 4.99,
+            "vol_ratio": 3.57,
+            "change_pct": 15.38
+          }
+        }
+      ],
+      "holds": 6
+    },
+    {
       "date": "2026-03-10",
       "summary": "0 trades executed",
       "portfolio_value": 10013.17,
@@ -153,13 +214,6 @@
         }
       ],
       "holds": 6
-    },
-    {
-      "date": "2026-03-06",
-      "summary": "0 trades executed",
-      "portfolio_value": 10060.68,
-      "active_trades": [],
-      "holds": 7
     }
   ],
   "equity_curve": [
@@ -210,22 +264,28 @@
       "value": 10013.17,
       "spy_value": 9871.57,
       "cash": 8114.15
+    },
+    {
+      "date": "2026-03-11",
+      "value": 9266.47,
+      "spy_value": 9871.57,
+      "cash": 8114.15
     }
   ],
   "stats": {
-    "total_return_pct": 0.13,
-    "total_return_dollar": 13.17,
+    "total_return_pct": -7.34,
+    "total_return_dollar": -733.53,
     "win_rate": 0.0,
-    "total_trades": 3,
-    "days_active": 10,
-    "cash_pct": 81.0,
+    "total_trades": 4,
+    "days_active": 11,
+    "cash_pct": 87.6,
     "best_position": {
       "symbol": "SOFI",
       "pnl_pct": 0.72
     },
     "worst_position": {
-      "symbol": "TSLA",
-      "pnl_pct": 0.63
+      "symbol": "NIO",
+      "pnl_pct": 0.0
     }
   }
 }
