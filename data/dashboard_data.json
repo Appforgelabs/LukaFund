@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-11 09:18 ET",
+  "generated_at": "2026-03-11 16:23 ET",
   "portfolio": {
     "name": "LukaFund",
     "inception_date": "2026-02-28",
@@ -10,27 +10,27 @@
         "symbol": "SOFI",
         "quantity": 82,
         "avg_cost": 18.16,
-        "current_price": 18.29,
+        "current_price": 18.3,
         "entry_date": "2026-03-02"
       },
       {
         "symbol": "TSLA",
         "quantity": 1,
         "avg_cost": 396.73,
-        "current_price": 399.24,
+        "current_price": 406.39,
         "entry_date": "2026-03-09"
       },
       {
         "symbol": "NIO",
         "quantity": -131,
         "avg_cost": 5.7,
-        "current_price": 5.7,
+        "current_price": 5.51,
         "entry_date": "2026-03-11",
         "type": "short"
       }
     ],
-    "total_value": 9266.47,
-    "total_return_pct": -7.34,
+    "total_value": 9299.33,
+    "total_return_pct": -7.01,
     "last_updated": "2026-03-11",
     "benchmark": "SPY",
     "benchmark_start_price": 685.99
@@ -40,10 +40,10 @@
       "symbol": "SOFI",
       "quantity": 82,
       "avg_cost": 18.16,
-      "current_price": 18.29,
-      "market_value": 1499.78,
-      "pnl_dollar": 10.66,
-      "pnl_pct": 0.72,
+      "current_price": 18.3,
+      "market_value": 1500.6,
+      "pnl_dollar": 11.48,
+      "pnl_pct": 0.77,
       "conviction": 3,
       "entry_date": "2026-03-02",
       "type": "long"
@@ -52,10 +52,10 @@
       "symbol": "TSLA",
       "quantity": 1,
       "avg_cost": 396.73,
-      "current_price": 399.24,
-      "market_value": 399.24,
-      "pnl_dollar": 2.51,
-      "pnl_pct": 0.63,
+      "current_price": 406.39,
+      "market_value": 406.39,
+      "pnl_dollar": 9.66,
+      "pnl_pct": 2.43,
       "conviction": 3,
       "entry_date": "2026-03-09",
       "type": "long"
@@ -64,10 +64,10 @@
       "symbol": "NIO",
       "quantity": -131,
       "avg_cost": 5.7,
-      "current_price": 5.7,
-      "market_value": -746.7,
-      "pnl_dollar": -0.0,
-      "pnl_pct": 0.0,
+      "current_price": 5.51,
+      "market_value": -721.81,
+      "pnl_dollar": 24.89,
+      "pnl_pct": -3.33,
       "conviction": 2,
       "entry_date": "2026-03-11",
       "type": "short"
@@ -151,6 +151,29 @@
     {
       "date": "2026-03-11",
       "summary": "1 trades executed",
+      "portfolio_value": 9299.33,
+      "active_trades": [
+        {
+          "date": "2026-03-11",
+          "action": "SHORT",
+          "symbol": "NIO",
+          "quantity": 126,
+          "price": 5.51,
+          "reasoning": "BEARISH PLAY: NIO near resistance (RSI 66.1, 10.4% above SMA) \u2014 structurally weak EV play, simulating put via short position",
+          "conviction": 4,
+          "indicators": {
+            "rsi": 66.1,
+            "sma20": 4.99,
+            "vol_ratio": 3.57,
+            "change_pct": -3.35
+          }
+        }
+      ],
+      "holds": 6
+    },
+    {
+      "date": "2026-03-11",
+      "summary": "1 trades executed",
       "portfolio_value": 9266.47,
       "active_trades": [
         {
@@ -191,29 +214,6 @@
       "portfolio_value": 10053.61,
       "active_trades": [],
       "holds": 7
-    },
-    {
-      "date": "2026-03-09",
-      "summary": "1 trades executed",
-      "portfolio_value": 10060.68,
-      "active_trades": [
-        {
-          "date": "2026-03-09",
-          "action": "BUY",
-          "symbol": "TSLA",
-          "quantity": 1,
-          "price": 396.73,
-          "reasoning": "OVERSOLD DIP: price $396.73 is 3.3% below 20-day SMA, RSI 38.1 \u2014 capitulation zone, small position entry",
-          "conviction": 3,
-          "indicators": {
-            "rsi": 38.1,
-            "sma20": 410.18,
-            "vol_ratio": 1.1,
-            "change_pct": -2.17
-          }
-        }
-      ],
-      "holds": 6
     }
   ],
   "equity_curve": [
@@ -267,25 +267,25 @@
     },
     {
       "date": "2026-03-11",
-      "value": 9266.47,
-      "spy_value": 9871.57,
+      "value": 9299.33,
+      "spy_value": 9840.23,
       "cash": 8114.15
     }
   ],
   "stats": {
-    "total_return_pct": -7.34,
-    "total_return_dollar": -733.53,
+    "total_return_pct": -7.01,
+    "total_return_dollar": -700.67,
     "win_rate": 0.0,
     "total_trades": 4,
     "days_active": 11,
-    "cash_pct": 87.6,
+    "cash_pct": 87.3,
     "best_position": {
-      "symbol": "SOFI",
-      "pnl_pct": 0.72
+      "symbol": "TSLA",
+      "pnl_pct": 2.43
     },
     "worst_position": {
       "symbol": "NIO",
-      "pnl_pct": 0.0
+      "pnl_pct": -3.33
     }
   }
 }

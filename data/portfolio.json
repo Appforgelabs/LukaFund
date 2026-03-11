@@ -8,27 +8,27 @@
       "symbol": "SOFI",
       "quantity": 82,
       "avg_cost": 18.16,
-      "current_price": 18.29,
+      "current_price": 18.3,
       "entry_date": "2026-03-02"
     },
     {
       "symbol": "TSLA",
       "quantity": 1,
       "avg_cost": 396.73,
-      "current_price": 399.24,
+      "current_price": 406.39,
       "entry_date": "2026-03-09"
     },
     {
       "symbol": "NIO",
       "quantity": -131,
       "avg_cost": 5.7,
-      "current_price": 5.7,
+      "current_price": 5.51,
       "entry_date": "2026-03-11",
       "type": "short"
     }
   ],
-  "total_value": 9266.47,
-  "total_return_pct": -7.34,
+  "total_value": 9299.33,
+  "total_return_pct": -7.01,
   "last_updated": "2026-03-11",
   "benchmark": "SPY",
   "benchmark_start_price": 685.99
