@@ -49,9 +49,16 @@ def main():
         avg_cost = pos["avg_cost"]
         current = pos["current_price"]
         qty = pos["quantity"]
+        pos_type = pos.get("type", "long")
+        # For shorts: profit when price falls (avg_cost - current), qty is negative
+        # pnl_dollar uses signed qty naturally; pnl_pct must flip sign for shorts
         pnl_dollar = round((current - avg_cost) * qty, 2)
-        pnl_pct = round((current - avg_cost) / avg_cost * 100, 2)
-        mkt_val = round(current * qty, 2)
+        if pos_type == "short":
+            # Short P&L%: made money if current < avg_cost
+            pnl_pct = round((avg_cost - current) / avg_cost * 100, 2)
+        else:
+            pnl_pct = round((current - avg_cost) / avg_cost * 100, 2)
+        mkt_val = round(abs(current * qty), 2)
 
         # Conviction score: 1-5 stars based on P&L %
         if pnl_pct > 20:

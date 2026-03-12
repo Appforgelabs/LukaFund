@@ -263,9 +263,13 @@ def main():
     print(f"  Positions: {len(portfolio['positions'])}")
     print(f"  Trades today: {len(new_trades)}")
     for pos in portfolio["positions"]:
-        pnl_pct = (pos["current_price"] - pos["avg_cost"]) / pos["avg_cost"] * 100
-        mkt_val = pos["quantity"] * pos["current_price"]
-        print(f"    {pos['symbol']}: {pos['quantity']}sh @ ${pos['avg_cost']:.2f} → ${pos['current_price']:.2f} ({pnl_pct:+.1f}%) = ${mkt_val:.2f}")
+        pos_type = pos.get("type", "long")
+        if pos_type == "short":
+            pnl_pct = (pos["avg_cost"] - pos["current_price"]) / pos["avg_cost"] * 100
+        else:
+            pnl_pct = (pos["current_price"] - pos["avg_cost"]) / pos["avg_cost"] * 100
+        mkt_val = abs(pos["quantity"] * pos["current_price"])
+        print(f"    {pos['symbol']} [{pos_type}]: {pos['quantity']}sh @ ${pos['avg_cost']:.2f} → ${pos['current_price']:.2f} ({pnl_pct:+.1f}%) = ${mkt_val:.2f}")
     print(f"{'='*60}\n")
 
     return portfolio
