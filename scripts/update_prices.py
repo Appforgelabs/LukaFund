@@ -103,28 +103,28 @@ def main():
         if ap.get("symbol") == "SPY":
             spy_price = float(ap.get("current_price") or 0) or None
 
-    # Normalize SPY against the curve's first entry (baseline)
-    if curve and curve[0].get("spy_value") == 10000 and curve[0].get("value"):
-        # Find baseline SPY by back-calculating from first known normalized value
-        # e.g. if first entry has spy_normalized=10000, actual SPY was X
-        # We stored normalized, not actual — need to track actual separately
-        # For now, use the last known normalized + today's % change
-        last_spy_norm = next((c["spy_value"] for c in reversed(curve) if c.get("spy_value")), 10000)
-        if spy_price:
-            # Get yesterday's SPY to calc % change
-            import urllib.request
-            try:
-                url = f"https://finnhub.io/api/v1/quote?symbol=SPY&token=d6952r9r01qs7u9kq240d6952r9r01qs7u9kq24g"
-                with urllib.request.urlopen(url, timeout=8) as r:
-                    q = json.loads(r.read())
-                pct = (q["c"] - q["pc"]) / q["pc"] if q.get("pc") else 0
-                spy_norm = round(last_spy_norm * (1 + pct), 2)
-            except:
-                spy_norm = last_spy_norm
-        else:
-            spy_norm = last_spy_norm
-    else:
-        spy_norm = 10000
+    # Absolute SPY normalization: 10000 × (current_price / benchmark_start_price)
+    # This matches portfolio_engine.py exactly and avoids compounding drift.
+    benchmark_start = portfolio.get("benchmark_start_price")
+    spy_norm = None
+
+    if spy_price and benchmark_start:
+        spy_norm = round(10000 * (spy_price / benchmark_start), 2)
+    elif not spy_price:
+        # Fetch SPY quote from Finnhub
+        try:
+            url = f"https://finnhub.io/api/v1/quote?symbol=SPY&token=d6952r9r01qs7u9kq240d6952r9r01qs7u9kq24g"
+            with urllib.request.urlopen(url, timeout=8) as r:
+                q = json.loads(r.read())
+            spy_price = q.get("c")
+            if spy_price and benchmark_start:
+                spy_norm = round(10000 * (spy_price / benchmark_start), 2)
+        except Exception as e:
+            print(f"  [update_prices] SPY Finnhub fetch failed: {e}")
+
+    if spy_norm is None:
+        # Fallback: keep last known value
+        spy_norm = next((c["spy_value"] for c in reversed(curve) if c.get("spy_value")), 10000)
 
     if curve and curve[-1]["date"] == today:
         curve[-1]["value"]     = portfolio["total_value"]

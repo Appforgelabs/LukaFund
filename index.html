@@ -222,7 +222,11 @@
       <div class="value neutral" id="h-cash">—</div>
     </div>
     <div class="stat-pill">
-      <div class="label">vs SPY</div>
+      <div class="label">SPY Return</div>
+      <div class="value" id="h-spy-ret">—</div>
+    </div>
+    <div class="stat-pill">
+      <div class="label">Alpha vs SPY</div>
       <div class="value" id="h-spy">—</div>
     </div>
   </div>
@@ -441,15 +445,22 @@ async function loadData() {
     retEl.className = 'value ' + pnlClass(p.total_return_pct);
     document.getElementById('h-cash').textContent = '$' + fmt(p.cash);
 
-    // vs SPY
+    // vs SPY — show both SPY's own return AND alpha separately
     const curve = data.equity_curve;
-    const spyEl = document.getElementById('h-spy');
+    const spyEl    = document.getElementById('h-spy');
+    const spyRetEl = document.getElementById('h-spy-ret');
     if (curve && curve.length > 0) {
       const latest = curve[curve.length - 1];
       const spyReturn = ((latest.spy_value - 10000) / 10000 * 100);
-      const alpha = p.total_return_pct - spyReturn;
+      const alpha     = p.total_return_pct - spyReturn;
+      // Alpha vs SPY
       spyEl.textContent = (alpha >= 0 ? '+' : '') + alpha.toFixed(2) + '%';
-      spyEl.className = 'value ' + pnlClass(alpha);
+      spyEl.className   = 'value ' + pnlClass(alpha);
+      // SPY's own return (matches what the chart line shows)
+      if (spyRetEl) {
+        spyRetEl.textContent = (spyReturn >= 0 ? '+' : '') + spyReturn.toFixed(2) + '%';
+        spyRetEl.className   = 'value ' + pnlClass(spyReturn);
+      }
     }
 
     // Stats bar
