@@ -71,6 +71,24 @@
         "change_pct": 15.38
       },
       "conviction": 4
+    },
+    {
+      "date": "2026-03-12",
+      "symbol": "RIVN",
+      "action": "SHORT",
+      "quantity": 42,
+      "price": 16.43,
+      "total_cost": 690.06,
+      "reasoning": "BEARISH PLAY: RIVN near resistance (RSI 63.7, 5.7% above SMA) \u2014 structurally weak EV play, simulating put via short position",
+      "cash_after": 8114.15,
+      "portfolio_value_after": 8609.27,
+      "indicators": {
+        "rsi": 63.7,
+        "sma20": 15.54,
+        "vol_ratio": 0.64,
+        "change_pct": -0.7
+      },
+      "conviction": 4
     }
   ]
 }

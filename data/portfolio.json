@@ -25,11 +25,19 @@
       "current_price": 5.51,
       "entry_date": "2026-03-11",
       "type": "short"
+    },
+    {
+      "symbol": "RIVN",
+      "quantity": -42,
+      "avg_cost": 16.43,
+      "current_price": 16.43,
+      "entry_date": "2026-03-12",
+      "type": "short"
     }
   ],
-  "total_value": 9299.33,
-  "total_return_pct": -7.01,
-  "last_updated": "2026-03-11",
+  "total_value": 8609.27,
+  "total_return_pct": -13.91,
+  "last_updated": "2026-03-12",
   "benchmark": "SPY",
   "benchmark_start_price": 685.99
 }
