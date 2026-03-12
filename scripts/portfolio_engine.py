@@ -113,11 +113,21 @@ def update_position_prices(portfolio, quotes):
             pos["current_price"] = q["price"]
 
 def calculate_total_value(portfolio):
-    """Sum cash + all position market values."""
-    positions_value = sum(
-        pos["quantity"] * pos["current_price"]
-        for pos in portfolio["positions"]
-    )
+    """Sum cash + all position market values.
+    
+    For longs:  market value = qty × current_price
+    For shorts: no cash was credited on entry (simulation), so contribute
+                only the unrealized P&L = (avg_cost - current_price) × abs(qty)
+                Adding full negative qty × price would double-count the liability
+                without a matching cash credit.
+    """
+    positions_value = 0.0
+    for pos in portfolio["positions"]:
+        if pos.get("type") == "short":
+            qty = abs(pos["quantity"])
+            positions_value += (pos["avg_cost"] - pos["current_price"]) * qty
+        else:
+            positions_value += pos["quantity"] * pos["current_price"]
     return round(portfolio["cash"] + positions_value, 2)
 
 def main():

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-12 18:35 ET",
+  "generated_at": "2026-03-12 18:53 ET",
   "portfolio": {
     "name": "LukaFund",
     "inception_date": "2026-02-28",
@@ -37,8 +37,8 @@
         "type": "short"
       }
     ],
-    "total_value": 8609.27,
-    "total_return_pct": -13.91,
+    "total_value": 10046.03,
+    "total_return_pct": 0.46,
     "last_updated": "2026-03-12",
     "benchmark": "SPY",
     "benchmark_start_price": 685.99
@@ -348,12 +348,12 @@
     }
   ],
   "stats": {
-    "total_return_pct": -13.91,
-    "total_return_dollar": -1390.73,
+    "total_return_pct": 0.46,
+    "total_return_dollar": 46.03,
     "win_rate": 0.0,
     "total_trades": 5,
     "days_active": 12,
-    "cash_pct": 94.2,
+    "cash_pct": 80.8,
     "best_position": {
       "symbol": "NIO",
       "pnl_pct": 3.33
