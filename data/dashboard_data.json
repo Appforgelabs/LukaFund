@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-12 09:18 ET",
+  "generated_at": "2026-03-12 18:35 ET",
   "portfolio": {
     "name": "LukaFund",
     "inception_date": "2026-02-28",
@@ -57,6 +57,30 @@
       "type": "long"
     },
     {
+      "symbol": "NIO",
+      "quantity": -131,
+      "avg_cost": 5.7,
+      "current_price": 5.51,
+      "market_value": 721.81,
+      "pnl_dollar": 24.89,
+      "pnl_pct": 3.33,
+      "conviction": 3,
+      "entry_date": "2026-03-11",
+      "type": "short"
+    },
+    {
+      "symbol": "RIVN",
+      "quantity": -42,
+      "avg_cost": 16.43,
+      "current_price": 16.43,
+      "market_value": 690.06,
+      "pnl_dollar": -0.0,
+      "pnl_pct": 0.0,
+      "conviction": 2,
+      "entry_date": "2026-03-12",
+      "type": "short"
+    },
+    {
       "symbol": "TSLA",
       "quantity": 1,
       "avg_cost": 396.73,
@@ -67,30 +91,6 @@
       "conviction": 3,
       "entry_date": "2026-03-09",
       "type": "long"
-    },
-    {
-      "symbol": "RIVN",
-      "quantity": -42,
-      "avg_cost": 16.43,
-      "current_price": 16.43,
-      "market_value": -690.06,
-      "pnl_dollar": -0.0,
-      "pnl_pct": 0.0,
-      "conviction": 2,
-      "entry_date": "2026-03-12",
-      "type": "short"
-    },
-    {
-      "symbol": "NIO",
-      "quantity": -131,
-      "avg_cost": 5.7,
-      "current_price": 5.51,
-      "market_value": -721.81,
-      "pnl_dollar": 24.89,
-      "pnl_pct": -3.33,
-      "conviction": 2,
-      "entry_date": "2026-03-11",
-      "type": "short"
     }
   ],
   "recent_trades": [
@@ -355,12 +355,12 @@
     "days_active": 12,
     "cash_pct": 94.2,
     "best_position": {
-      "symbol": "TSLA",
-      "pnl_pct": 2.43
+      "symbol": "NIO",
+      "pnl_pct": 3.33
     },
     "worst_position": {
-      "symbol": "NIO",
-      "pnl_pct": -3.33
+      "symbol": "RIVN",
+      "pnl_pct": 0.0
     }
   }
 }
