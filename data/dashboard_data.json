@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-13 16:20 ET",
+  "generated_at": "2026-03-16 09:19 ET",
   "portfolio": {
     "name": "LukaFund",
     "inception_date": "2026-02-28",
@@ -10,21 +10,21 @@
         "symbol": "SOFI",
         "quantity": 82,
         "avg_cost": 18.16,
-        "current_price": 17.78,
+        "current_price": 17.76,
         "entry_date": "2026-03-02"
       },
       {
         "symbol": "TSLA",
         "quantity": 1,
         "avg_cost": 396.73,
-        "current_price": 393.54,
+        "current_price": 391.2,
         "entry_date": "2026-03-09"
       },
       {
         "symbol": "NIO",
         "quantity": -131,
         "avg_cost": 5.7,
-        "current_price": 5.83,
+        "current_price": 5.86,
         "entry_date": "2026-03-11",
         "type": "short"
       },
@@ -32,14 +32,14 @@
         "symbol": "RIVN",
         "quantity": -42,
         "avg_cost": 16.43,
-        "current_price": 15.16,
+        "current_price": 14.86,
         "entry_date": "2026-03-12",
         "type": "short"
       }
     ],
-    "total_value": 10001.96,
-    "total_return_pct": 0.02,
-    "last_updated": "2026-03-13",
+    "total_value": 10006.65,
+    "total_return_pct": 0.07,
+    "last_updated": "2026-03-16",
     "benchmark": "SPY",
     "benchmark_start_price": 685.99
   },
@@ -48,10 +48,10 @@
       "symbol": "SOFI",
       "quantity": 82,
       "avg_cost": 18.16,
-      "current_price": 17.78,
-      "market_value": 1457.96,
-      "pnl_dollar": -31.16,
-      "pnl_pct": -2.09,
+      "current_price": 17.76,
+      "market_value": 1456.32,
+      "pnl_dollar": -32.8,
+      "pnl_pct": -2.2,
       "conviction": 2,
       "entry_date": "2026-03-02",
       "type": "long"
@@ -60,10 +60,10 @@
       "symbol": "NIO",
       "quantity": -131,
       "avg_cost": 5.7,
-      "current_price": 5.83,
-      "market_value": 763.73,
-      "pnl_dollar": -17.03,
-      "pnl_pct": -2.28,
+      "current_price": 5.86,
+      "market_value": 767.66,
+      "pnl_dollar": -20.96,
+      "pnl_pct": -2.81,
       "conviction": 2,
       "entry_date": "2026-03-11",
       "type": "short"
@@ -72,10 +72,10 @@
       "symbol": "RIVN",
       "quantity": -42,
       "avg_cost": 16.43,
-      "current_price": 15.16,
-      "market_value": 636.72,
-      "pnl_dollar": 53.34,
-      "pnl_pct": 7.73,
+      "current_price": 14.86,
+      "market_value": 624.12,
+      "pnl_dollar": 65.94,
+      "pnl_pct": 9.56,
       "conviction": 3,
       "entry_date": "2026-03-12",
       "type": "short"
@@ -84,10 +84,10 @@
       "symbol": "TSLA",
       "quantity": 1,
       "avg_cost": 396.73,
-      "current_price": 393.54,
-      "market_value": 393.54,
-      "pnl_dollar": -3.19,
-      "pnl_pct": -0.8,
+      "current_price": 391.2,
+      "market_value": 391.2,
+      "pnl_dollar": -5.53,
+      "pnl_pct": -1.39,
       "conviction": 2,
       "entry_date": "2026-03-09",
       "type": "long"
@@ -187,6 +187,29 @@
   ],
   "recent_decisions": [
     {
+      "date": "2026-03-16",
+      "summary": "1 trades executed",
+      "portfolio_value": 10006.65,
+      "active_trades": [
+        {
+          "date": "2026-03-16",
+          "action": "SHORT",
+          "symbol": "NIO",
+          "quantity": 128,
+          "price": 5.86,
+          "reasoning": "BEARISH PLAY: NIO near resistance (RSI 60.6, 15.4% above SMA) \u2014 structurally weak EV play, simulating put via short position",
+          "conviction": 4,
+          "indicators": {
+            "rsi": 60.6,
+            "sma20": 5.08,
+            "vol_ratio": 1.26,
+            "change_pct": 5.59
+          }
+        }
+      ],
+      "holds": 6
+    },
+    {
       "date": "2026-03-13",
       "summary": "0 trades executed",
       "portfolio_value": 10001.96,
@@ -276,13 +299,6 @@
         }
       ],
       "holds": 6
-    },
-    {
-      "date": "2026-03-10",
-      "summary": "0 trades executed",
-      "portfolio_value": 10013.17,
-      "active_trades": [],
-      "holds": 7
     }
   ],
   "equity_curve": [
@@ -351,22 +367,28 @@
       "value": 10001.96,
       "spy_value": 9687.9,
       "cash": 8114.15
+    },
+    {
+      "date": "2026-03-16",
+      "value": 10006.65,
+      "spy_value": 9654.51,
+      "cash": 8114.15
     }
   ],
   "stats": {
-    "total_return_pct": 0.02,
-    "total_return_dollar": 1.96,
+    "total_return_pct": 0.07,
+    "total_return_dollar": 6.65,
     "win_rate": 0.0,
     "total_trades": 5,
-    "days_active": 13,
+    "days_active": 16,
     "cash_pct": 81.1,
     "best_position": {
       "symbol": "RIVN",
-      "pnl_pct": 7.73
+      "pnl_pct": 9.56
     },
     "worst_position": {
       "symbol": "NIO",
-      "pnl_pct": -2.28
+      "pnl_pct": -2.81
     }
   }
 }
