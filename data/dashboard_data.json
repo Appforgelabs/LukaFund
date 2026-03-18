@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-03-17 16:20 ET",
+  "generated_at": "2026-03-18 09:22 ET",
   "portfolio": {
     "name": "LukaFund",
     "inception_date": "2026-02-28",
     "starting_capital": 10000.0,
-    "cash": 8114.15,
+    "cash": 7384.61,
     "positions": [
       {
         "symbol": "SOFI",
-        "quantity": 82,
-        "avg_cost": 18.16,
+        "quantity": 124,
+        "avg_cost": 17.8924,
         "current_price": 17.37,
         "entry_date": "2026-03-02"
       },
@@ -39,19 +39,19 @@
     ],
     "total_value": 9929.32,
     "total_return_pct": -0.71,
-    "last_updated": "2026-03-17",
+    "last_updated": "2026-03-18",
     "benchmark": "SPY",
     "benchmark_start_price": 685.99
   },
   "positions": [
     {
       "symbol": "SOFI",
-      "quantity": 82,
-      "avg_cost": 18.16,
+      "quantity": 124,
+      "avg_cost": 17.8924,
       "current_price": 17.37,
-      "market_value": 1424.34,
+      "market_value": 2153.88,
       "pnl_dollar": -64.78,
-      "pnl_pct": -4.35,
+      "pnl_pct": -2.92,
       "conviction": 2,
       "entry_date": "2026-03-02",
       "type": "long"
@@ -94,6 +94,24 @@
     }
   ],
   "recent_trades": [
+    {
+      "date": "2026-03-18",
+      "symbol": "SOFI",
+      "action": "BUY",
+      "quantity": 42,
+      "price": 17.37,
+      "total_cost": 729.54,
+      "reasoning": "OVERSOLD DIP: price $17.37 is 6.3% below 20-day SMA, RSI 32.5 \u2014 capitulation zone, small position entry",
+      "cash_after": 7384.61,
+      "portfolio_value_after": 9929.32,
+      "indicators": {
+        "rsi": 32.5,
+        "sma20": 18.54,
+        "vol_ratio": 2.17,
+        "change_pct": -1.47
+      },
+      "conviction": 3
+    },
     {
       "date": "2026-03-12",
       "symbol": "RIVN",
@@ -187,6 +205,44 @@
   ],
   "recent_decisions": [
     {
+      "date": "2026-03-18",
+      "summary": "2 trades executed",
+      "portfolio_value": 9929.32,
+      "active_trades": [
+        {
+          "date": "2026-03-18",
+          "action": "BUY",
+          "symbol": "SOFI",
+          "quantity": 42,
+          "price": 17.37,
+          "reasoning": "OVERSOLD DIP: price $17.37 is 6.3% below 20-day SMA, RSI 32.5 \u2014 capitulation zone, small position entry",
+          "conviction": 3,
+          "indicators": {
+            "rsi": 32.5,
+            "sma20": 18.54,
+            "vol_ratio": 2.17,
+            "change_pct": -1.47
+          }
+        },
+        {
+          "date": "2026-03-18",
+          "action": "SHORT",
+          "symbol": "NIO",
+          "quantity": 124,
+          "price": 5.96,
+          "reasoning": "BEARISH PLAY: NIO near resistance (RSI 63.7, 14.8% above SMA) \u2014 structurally weak EV play, simulating put via short position",
+          "conviction": 4,
+          "indicators": {
+            "rsi": 63.7,
+            "sma20": 5.19,
+            "vol_ratio": 0.73,
+            "change_pct": -1.16
+          }
+        }
+      ],
+      "holds": 5
+    },
+    {
       "date": "2026-03-17",
       "summary": "1 trades executed",
       "portfolio_value": 9958.34,
@@ -276,29 +332,6 @@
         }
       ],
       "holds": 5
-    },
-    {
-      "date": "2026-03-11",
-      "summary": "1 trades executed",
-      "portfolio_value": 9299.33,
-      "active_trades": [
-        {
-          "date": "2026-03-11",
-          "action": "SHORT",
-          "symbol": "NIO",
-          "quantity": 126,
-          "price": 5.51,
-          "reasoning": "BEARISH PLAY: NIO near resistance (RSI 66.1, 10.4% above SMA) \u2014 structurally weak EV play, simulating put via short position",
-          "conviction": 4,
-          "indicators": {
-            "rsi": 66.1,
-            "sma20": 4.99,
-            "vol_ratio": 3.57,
-            "change_pct": -3.35
-          }
-        }
-      ],
-      "holds": 6
     }
   ],
   "equity_curve": [
@@ -379,15 +412,21 @@
       "value": 9929.32,
       "spy_value": 9778.42,
       "cash": 8114.15
+    },
+    {
+      "date": "2026-03-18",
+      "value": 9929.32,
+      "spy_value": 9778.42,
+      "cash": 7384.61
     }
   ],
   "stats": {
     "total_return_pct": -0.71,
     "total_return_dollar": -70.68,
     "win_rate": 0.0,
-    "total_trades": 5,
-    "days_active": 17,
-    "cash_pct": 81.7,
+    "total_trades": 6,
+    "days_active": 18,
+    "cash_pct": 74.4,
     "best_position": {
       "symbol": "RIVN",
       "pnl_pct": 3.71
