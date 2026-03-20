@@ -107,6 +107,24 @@
         "change_pct": -1.47
       },
       "conviction": 3
+    },
+    {
+      "date": "2026-03-20",
+      "symbol": "TSLA",
+      "action": "BUY",
+      "quantity": 1,
+      "price": 380.3,
+      "total_cost": 380.3,
+      "reasoning": "OVERSOLD DIP: price $380.3 is 5.1% below 20-day SMA, RSI 37.5 \u2014 capitulation zone, small position entry",
+      "cash_after": 7004.31,
+      "portfolio_value_after": 9870.96,
+      "indicators": {
+        "rsi": 37.5,
+        "sma20": 400.67,
+        "vol_ratio": 1.13,
+        "change_pct": -3.18
+      },
+      "conviction": 3
     }
   ]
 }
