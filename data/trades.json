@@ -125,6 +125,42 @@
         "change_pct": -3.18
       },
       "conviction": 3
+    },
+    {
+      "date": "2026-03-23",
+      "symbol": "TSLA",
+      "action": "BUY",
+      "quantity": 2,
+      "price": 367.96,
+      "total_cost": 735.92,
+      "reasoning": "OVERSOLD DIP: price $367.96 is 7.7% below 20-day SMA, RSI 32.4 \u2014 capitulation zone, small position entry",
+      "cash_after": 6268.39,
+      "portfolio_value_after": 9935.04,
+      "indicators": {
+        "rsi": 32.4,
+        "sma20": 398.47,
+        "vol_ratio": 1.3,
+        "change_pct": -3.24
+      },
+      "conviction": 3
+    },
+    {
+      "date": "2026-03-23",
+      "symbol": "HOOD",
+      "action": "BUY",
+      "quantity": 10,
+      "price": 70.89,
+      "total_cost": 708.9,
+      "reasoning": "OVERSOLD DIP: price $70.89 is 7.4% below 20-day SMA, RSI 38.0 \u2014 capitulation zone, small position entry",
+      "cash_after": 5559.49,
+      "portfolio_value_after": 9935.04,
+      "indicators": {
+        "rsi": 38.0,
+        "sma20": 76.57,
+        "vol_ratio": 1.27,
+        "change_pct": -4.41
+      },
+      "conviction": 3
     }
   ]
 }
