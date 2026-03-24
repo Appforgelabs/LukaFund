@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-23 16:20 ET",
+  "generated_at": "2026-03-24 09:18 ET",
   "portfolio": {
     "name": "LukaFund",
     "inception_date": "2026-02-28",
@@ -46,7 +46,7 @@
     ],
     "total_value": 9946.39,
     "total_return_pct": -0.54,
-    "last_updated": "2026-03-23",
+    "last_updated": "2026-03-24",
     "benchmark": "SPY",
     "benchmark_start_price": 685.99
   },
@@ -278,6 +278,29 @@
   ],
   "recent_decisions": [
     {
+      "date": "2026-03-24",
+      "summary": "1 trades executed",
+      "portfolio_value": 9946.39,
+      "active_trades": [
+        {
+          "date": "2026-03-24",
+          "action": "SHORT",
+          "symbol": "NIO",
+          "quantity": 128,
+          "price": 5.82,
+          "reasoning": "BEARISH PLAY: NIO near resistance (RSI 68.8, 9.2% above SMA) \u2014 structurally weak EV play, simulating put via short position",
+          "conviction": 4,
+          "indicators": {
+            "rsi": 68.8,
+            "sma20": 5.33,
+            "vol_ratio": 0.98,
+            "change_pct": 7.18
+          }
+        }
+      ],
+      "holds": 6
+    },
+    {
       "date": "2026-03-23",
       "summary": "2 trades executed",
       "portfolio_value": 9935.04,
@@ -413,29 +436,6 @@
         }
       ],
       "holds": 5
-    },
-    {
-      "date": "2026-03-17",
-      "summary": "1 trades executed",
-      "portfolio_value": 9958.34,
-      "active_trades": [
-        {
-          "date": "2026-03-17",
-          "action": "SHORT",
-          "symbol": "NIO",
-          "quantity": 123,
-          "price": 6.03,
-          "reasoning": "BEARISH PLAY: NIO near resistance (RSI 62.8, 17.3% above SMA) \u2014 structurally weak EV play, simulating put via short position",
-          "conviction": 4,
-          "indicators": {
-            "rsi": 62.8,
-            "sma20": 5.14,
-            "vol_ratio": 1.37,
-            "change_pct": 2.9
-          }
-        }
-      ],
-      "holds": 6
     }
   ],
   "equity_curve": [
@@ -540,6 +540,12 @@
       "value": 9946.39,
       "spy_value": 9553.78,
       "cash": 5559.49
+    },
+    {
+      "date": "2026-03-24",
+      "value": 9946.39,
+      "spy_value": 9553.78,
+      "cash": 5559.49
     }
   ],
   "stats": {
@@ -547,7 +553,7 @@
     "total_return_dollar": -53.61,
     "win_rate": 0.0,
     "total_trades": 9,
-    "days_active": 23,
+    "days_active": 24,
     "cash_pct": 55.9,
     "best_position": {
       "symbol": "RIVN",
