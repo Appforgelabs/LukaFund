@@ -2,7 +2,7 @@
   "name": "LukaFund",
   "inception_date": "2026-02-28",
   "starting_capital": 10000.0,
-  "cash": 5559.49,
+  "cash": 4834.09,
   "positions": [
     {
       "symbol": "SOFI",
@@ -36,15 +36,15 @@
     },
     {
       "symbol": "HOOD",
-      "quantity": 10,
-      "avg_cost": 70.89,
+      "quantity": 20,
+      "avg_cost": 71.715,
       "current_price": 72.54,
       "entry_date": "2026-03-23"
     }
   ],
   "total_value": 9905.67,
   "total_return_pct": -0.94,
-  "last_updated": "2026-03-25",
+  "last_updated": "2026-03-26",
   "benchmark": "SPY",
   "benchmark_start_price": 685.99
 }
