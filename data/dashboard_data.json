@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-26 16:20 ET",
+  "generated_at": "2026-03-27 09:18 ET",
   "portfolio": {
     "name": "LukaFund",
     "inception_date": "2026-02-28",
     "starting_capital": 10000.0,
-    "cash": 4834.09,
+    "cash": 4130.59,
     "positions": [
       {
         "symbol": "SOFI",
@@ -38,19 +38,31 @@
       },
       {
         "symbol": "HOOD",
-        "quantity": 20,
-        "avg_cost": 71.715,
+        "quantity": 30,
+        "avg_cost": 71.26,
         "current_price": 70.35,
         "entry_date": "2026-03-23"
       }
     ],
     "total_value": 9766.99,
     "total_return_pct": -2.33,
-    "last_updated": "2026-03-26",
+    "last_updated": "2026-03-27",
     "benchmark": "SPY",
     "benchmark_start_price": 685.99
   },
   "positions": [
+    {
+      "symbol": "HOOD",
+      "quantity": 30,
+      "avg_cost": 71.26,
+      "current_price": 70.35,
+      "market_value": 2110.5,
+      "pnl_dollar": -27.3,
+      "pnl_pct": -1.28,
+      "conviction": 2,
+      "entry_date": "2026-03-23",
+      "type": "long"
+    },
     {
       "symbol": "SOFI",
       "quantity": 124,
@@ -73,18 +85,6 @@
       "pnl_pct": -1.62,
       "conviction": 2,
       "entry_date": "2026-03-09",
-      "type": "long"
-    },
-    {
-      "symbol": "HOOD",
-      "quantity": 20,
-      "avg_cost": 71.715,
-      "current_price": 70.35,
-      "market_value": 1407.0,
-      "pnl_dollar": -27.3,
-      "pnl_pct": -1.9,
-      "conviction": 2,
-      "entry_date": "2026-03-23",
       "type": "long"
     },
     {
@@ -113,6 +113,24 @@
     }
   ],
   "recent_trades": [
+    {
+      "date": "2026-03-27",
+      "symbol": "HOOD",
+      "action": "BUY",
+      "quantity": 10,
+      "price": 70.35,
+      "total_cost": 703.5,
+      "reasoning": "OVERSOLD DIP: price $70.35 is 7.1% below 20-day SMA, RSI 38.6 \u2014 capitulation zone, small position entry",
+      "cash_after": 4130.59,
+      "portfolio_value_after": 9766.99,
+      "indicators": {
+        "rsi": 38.6,
+        "sma20": 75.69,
+        "vol_ratio": 0.8,
+        "change_pct": -3.02
+      },
+      "conviction": 3
+    },
     {
       "date": "2026-03-26",
       "symbol": "HOOD",
@@ -274,27 +292,32 @@
         "change_pct": 2.65
       },
       "conviction": 3
-    },
-    {
-      "date": "2026-03-02",
-      "symbol": "SOFI",
-      "action": "BUY",
-      "quantity": 41,
-      "price": 18.09,
-      "total_cost": 741.69,
-      "reasoning": "OVERSOLD DIP: price $18.09 is 9.6% below 20-day SMA, RSI 27.5 \u2014 capitulation zone, small position entry",
-      "cash_after": 9258.31,
-      "portfolio_value_after": 10000.0,
-      "indicators": {
-        "rsi": 27.5,
-        "sma20": 20.01,
-        "vol_ratio": 1.61,
-        "change_pct": 1.86
-      },
-      "conviction": 3
     }
   ],
   "recent_decisions": [
+    {
+      "date": "2026-03-27",
+      "summary": "1 trades executed",
+      "portfolio_value": 9766.99,
+      "active_trades": [
+        {
+          "date": "2026-03-27",
+          "action": "BUY",
+          "symbol": "HOOD",
+          "quantity": 10,
+          "price": 70.35,
+          "reasoning": "OVERSOLD DIP: price $70.35 is 7.1% below 20-day SMA, RSI 38.6 \u2014 capitulation zone, small position entry",
+          "conviction": 3,
+          "indicators": {
+            "rsi": 38.6,
+            "sma20": 75.69,
+            "vol_ratio": 0.8,
+            "change_pct": -3.02
+          }
+        }
+      ],
+      "holds": 6
+    },
     {
       "date": "2026-03-26",
       "summary": "2 trades executed",
@@ -431,29 +454,6 @@
         }
       ],
       "holds": 5
-    },
-    {
-      "date": "2026-03-19",
-      "summary": "1 trades executed",
-      "portfolio_value": 9929.79,
-      "active_trades": [
-        {
-          "date": "2026-03-19",
-          "action": "SHORT",
-          "symbol": "NIO",
-          "quantity": 127,
-          "price": 5.82,
-          "reasoning": "BEARISH PLAY: NIO near resistance (RSI 62.8, 11.1% above SMA) \u2014 structurally weak EV play, simulating put via short position",
-          "conviction": 4,
-          "indicators": {
-            "rsi": 62.8,
-            "sma20": 5.24,
-            "vol_ratio": 0.56,
-            "change_pct": -2.35
-          }
-        }
-      ],
-      "holds": 6
     }
   ],
   "equity_curve": [
@@ -576,15 +576,21 @@
       "value": 9766.99,
       "spy_value": 9403.78,
       "cash": 4834.09
+    },
+    {
+      "date": "2026-03-27",
+      "value": 9766.99,
+      "spy_value": 9403.78,
+      "cash": 4130.59
     }
   ],
   "stats": {
     "total_return_pct": -2.33,
     "total_return_dollar": -233.01,
     "win_rate": 0.0,
-    "total_trades": 10,
-    "days_active": 26,
-    "cash_pct": 49.5,
+    "total_trades": 11,
+    "days_active": 27,
+    "cash_pct": 42.3,
     "best_position": {
       "symbol": "RIVN",
       "pnl_pct": 7.43
