@@ -197,6 +197,60 @@
         "change_pct": -3.02
       },
       "conviction": 3
+    },
+    {
+      "date": "2026-03-30",
+      "symbol": "TSLA",
+      "action": "BUY",
+      "quantity": 2,
+      "price": 361.83,
+      "total_cost": 723.66,
+      "reasoning": "OVERSOLD DIP: price $361.83 is 7.4% below 20-day SMA, RSI 32.8 \u2014 capitulation zone, small position entry",
+      "cash_after": 3406.93,
+      "portfolio_value_after": 9567.84,
+      "indicators": {
+        "rsi": 32.8,
+        "sma20": 390.78,
+        "vol_ratio": 1.02,
+        "change_pct": -2.76
+      },
+      "conviction": 3
+    },
+    {
+      "date": "2026-03-30",
+      "symbol": "AMZN",
+      "action": "BUY",
+      "quantity": 3,
+      "price": 199.34,
+      "total_cost": 598.02,
+      "reasoning": "OVERSOLD DIP: price $199.34 is 5.3% below 20-day SMA, RSI 35.7 \u2014 capitulation zone, small position entry",
+      "cash_after": 2808.91,
+      "portfolio_value_after": 9567.84,
+      "indicators": {
+        "rsi": 35.7,
+        "sma20": 210.53,
+        "vol_ratio": 1.24,
+        "change_pct": -3.95
+      },
+      "conviction": 3
+    },
+    {
+      "date": "2026-03-30",
+      "symbol": "PLTR",
+      "action": "BUY",
+      "quantity": 5,
+      "price": 143.06,
+      "total_cost": 715.3,
+      "reasoning": "OVERSOLD DIP: price $143.06 is 6.1% below 20-day SMA, RSI 37.4 \u2014 capitulation zone, small position entry",
+      "cash_after": 2093.61,
+      "portfolio_value_after": 9567.84,
+      "indicators": {
+        "rsi": 37.4,
+        "sma20": 152.36,
+        "vol_ratio": 0.74,
+        "change_pct": -3.05
+      },
+      "conviction": 3
     }
   ]
 }
