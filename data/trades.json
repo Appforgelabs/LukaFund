@@ -251,6 +251,61 @@
         "change_pct": -3.05
       },
       "conviction": 3
+    },
+    {
+      "date": "2026-03-31",
+      "symbol": "AMZN",
+      "action": "BUY",
+      "quantity": 3,
+      "price": 200.95,
+      "total_cost": 602.85,
+      "reasoning": "OVERSOLD DIP: price $200.95 is 4.4% below 20-day SMA, RSI 36.7 \u2014 capitulation zone, small position entry",
+      "cash_after": 1490.76,
+      "portfolio_value_after": 9455.66,
+      "indicators": {
+        "rsi": 36.7,
+        "sma20": 210.16,
+        "vol_ratio": 1.03,
+        "change_pct": 0.81
+      },
+      "conviction": 3
+    },
+    {
+      "date": "2026-03-31",
+      "symbol": "PLTR",
+      "action": "BUY",
+      "quantity": 4,
+      "price": 137.55,
+      "total_cost": 550.2,
+      "reasoning": "OVERSOLD DIP: price $137.55 is 9.5% below 20-day SMA, RSI 37.2 \u2014 capitulation zone, small position entry",
+      "cash_after": 940.56,
+      "portfolio_value_after": 9455.66,
+      "indicators": {
+        "rsi": 37.2,
+        "sma20": 151.98,
+        "vol_ratio": 0.88,
+        "change_pct": -3.85
+      },
+      "conviction": 3
+    },
+    {
+      "date": "2026-03-31",
+      "symbol": "SOFI",
+      "action": "SELL",
+      "quantity": 124,
+      "price": 15.15,
+      "total_cost": 1878.6,
+      "reasoning": "STOP LOSS: position down -15.3% \u2014 cutting losses, discipline over hope",
+      "cash_after": 2819.16,
+      "portfolio_value_after": 9455.66,
+      "indicators": {
+        "rsi": 13.0,
+        "sma20": 17.47,
+        "vol_ratio": 0.88,
+        "change_pct": -0.53
+      },
+      "conviction": 5,
+      "realized_pnl": -340.06
     }
   ]
 }
