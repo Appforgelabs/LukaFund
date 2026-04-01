@@ -2,20 +2,20 @@
   "name": "LukaFund",
   "inception_date": "2026-02-28",
   "starting_capital": 10000.0,
-  "cash": 2819.16,
+  "cash": 2120.44,
   "positions": [
     {
       "symbol": "TSLA",
       "quantity": 6,
       "avg_cost": 372.7683,
-      "current_price": 355.28,
+      "current_price": 371.75,
       "entry_date": "2026-03-09"
     },
     {
       "symbol": "NIO",
       "quantity": -131,
       "avg_cost": 5.7,
-      "current_price": 5.51,
+      "current_price": 6.03,
       "entry_date": "2026-03-11",
       "type": "short"
     },
@@ -23,7 +23,7 @@
       "symbol": "RIVN",
       "quantity": -42,
       "avg_cost": 16.43,
-      "current_price": 14.49,
+      "current_price": 15.05,
       "entry_date": "2026-03-12",
       "type": "short"
     },
@@ -31,27 +31,34 @@
       "symbol": "HOOD",
       "quantity": 30,
       "avg_cost": 71.26,
-      "current_price": 65.16,
+      "current_price": 69.3,
       "entry_date": "2026-03-23"
     },
     {
       "symbol": "AMZN",
       "quantity": 6,
       "avg_cost": 200.145,
-      "current_price": 200.95,
+      "current_price": 208.27,
       "entry_date": "2026-03-30"
     },
     {
       "symbol": "PLTR",
       "quantity": 9,
       "avg_cost": 140.6111,
-      "current_price": 137.55,
+      "current_price": 146.28,
       "entry_date": "2026-03-30"
+    },
+    {
+      "symbol": "SOFI",
+      "quantity": 44,
+      "avg_cost": 15.88,
+      "current_price": 15.88,
+      "entry_date": "2026-04-01"
     }
   ],
-  "total_value": 9455.66,
-  "total_return_pct": -5.44,
-  "last_updated": "2026-03-31",
+  "total_value": 9709.53,
+  "total_return_pct": -2.9,
+  "last_updated": "2026-04-01",
   "benchmark": "SPY",
   "benchmark_start_price": 685.99
 }
