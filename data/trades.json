@@ -324,6 +324,24 @@
         "change_pct": 4.82
       },
       "conviction": 3
+    },
+    {
+      "date": "2026-04-02",
+      "symbol": "SOFI",
+      "action": "BUY",
+      "quantity": 42,
+      "price": 15.63,
+      "total_cost": 656.46,
+      "reasoning": "OVERSOLD DIP: price $15.63 is 9.0% below 20-day SMA, RSI 25.1 \u2014 capitulation zone, small position entry",
+      "cash_after": 1463.98,
+      "portfolio_value_after": 9777.93,
+      "indicators": {
+        "rsi": 25.1,
+        "sma20": 17.18,
+        "vol_ratio": 0.84,
+        "change_pct": -1.57
+      },
+      "conviction": 3
     }
   ]
 }

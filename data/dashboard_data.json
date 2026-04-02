@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-04-01 16:20 ET",
+  "generated_at": "2026-04-02 09:18 ET",
   "portfolio": {
     "name": "LukaFund",
     "inception_date": "2026-02-28",
     "starting_capital": 10000.0,
-    "cash": 2120.44,
+    "cash": 1463.98,
     "positions": [
       {
         "symbol": "TSLA",
         "quantity": 6,
         "avg_cost": 372.7683,
-        "current_price": 371.75,
+        "current_price": 381.26,
         "entry_date": "2026-03-09"
       },
       {
         "symbol": "NIO",
         "quantity": -131,
         "avg_cost": 5.7,
-        "current_price": 6.03,
+        "current_price": 6.2,
         "entry_date": "2026-03-11",
         "type": "short"
       },
@@ -25,7 +25,7 @@
         "symbol": "RIVN",
         "quantity": -42,
         "avg_cost": 16.43,
-        "current_price": 15.05,
+        "current_price": 14.94,
         "entry_date": "2026-03-12",
         "type": "short"
       },
@@ -33,34 +33,34 @@
         "symbol": "HOOD",
         "quantity": 30,
         "avg_cost": 71.26,
-        "current_price": 69.3,
+        "current_price": 70.11,
         "entry_date": "2026-03-23"
       },
       {
         "symbol": "AMZN",
         "quantity": 6,
         "avg_cost": 200.145,
-        "current_price": 208.27,
+        "current_price": 210.57,
         "entry_date": "2026-03-30"
       },
       {
         "symbol": "PLTR",
         "quantity": 9,
         "avg_cost": 140.6111,
-        "current_price": 146.28,
+        "current_price": 146.49,
         "entry_date": "2026-03-30"
       },
       {
         "symbol": "SOFI",
-        "quantity": 44,
-        "avg_cost": 15.88,
-        "current_price": 15.88,
+        "quantity": 86,
+        "avg_cost": 15.7579,
+        "current_price": 15.63,
         "entry_date": "2026-04-01"
       }
     ],
-    "total_value": 9709.53,
-    "total_return_pct": -2.9,
-    "last_updated": "2026-04-01",
+    "total_value": 9777.93,
+    "total_return_pct": -2.22,
+    "last_updated": "2026-04-02",
     "benchmark": "SPY",
     "benchmark_start_price": 685.99
   },
@@ -69,11 +69,11 @@
       "symbol": "TSLA",
       "quantity": 6,
       "avg_cost": 372.7683,
-      "current_price": 371.75,
-      "market_value": 2230.5,
-      "pnl_dollar": -6.11,
-      "pnl_pct": -0.27,
-      "conviction": 2,
+      "current_price": 381.26,
+      "market_value": 2287.56,
+      "pnl_dollar": 50.95,
+      "pnl_pct": 2.28,
+      "conviction": 3,
       "entry_date": "2026-03-09",
       "type": "long"
     },
@@ -81,22 +81,34 @@
       "symbol": "HOOD",
       "quantity": 30,
       "avg_cost": 71.26,
-      "current_price": 69.3,
-      "market_value": 2079.0,
-      "pnl_dollar": -58.8,
-      "pnl_pct": -2.75,
+      "current_price": 70.11,
+      "market_value": 2103.3,
+      "pnl_dollar": -34.5,
+      "pnl_pct": -1.61,
       "conviction": 2,
       "entry_date": "2026-03-23",
+      "type": "long"
+    },
+    {
+      "symbol": "SOFI",
+      "quantity": 86,
+      "avg_cost": 15.7579,
+      "current_price": 15.63,
+      "market_value": 1344.18,
+      "pnl_dollar": -11.0,
+      "pnl_pct": -0.81,
+      "conviction": 2,
+      "entry_date": "2026-04-01",
       "type": "long"
     },
     {
       "symbol": "PLTR",
       "quantity": 9,
       "avg_cost": 140.6111,
-      "current_price": 146.28,
-      "market_value": 1316.52,
-      "pnl_dollar": 51.02,
-      "pnl_pct": 4.03,
+      "current_price": 146.49,
+      "market_value": 1318.41,
+      "pnl_dollar": 52.91,
+      "pnl_pct": 4.18,
       "conviction": 3,
       "entry_date": "2026-03-30",
       "type": "long"
@@ -105,10 +117,10 @@
       "symbol": "AMZN",
       "quantity": 6,
       "avg_cost": 200.145,
-      "current_price": 208.27,
-      "market_value": 1249.62,
-      "pnl_dollar": 48.75,
-      "pnl_pct": 4.06,
+      "current_price": 210.57,
+      "market_value": 1263.42,
+      "pnl_dollar": 62.55,
+      "pnl_pct": 5.21,
       "conviction": 3,
       "entry_date": "2026-03-30",
       "type": "long"
@@ -117,40 +129,46 @@
       "symbol": "NIO",
       "quantity": -131,
       "avg_cost": 5.7,
-      "current_price": 6.03,
-      "market_value": 789.93,
-      "pnl_dollar": -43.23,
-      "pnl_pct": -5.79,
+      "current_price": 6.2,
+      "market_value": 812.2,
+      "pnl_dollar": -65.5,
+      "pnl_pct": -8.77,
       "conviction": 2,
       "entry_date": "2026-03-11",
       "type": "short"
     },
     {
-      "symbol": "SOFI",
-      "quantity": 44,
-      "avg_cost": 15.88,
-      "current_price": 15.88,
-      "market_value": 698.72,
-      "pnl_dollar": 0.0,
-      "pnl_pct": 0.0,
-      "conviction": 2,
-      "entry_date": "2026-04-01",
-      "type": "long"
-    },
-    {
       "symbol": "RIVN",
       "quantity": -42,
       "avg_cost": 16.43,
-      "current_price": 15.05,
-      "market_value": 632.1,
-      "pnl_dollar": 57.96,
-      "pnl_pct": 8.4,
+      "current_price": 14.94,
+      "market_value": 627.48,
+      "pnl_dollar": 62.58,
+      "pnl_pct": 9.07,
       "conviction": 3,
       "entry_date": "2026-03-12",
       "type": "short"
     }
   ],
   "recent_trades": [
+    {
+      "date": "2026-04-02",
+      "symbol": "SOFI",
+      "action": "BUY",
+      "quantity": 42,
+      "price": 15.63,
+      "total_cost": 656.46,
+      "reasoning": "OVERSOLD DIP: price $15.63 is 9.0% below 20-day SMA, RSI 25.1 \u2014 capitulation zone, small position entry",
+      "cash_after": 1463.98,
+      "portfolio_value_after": 9777.93,
+      "indicators": {
+        "rsi": 25.1,
+        "sma20": 17.18,
+        "vol_ratio": 0.84,
+        "change_pct": -1.57
+      },
+      "conviction": 3
+    },
     {
       "date": "2026-04-01",
       "symbol": "SOFI",
@@ -313,27 +331,47 @@
         "change_pct": 5.01
       },
       "conviction": 3
-    },
-    {
-      "date": "2026-03-23",
-      "symbol": "HOOD",
-      "action": "BUY",
-      "quantity": 10,
-      "price": 70.89,
-      "total_cost": 708.9,
-      "reasoning": "OVERSOLD DIP: price $70.89 is 7.4% below 20-day SMA, RSI 38.0 \u2014 capitulation zone, small position entry",
-      "cash_after": 5559.49,
-      "portfolio_value_after": 9935.04,
-      "indicators": {
-        "rsi": 38.0,
-        "sma20": 76.57,
-        "vol_ratio": 1.27,
-        "change_pct": -4.41
-      },
-      "conviction": 3
     }
   ],
   "recent_decisions": [
+    {
+      "date": "2026-04-02",
+      "summary": "2 trades executed",
+      "portfolio_value": 9777.93,
+      "active_trades": [
+        {
+          "date": "2026-04-02",
+          "action": "BUY",
+          "symbol": "SOFI",
+          "quantity": 42,
+          "price": 15.63,
+          "reasoning": "OVERSOLD DIP: price $15.63 is 9.0% below 20-day SMA, RSI 25.1 \u2014 capitulation zone, small position entry",
+          "conviction": 3,
+          "indicators": {
+            "rsi": 25.1,
+            "sma20": 17.18,
+            "vol_ratio": 0.84,
+            "change_pct": -1.57
+          }
+        },
+        {
+          "date": "2026-04-02",
+          "action": "SHORT",
+          "symbol": "NIO",
+          "quantity": 107,
+          "price": 6.2,
+          "reasoning": "BEARISH PLAY: NIO near resistance (RSI 60.5, 10.7% above SMA) \u2014 structurally weak EV play, simulating put via short position",
+          "conviction": 4,
+          "indicators": {
+            "rsi": 60.5,
+            "sma20": 5.6,
+            "vol_ratio": 1.05,
+            "change_pct": 2.82
+          }
+        }
+      ],
+      "holds": 5
+    },
     {
       "date": "2026-04-01",
       "summary": "1 trades executed",
@@ -485,44 +523,6 @@
         }
       ],
       "holds": 6
-    },
-    {
-      "date": "2026-03-26",
-      "summary": "2 trades executed",
-      "portfolio_value": 9905.67,
-      "active_trades": [
-        {
-          "date": "2026-03-26",
-          "action": "BUY",
-          "symbol": "HOOD",
-          "quantity": 10,
-          "price": 72.54,
-          "reasoning": "OVERSOLD DIP: price $72.54 is 4.7% below 20-day SMA, RSI 37.0 \u2014 capitulation zone, small position entry",
-          "conviction": 3,
-          "indicators": {
-            "rsi": 37.0,
-            "sma20": 76.14,
-            "vol_ratio": 1.02,
-            "change_pct": 5.01
-          }
-        },
-        {
-          "date": "2026-03-26",
-          "action": "SHORT",
-          "symbol": "NIO",
-          "quantity": 128,
-          "price": 5.78,
-          "reasoning": "BEARISH PLAY: NIO near resistance (RSI 67.4, 7.4% above SMA) \u2014 structurally weak EV play, simulating put via short position",
-          "conviction": 4,
-          "indicators": {
-            "rsi": 67.4,
-            "sma20": 5.38,
-            "vol_ratio": 0.57,
-            "change_pct": 0.87
-          }
-        }
-      ],
-      "holds": 5
     }
   ],
   "equity_curve": [
@@ -669,22 +669,28 @@
       "value": 9709.53,
       "spy_value": 9480.31,
       "cash": 2120.44
+    },
+    {
+      "date": "2026-04-02",
+      "value": 9777.93,
+      "spy_value": 9551.74,
+      "cash": 1463.98
     }
   ],
   "stats": {
-    "total_return_pct": -2.9,
-    "total_return_dollar": -290.47,
+    "total_return_pct": -2.22,
+    "total_return_dollar": -222.07,
     "win_rate": 0.0,
-    "total_trades": 18,
-    "days_active": 32,
-    "cash_pct": 21.8,
+    "total_trades": 19,
+    "days_active": 33,
+    "cash_pct": 15.0,
     "best_position": {
       "symbol": "RIVN",
-      "pnl_pct": 8.4
+      "pnl_pct": 9.07
     },
     "worst_position": {
       "symbol": "NIO",
-      "pnl_pct": -5.79
+      "pnl_pct": -8.77
     }
   }
 }
