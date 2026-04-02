@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-04-01T20:20:20.093864+00:00",
-  "equity": 100014.94,
+  "last_updated": "2026-04-02T20:24:21.650157+00:00",
+  "equity": 100015.94,
   "cash": 100023.94,
   "buying_power": 197647.88,
   "options_buying_power": 98823.94,
-  "portfolio_value": 100014.94,
-  "last_equity": 100013.94,
+  "portfolio_value": 100015.94,
+  "last_equity": 100014.94,
   "daily_pl": 1.0,
-  "daily_pl_pct": 0.0009998606194296514
+  "daily_pl_pct": 0.0009998506223170259
 }
