@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-03 16:20 ET",
+  "generated_at": "2026-04-06 09:20 ET",
   "portfolio": {
     "name": "LukaFund",
     "inception_date": "2026-02-28",
@@ -60,7 +60,7 @@
     ],
     "total_value": 9617.04,
     "total_return_pct": -3.83,
-    "last_updated": "2026-04-03",
+    "last_updated": "2026-04-06",
     "benchmark": "SPY",
     "benchmark_start_price": 685.99
   },
@@ -335,6 +335,13 @@
   ],
   "recent_decisions": [
     {
+      "date": "2026-04-06",
+      "summary": "0 trades executed",
+      "portfolio_value": 9617.04,
+      "active_trades": [],
+      "holds": 7
+    },
+    {
       "date": "2026-04-03",
       "summary": "0 trades executed",
       "portfolio_value": 9617.04,
@@ -450,59 +457,6 @@
             "sma20": 17.47,
             "vol_ratio": 0.88,
             "change_pct": -0.53
-          }
-        }
-      ],
-      "holds": 4
-    },
-    {
-      "date": "2026-03-30",
-      "summary": "3 trades executed",
-      "portfolio_value": 9567.84,
-      "active_trades": [
-        {
-          "date": "2026-03-30",
-          "action": "BUY",
-          "symbol": "TSLA",
-          "quantity": 2,
-          "price": 361.83,
-          "reasoning": "OVERSOLD DIP: price $361.83 is 7.4% below 20-day SMA, RSI 32.8 \u2014 capitulation zone, small position entry",
-          "conviction": 3,
-          "indicators": {
-            "rsi": 32.8,
-            "sma20": 390.78,
-            "vol_ratio": 1.02,
-            "change_pct": -2.76
-          }
-        },
-        {
-          "date": "2026-03-30",
-          "action": "BUY",
-          "symbol": "AMZN",
-          "quantity": 3,
-          "price": 199.34,
-          "reasoning": "OVERSOLD DIP: price $199.34 is 5.3% below 20-day SMA, RSI 35.7 \u2014 capitulation zone, small position entry",
-          "conviction": 3,
-          "indicators": {
-            "rsi": 35.7,
-            "sma20": 210.53,
-            "vol_ratio": 1.24,
-            "change_pct": -3.95
-          }
-        },
-        {
-          "date": "2026-03-30",
-          "action": "BUY",
-          "symbol": "PLTR",
-          "quantity": 5,
-          "price": 143.06,
-          "reasoning": "OVERSOLD DIP: price $143.06 is 6.1% below 20-day SMA, RSI 37.4 \u2014 capitulation zone, small position entry",
-          "conviction": 3,
-          "indicators": {
-            "rsi": 37.4,
-            "sma20": 152.36,
-            "vol_ratio": 0.74,
-            "change_pct": -3.05
           }
         }
       ],
@@ -665,6 +619,12 @@
       "value": 9617.04,
       "spy_value": 9560.34,
       "cash": 1463.98
+    },
+    {
+      "date": "2026-04-06",
+      "value": 9617.04,
+      "spy_value": 9560.34,
+      "cash": 1463.98
     }
   ],
   "stats": {
@@ -672,7 +632,7 @@
     "total_return_dollar": -382.96,
     "win_rate": 0.0,
     "total_trades": 19,
-    "days_active": 34,
+    "days_active": 37,
     "cash_pct": 15.2,
     "best_position": {
       "symbol": "RIVN",
