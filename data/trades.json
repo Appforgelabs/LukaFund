@@ -361,6 +361,24 @@
       },
       "conviction": 3,
       "realized_pnl": 114.7
+    },
+    {
+      "date": "2026-04-14",
+      "symbol": "PLTR",
+      "action": "BUY",
+      "quantity": 5,
+      "price": 132.37,
+      "total_cost": 661.85,
+      "reasoning": "OVERSOLD DIP: price $132.37 is 9.8% below 20-day SMA, RSI 27.6 \u2014 capitulation zone, small position entry",
+      "cash_after": 1517.27,
+      "portfolio_value_after": 9742.43,
+      "indicators": {
+        "rsi": 27.6,
+        "sma20": 146.83,
+        "vol_ratio": 1.37,
+        "change_pct": 3.37
+      },
+      "conviction": 3
     }
   ]
 }
