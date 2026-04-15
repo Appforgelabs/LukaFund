@@ -379,6 +379,25 @@
         "change_pct": 3.37
       },
       "conviction": 3
+    },
+    {
+      "date": "2026-04-15",
+      "symbol": "AMZN",
+      "action": "SELL",
+      "quantity": 1,
+      "price": 248.16,
+      "total_cost": 248.16,
+      "reasoning": "RSI 80.7 \u2014 overbought territory, trimming exposure",
+      "cash_after": 1765.43,
+      "portfolio_value_after": 10494.98,
+      "indicators": {
+        "rsi": 80.7,
+        "sma20": 215.67,
+        "vol_ratio": 1.57,
+        "change_pct": -0.35
+      },
+      "conviction": 3,
+      "realized_pnl": 48.01
     }
   ]
 }
