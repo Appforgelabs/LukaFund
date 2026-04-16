@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-15 16:20 ET",
+  "generated_at": "2026-04-16 09:18 ET",
   "portfolio": {
     "name": "LukaFund",
     "inception_date": "2026-02-28",
     "starting_capital": 10000.0,
-    "cash": 1765.43,
+    "cash": 2013.93,
     "positions": [
       {
         "symbol": "TSLA",
@@ -38,7 +38,7 @@
       },
       {
         "symbol": "AMZN",
-        "quantity": 2,
+        "quantity": 1,
         "avg_cost": 200.145,
         "current_price": 248.5,
         "entry_date": "2026-03-30"
@@ -60,7 +60,7 @@
     ],
     "total_value": 10744.98,
     "total_return_pct": 7.45,
-    "last_updated": "2026-04-15",
+    "last_updated": "2026-04-16",
     "benchmark": "SPY",
     "benchmark_start_price": 685.99
   },
@@ -139,11 +139,11 @@
     },
     {
       "symbol": "AMZN",
-      "quantity": 2,
+      "quantity": 1,
       "avg_cost": 200.145,
       "current_price": 248.5,
-      "market_value": 497.0,
-      "pnl_dollar": 96.71,
+      "market_value": 248.5,
+      "pnl_dollar": 48.35,
       "pnl_pct": 24.16,
       "conviction": 5,
       "entry_date": "2026-03-30",
@@ -151,6 +151,25 @@
     }
   ],
   "recent_trades": [
+    {
+      "date": "2026-04-16",
+      "symbol": "AMZN",
+      "action": "SELL",
+      "quantity": 1,
+      "price": 248.5,
+      "total_cost": 248.5,
+      "reasoning": "RSI 78.7 \u2014 overbought territory, trimming exposure",
+      "cash_after": 2013.93,
+      "portfolio_value_after": 10744.98,
+      "indicators": {
+        "rsi": 78.7,
+        "sma20": 217.34,
+        "vol_ratio": 0.93,
+        "change_pct": -0.21
+      },
+      "conviction": 3,
+      "realized_pnl": 48.35
+    },
     {
       "date": "2026-04-15",
       "symbol": "AMZN",
@@ -315,27 +334,32 @@
         "change_pct": -3.05
       },
       "conviction": 3
-    },
-    {
-      "date": "2026-03-30",
-      "symbol": "AMZN",
-      "action": "BUY",
-      "quantity": 3,
-      "price": 199.34,
-      "total_cost": 598.02,
-      "reasoning": "OVERSOLD DIP: price $199.34 is 5.3% below 20-day SMA, RSI 35.7 \u2014 capitulation zone, small position entry",
-      "cash_after": 2808.91,
-      "portfolio_value_after": 9567.84,
-      "indicators": {
-        "rsi": 35.7,
-        "sma20": 210.53,
-        "vol_ratio": 1.24,
-        "change_pct": -3.95
-      },
-      "conviction": 3
     }
   ],
   "recent_decisions": [
+    {
+      "date": "2026-04-16",
+      "summary": "1 trades executed",
+      "portfolio_value": 10744.98,
+      "active_trades": [
+        {
+          "date": "2026-04-16",
+          "action": "SELL",
+          "symbol": "AMZN",
+          "quantity": 1,
+          "price": 248.5,
+          "reasoning": "RSI 78.7 \u2014 overbought territory, trimming exposure",
+          "conviction": 3,
+          "indicators": {
+            "rsi": 78.7,
+            "sma20": 217.34,
+            "vol_ratio": 0.93,
+            "change_pct": -0.21
+          }
+        }
+      ],
+      "holds": 6
+    },
     {
       "date": "2026-04-15",
       "summary": "1 trades executed",
@@ -419,13 +443,6 @@
         }
       ],
       "holds": 6
-    },
-    {
-      "date": "2026-04-08",
-      "summary": "0 trades executed",
-      "portfolio_value": 9667.53,
-      "active_trades": [],
-      "holds": 7
     },
     {
       "date": "2026-04-08",
@@ -633,15 +650,21 @@
       "value": 10744.98,
       "spy_value": 10203.36,
       "cash": 1765.43
+    },
+    {
+      "date": "2026-04-16",
+      "value": 10744.98,
+      "spy_value": 10203.36,
+      "cash": 2013.93
     }
   ],
   "stats": {
     "total_return_pct": 7.45,
     "total_return_dollar": 744.98,
-    "win_rate": 66.7,
-    "total_trades": 22,
-    "days_active": 46,
-    "cash_pct": 16.4,
+    "win_rate": 75.0,
+    "total_trades": 23,
+    "days_active": 47,
+    "cash_pct": 18.7,
     "best_position": {
       "symbol": "AMZN",
       "pnl_pct": 24.16
