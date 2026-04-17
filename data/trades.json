@@ -417,6 +417,44 @@
       },
       "conviction": 3,
       "realized_pnl": 48.35
+    },
+    {
+      "date": "2026-04-17",
+      "symbol": "AMZN",
+      "action": "SELL",
+      "quantity": 1,
+      "price": 249.7,
+      "total_cost": 249.7,
+      "reasoning": "RSI 84.4 \u2014 overbought territory, trimming exposure",
+      "cash_after": 2263.63,
+      "portfolio_value_after": 10665.16,
+      "indicators": {
+        "rsi": 84.4,
+        "sma20": 219.33,
+        "vol_ratio": 0.9,
+        "change_pct": 0.48
+      },
+      "conviction": 3,
+      "realized_pnl": 49.55
+    },
+    {
+      "date": "2026-04-17",
+      "symbol": "SOFI",
+      "action": "SELL",
+      "quantity": 43,
+      "price": 19.03,
+      "total_cost": 818.29,
+      "reasoning": "RSI 76.5 \u2014 overbought territory, trimming exposure",
+      "cash_after": 3081.92,
+      "portfolio_value_after": 10665.16,
+      "indicators": {
+        "rsi": 76.5,
+        "sma20": 16.61,
+        "vol_ratio": 1.27,
+        "change_pct": 1.28
+      },
+      "conviction": 3,
+      "realized_pnl": 140.7
     }
   ]
 }
