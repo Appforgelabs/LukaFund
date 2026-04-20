@@ -1,16 +1,4 @@
 {
-  "last_updated": "2026-04-17T20:20:21.700563+00:00",
-  "positions": [
-    {
-      "symbol": "RIVN260417P00012000",
-      "qty": -1.0,
-      "side": "short",
-      "avg_entry_price": 0.24,
-      "current_price": 0.01,
-      "market_value": -1.0,
-      "unrealized_pl": 23.0,
-      "unrealized_plpc": 95.833,
-      "strategy": "unknown"
-    }
-  ]
+  "last_updated": "2026-04-20T20:33:44.606599+00:00",
+  "positions": []
 }
