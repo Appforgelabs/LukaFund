@@ -455,6 +455,82 @@
       },
       "conviction": 3,
       "realized_pnl": 140.7
+    },
+    {
+      "date": "2026-04-20",
+      "symbol": "HOOD",
+      "action": "SELL",
+      "quantity": 15,
+      "price": 90.75,
+      "total_cost": 1361.25,
+      "reasoning": "PROFIT TAKE: position up 27.4% \u2014 harvesting 50% of gains, let the rest run",
+      "cash_after": 4443.17,
+      "portfolio_value_after": 10911.46,
+      "indicators": {
+        "rsi": 85.0,
+        "sma20": 73.05,
+        "vol_ratio": 1.53,
+        "change_pct": 4.49
+      },
+      "conviction": 4,
+      "realized_pnl": 292.35
+    },
+    {
+      "date": "2026-04-20",
+      "symbol": "SOFI",
+      "action": "SELL",
+      "quantity": 21,
+      "price": 19.43,
+      "total_cost": 408.03,
+      "reasoning": "RSI 86.7 \u2014 overbought territory, trimming exposure",
+      "cash_after": 4851.2,
+      "portfolio_value_after": 10911.46,
+      "indicators": {
+        "rsi": 86.7,
+        "sma20": 16.72,
+        "vol_ratio": 1.29,
+        "change_pct": 2.1
+      },
+      "conviction": 3,
+      "realized_pnl": 77.11
+    },
+    {
+      "date": "2026-04-20",
+      "symbol": "RIVN",
+      "action": "SELL",
+      "quantity": 1,
+      "price": 17.23,
+      "total_cost": 17.23,
+      "reasoning": "RSI 76.4 \u2014 overbought territory, trimming exposure",
+      "cash_after": 4127.54,
+      "portfolio_value_after": 10221.4,
+      "indicators": {
+        "rsi": 76.4,
+        "sma20": 15.52,
+        "vol_ratio": 1.27,
+        "change_pct": 2.01
+      },
+      "conviction": 3,
+      "realized_pnl": -33.6
+    },
+    {
+      "date": "2026-04-20",
+      "symbol": "NIO",
+      "action": "SELL",
+      "quantity": 1,
+      "price": 6.83,
+      "total_cost": 6.83,
+      "reasoning": "RSI 76.2 \u2014 overbought territory, trimming exposure",
+      "cash_after": 3232.81,
+      "portfolio_value_after": 9474.7,
+      "indicators": {
+        "rsi": 76.2,
+        "sma20": 6.11,
+        "vol_ratio": 0.84,
+        "change_pct": -0.58
+      },
+      "conviction": 3,
+      "realized_pnl": -148.03
     }
   ]
 }

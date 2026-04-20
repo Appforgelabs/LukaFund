@@ -5124,6 +5124,119 @@
       "portfolio_value": 10665.16,
       "cash": 3081.92,
       "summary": "2 trades executed"
+    },
+    {
+      "date": "2026-04-20",
+      "decisions": [
+        {
+          "date": "2026-04-20",
+          "action": "HOLD",
+          "symbol": "TSLA",
+          "quantity": 0,
+          "price": 400.62,
+          "reasoning": "HOLD: no signal. Price $400.62 (+8.9% vs SMA20 $367.8), RSI 64.5, vol ratio 1.3x. Watching.",
+          "conviction": 1,
+          "indicators": {
+            "rsi": 64.5,
+            "sma20": 367.8,
+            "vol_ratio": 1.3,
+            "change_pct": 3.01
+          }
+        },
+        {
+          "date": "2026-04-20",
+          "action": "HOLD",
+          "symbol": "AMZN",
+          "quantity": 0,
+          "price": 250.56,
+          "reasoning": "HOLD: no signal. Price $250.56 (+13.2% vs SMA20 $221.42), RSI 97.5, vol ratio 1.1x. Watching.",
+          "conviction": 1,
+          "indicators": {
+            "rsi": 97.5,
+            "sma20": 221.42,
+            "vol_ratio": 1.1,
+            "change_pct": 0.34
+          }
+        },
+        {
+          "date": "2026-04-20",
+          "action": "HOLD",
+          "symbol": "PLTR",
+          "quantity": 0,
+          "price": 146.39,
+          "reasoning": "HOLD: no signal. Price $146.39 (+1.4% vs SMA20 $144.37), RSI 52.8, vol ratio 1.0x. Watching.",
+          "conviction": 1,
+          "indicators": {
+            "rsi": 52.8,
+            "sma20": 144.37,
+            "vol_ratio": 0.99,
+            "change_pct": 2.54
+          }
+        },
+        {
+          "date": "2026-04-20",
+          "action": "SELL",
+          "symbol": "HOOD",
+          "quantity": 15,
+          "price": 90.75,
+          "reasoning": "PROFIT TAKE: position up 27.4% \u2014 harvesting 50% of gains, let the rest run",
+          "conviction": 4,
+          "indicators": {
+            "rsi": 85.0,
+            "sma20": 73.05,
+            "vol_ratio": 1.53,
+            "change_pct": 4.49
+          }
+        },
+        {
+          "date": "2026-04-20",
+          "action": "SELL",
+          "symbol": "SOFI",
+          "quantity": 21,
+          "price": 19.43,
+          "reasoning": "RSI 86.7 \u2014 overbought territory, trimming exposure",
+          "conviction": 3,
+          "indicators": {
+            "rsi": 86.7,
+            "sma20": 16.72,
+            "vol_ratio": 1.29,
+            "change_pct": 2.1
+          }
+        },
+        {
+          "date": "2026-04-20",
+          "action": "SELL",
+          "symbol": "RIVN",
+          "quantity": 1,
+          "price": 17.23,
+          "reasoning": "RSI 76.4 \u2014 overbought territory, trimming exposure",
+          "conviction": 3,
+          "indicators": {
+            "rsi": 76.4,
+            "sma20": 15.52,
+            "vol_ratio": 1.27,
+            "change_pct": 2.01
+          }
+        },
+        {
+          "date": "2026-04-20",
+          "action": "SELL",
+          "symbol": "NIO",
+          "quantity": 1,
+          "price": 6.83,
+          "reasoning": "RSI 76.2 \u2014 overbought territory, trimming exposure",
+          "conviction": 3,
+          "indicators": {
+            "rsi": 76.2,
+            "sma20": 6.11,
+            "vol_ratio": 0.84,
+            "change_pct": -0.58
+          }
+        }
+      ],
+      "portfolio_value": 9474.7,
+      "cash": 3232.81,
+      "summary": "4 trades executed"
     }
   ]
 }
