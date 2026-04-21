@@ -531,6 +531,80 @@
       },
       "conviction": 3,
       "realized_pnl": -148.03
+    },
+    {
+      "date": "2026-04-21",
+      "symbol": "HOOD",
+      "action": "SELL",
+      "quantity": 7,
+      "price": 91.28,
+      "total_cost": 638.96,
+      "reasoning": "PROFIT TAKE: position up 28.1% \u2014 harvesting 50% of gains, let the rest run",
+      "cash_after": 3871.77,
+      "portfolio_value_after": 9428.47,
+      "indicators": {
+        "rsi": 87.3,
+        "sma20": 74.07,
+        "vol_ratio": 1.1,
+        "change_pct": 0.58
+      },
+      "conviction": 4,
+      "realized_pnl": 140.14
+    },
+    {
+      "date": "2026-04-21",
+      "symbol": "SOFI",
+      "action": "SELL",
+      "quantity": 11,
+      "price": 19.5,
+      "total_cost": 214.5,
+      "reasoning": "RSI 88.1 \u2014 overbought territory, trimming exposure",
+      "cash_after": 4086.27,
+      "portfolio_value_after": 9428.47,
+      "indicators": {
+        "rsi": 88.1,
+        "sma20": 16.85,
+        "vol_ratio": 0.94,
+        "change_pct": 0.36
+      },
+      "conviction": 3,
+      "realized_pnl": 41.16
+    },
+    {
+      "date": "2026-04-21",
+      "symbol": "RIVN",
+      "action": "SHORT",
+      "quantity": 41,
+      "price": 16.92,
+      "total_cost": 693.72,
+      "reasoning": "BEARISH PLAY: RIVN near resistance (RSI 75.9, 8.3% above SMA) \u2014 structurally weak EV play, simulating put via short position",
+      "cash_after": 4086.27,
+      "portfolio_value_after": 9428.47,
+      "indicators": {
+        "rsi": 75.9,
+        "sma20": 15.62,
+        "vol_ratio": 0.82,
+        "change_pct": -1.8
+      },
+      "conviction": 4
+    },
+    {
+      "date": "2026-04-21",
+      "symbol": "NIO",
+      "action": "SHORT",
+      "quantity": 106,
+      "price": 6.66,
+      "total_cost": 705.96,
+      "reasoning": "BEARISH PLAY: NIO near resistance (RSI 70.0, 7.9% above SMA) \u2014 structurally weak EV play, simulating put via short position",
+      "cash_after": 4086.27,
+      "portfolio_value_after": 9428.47,
+      "indicators": {
+        "rsi": 70.0,
+        "sma20": 6.17,
+        "vol_ratio": 0.52,
+        "change_pct": -2.49
+      },
+      "conviction": 4
     }
   ]
 }
