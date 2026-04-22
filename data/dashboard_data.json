@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-21 16:20 ET",
+  "generated_at": "2026-04-22 09:19 ET",
   "portfolio": {
     "name": "LukaFund",
     "inception_date": "2026-02-28",
     "starting_capital": 10000.0,
-    "cash": 4086.27,
+    "cash": 4180.42,
     "positions": [
       {
         "symbol": "TSLA",
@@ -29,7 +29,7 @@
       },
       {
         "symbol": "SOFI",
-        "quantity": 11,
+        "quantity": 6,
         "avg_cost": 15.7579,
         "current_price": 18.83,
         "entry_date": "2026-04-01"
@@ -53,7 +53,7 @@
     ],
     "total_value": 9361.89,
     "total_return_pct": -6.38,
-    "last_updated": "2026-04-21",
+    "last_updated": "2026-04-22",
     "benchmark": "SPY",
     "benchmark_start_price": 685.99
   },
@@ -120,11 +120,11 @@
     },
     {
       "symbol": "SOFI",
-      "quantity": 11,
+      "quantity": 6,
       "avg_cost": 15.7579,
       "current_price": 18.83,
-      "market_value": 207.13,
-      "pnl_dollar": 33.79,
+      "market_value": 112.98,
+      "pnl_dollar": 18.43,
       "pnl_pct": 19.5,
       "conviction": 4,
       "entry_date": "2026-04-01",
@@ -132,6 +132,25 @@
     }
   ],
   "recent_trades": [
+    {
+      "date": "2026-04-22",
+      "symbol": "SOFI",
+      "action": "SELL",
+      "quantity": 5,
+      "price": 18.83,
+      "total_cost": 94.15,
+      "reasoning": "RSI 76.1 \u2014 overbought territory, trimming exposure",
+      "cash_after": 4180.42,
+      "portfolio_value_after": 9361.89,
+      "indicators": {
+        "rsi": 76.1,
+        "sma20": 16.94,
+        "vol_ratio": 1.18,
+        "change_pct": -3.44
+      },
+      "conviction": 3,
+      "realized_pnl": 15.36
+    },
     {
       "date": "2026-04-21",
       "symbol": "NIO",
@@ -300,28 +319,47 @@
       },
       "conviction": 3,
       "realized_pnl": 140.7
-    },
-    {
-      "date": "2026-04-17",
-      "symbol": "AMZN",
-      "action": "SELL",
-      "quantity": 1,
-      "price": 249.7,
-      "total_cost": 249.7,
-      "reasoning": "RSI 84.4 \u2014 overbought territory, trimming exposure",
-      "cash_after": 2263.63,
-      "portfolio_value_after": 10665.16,
-      "indicators": {
-        "rsi": 84.4,
-        "sma20": 219.33,
-        "vol_ratio": 0.9,
-        "change_pct": 0.48
-      },
-      "conviction": 3,
-      "realized_pnl": 49.55
     }
   ],
   "recent_decisions": [
+    {
+      "date": "2026-04-22",
+      "summary": "2 trades executed",
+      "portfolio_value": 9361.89,
+      "active_trades": [
+        {
+          "date": "2026-04-22",
+          "action": "SELL",
+          "symbol": "SOFI",
+          "quantity": 5,
+          "price": 18.83,
+          "reasoning": "RSI 76.1 \u2014 overbought territory, trimming exposure",
+          "conviction": 3,
+          "indicators": {
+            "rsi": 76.1,
+            "sma20": 16.94,
+            "vol_ratio": 1.18,
+            "change_pct": -3.44
+          }
+        },
+        {
+          "date": "2026-04-22",
+          "action": "SHORT",
+          "symbol": "RIVN",
+          "quantity": 40,
+          "price": 17.15,
+          "reasoning": "BEARISH PLAY: RIVN near resistance (RSI 74.1, 9.3% above SMA) \u2014 structurally weak EV play, simulating put via short position",
+          "conviction": 4,
+          "indicators": {
+            "rsi": 74.1,
+            "sma20": 15.69,
+            "vol_ratio": 0.93,
+            "change_pct": 1.36
+          }
+        }
+      ],
+      "holds": 5
+    },
     {
       "date": "2026-04-21",
       "summary": "4 trades executed",
@@ -514,29 +552,6 @@
             "sma20": 217.34,
             "vol_ratio": 0.93,
             "change_pct": -0.21
-          }
-        }
-      ],
-      "holds": 6
-    },
-    {
-      "date": "2026-04-15",
-      "summary": "1 trades executed",
-      "portfolio_value": 10494.98,
-      "active_trades": [
-        {
-          "date": "2026-04-15",
-          "action": "SELL",
-          "symbol": "AMZN",
-          "quantity": 1,
-          "price": 248.16,
-          "reasoning": "RSI 80.7 \u2014 overbought territory, trimming exposure",
-          "conviction": 3,
-          "indicators": {
-            "rsi": 80.7,
-            "sma20": 215.67,
-            "vol_ratio": 1.57,
-            "change_pct": -0.35
           }
         }
       ],
@@ -765,15 +780,21 @@
       "value": 9361.89,
       "spy_value": 10263.71,
       "cash": 4086.27
+    },
+    {
+      "date": "2026-04-22",
+      "value": 9361.89,
+      "spy_value": 10263.71,
+      "cash": 4180.42
     }
   ],
   "stats": {
     "total_return_pct": -6.38,
     "total_return_dollar": -638.11,
-    "win_rate": 75.0,
-    "total_trades": 33,
-    "days_active": 52,
-    "cash_pct": 43.6,
+    "win_rate": 76.9,
+    "total_trades": 34,
+    "days_active": 53,
+    "cash_pct": 44.7,
     "best_position": {
       "symbol": "HOOD",
       "pnl_pct": 21.29

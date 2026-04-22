@@ -2,7 +2,7 @@
   "name": "LukaFund",
   "inception_date": "2026-02-28",
   "starting_capital": 10000.0,
-  "cash": 4086.27,
+  "cash": 4180.42,
   "positions": [
     {
       "symbol": "TSLA",
@@ -27,7 +27,7 @@
     },
     {
       "symbol": "SOFI",
-      "quantity": 11,
+      "quantity": 6,
       "avg_cost": 15.7579,
       "current_price": 18.83,
       "entry_date": "2026-04-01"
@@ -51,7 +51,7 @@
   ],
   "total_value": 9361.89,
   "total_return_pct": -6.38,
-  "last_updated": "2026-04-21",
+  "last_updated": "2026-04-22",
   "benchmark": "SPY",
   "benchmark_start_price": 685.99
 }
