@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-22 16:20 ET",
+  "generated_at": "2026-04-23 09:26 ET",
   "portfolio": {
     "name": "LukaFund",
     "inception_date": "2026-02-28",
     "starting_capital": 10000.0,
-    "cash": 4180.42,
+    "cash": 4237.6,
     "positions": [
       {
         "symbol": "TSLA",
@@ -29,7 +29,7 @@
       },
       {
         "symbol": "SOFI",
-        "quantity": 6,
+        "quantity": 3,
         "avg_cost": 15.7579,
         "current_price": 19.06,
         "entry_date": "2026-04-01"
@@ -53,7 +53,7 @@
     ],
     "total_value": 9449.42,
     "total_return_pct": -5.51,
-    "last_updated": "2026-04-22",
+    "last_updated": "2026-04-23",
     "benchmark": "SPY",
     "benchmark_start_price": 685.99
   },
@@ -120,11 +120,11 @@
     },
     {
       "symbol": "SOFI",
-      "quantity": 6,
+      "quantity": 3,
       "avg_cost": 15.7579,
       "current_price": 19.06,
-      "market_value": 114.36,
-      "pnl_dollar": 19.81,
+      "market_value": 57.18,
+      "pnl_dollar": 9.91,
       "pnl_pct": 20.96,
       "conviction": 5,
       "entry_date": "2026-04-01",
@@ -132,6 +132,25 @@
     }
   ],
   "recent_trades": [
+    {
+      "date": "2026-04-23",
+      "symbol": "SOFI",
+      "action": "SELL",
+      "quantity": 3,
+      "price": 19.06,
+      "total_cost": 57.18,
+      "reasoning": "RSI 80.5 \u2014 overbought territory, trimming exposure",
+      "cash_after": 4237.6,
+      "portfolio_value_after": 9449.42,
+      "indicators": {
+        "rsi": 80.5,
+        "sma20": 17.06,
+        "vol_ratio": 0.84,
+        "change_pct": 1.22
+      },
+      "conviction": 3,
+      "realized_pnl": 9.91
+    },
     {
       "date": "2026-04-22",
       "symbol": "SOFI",
@@ -300,28 +319,47 @@
       },
       "conviction": 4,
       "realized_pnl": 292.35
-    },
-    {
-      "date": "2026-04-17",
-      "symbol": "SOFI",
-      "action": "SELL",
-      "quantity": 43,
-      "price": 19.03,
-      "total_cost": 818.29,
-      "reasoning": "RSI 76.5 \u2014 overbought territory, trimming exposure",
-      "cash_after": 3081.92,
-      "portfolio_value_after": 10665.16,
-      "indicators": {
-        "rsi": 76.5,
-        "sma20": 16.61,
-        "vol_ratio": 1.27,
-        "change_pct": 1.28
-      },
-      "conviction": 3,
-      "realized_pnl": 140.7
     }
   ],
   "recent_decisions": [
+    {
+      "date": "2026-04-23",
+      "summary": "2 trades executed",
+      "portfolio_value": 9449.42,
+      "active_trades": [
+        {
+          "date": "2026-04-23",
+          "action": "SELL",
+          "symbol": "SOFI",
+          "quantity": 3,
+          "price": 19.06,
+          "reasoning": "RSI 80.5 \u2014 overbought territory, trimming exposure",
+          "conviction": 3,
+          "indicators": {
+            "rsi": 80.5,
+            "sma20": 17.06,
+            "vol_ratio": 0.84,
+            "change_pct": 1.22
+          }
+        },
+        {
+          "date": "2026-04-23",
+          "action": "SHORT",
+          "symbol": "RIVN",
+          "quantity": 39,
+          "price": 17.74,
+          "reasoning": "BEARISH PLAY: RIVN near resistance (RSI 78.9, 12.4% above SMA) \u2014 structurally weak EV play, simulating put via short position",
+          "conviction": 4,
+          "indicators": {
+            "rsi": 78.9,
+            "sma20": 15.78,
+            "vol_ratio": 1.12,
+            "change_pct": 3.44
+          }
+        }
+      ],
+      "holds": 5
+    },
     {
       "date": "2026-04-22",
       "summary": "2 trades executed",
@@ -533,29 +571,6 @@
         }
       ],
       "holds": 5
-    },
-    {
-      "date": "2026-04-16",
-      "summary": "1 trades executed",
-      "portfolio_value": 10744.98,
-      "active_trades": [
-        {
-          "date": "2026-04-16",
-          "action": "SELL",
-          "symbol": "AMZN",
-          "quantity": 1,
-          "price": 248.5,
-          "reasoning": "RSI 78.7 \u2014 overbought territory, trimming exposure",
-          "conviction": 3,
-          "indicators": {
-            "rsi": 78.7,
-            "sma20": 217.34,
-            "vol_ratio": 0.93,
-            "change_pct": -0.21
-          }
-        }
-      ],
-      "holds": 6
     }
   ],
   "equity_curve": [
@@ -786,15 +801,21 @@
       "value": 9449.42,
       "spy_value": 10367.64,
       "cash": 4180.42
+    },
+    {
+      "date": "2026-04-23",
+      "value": 9449.42,
+      "spy_value": 10367.64,
+      "cash": 4237.6
     }
   ],
   "stats": {
     "total_return_pct": -5.51,
     "total_return_dollar": -550.58,
-    "win_rate": 76.9,
-    "total_trades": 34,
-    "days_active": 53,
-    "cash_pct": 44.2,
+    "win_rate": 78.6,
+    "total_trades": 35,
+    "days_active": 54,
+    "cash_pct": 44.8,
     "best_position": {
       "symbol": "HOOD",
       "pnl_pct": 24.09

@@ -624,6 +624,25 @@
       },
       "conviction": 3,
       "realized_pnl": 15.36
+    },
+    {
+      "date": "2026-04-23",
+      "symbol": "SOFI",
+      "action": "SELL",
+      "quantity": 3,
+      "price": 19.06,
+      "total_cost": 57.18,
+      "reasoning": "RSI 80.5 \u2014 overbought territory, trimming exposure",
+      "cash_after": 4237.6,
+      "portfolio_value_after": 9449.42,
+      "indicators": {
+        "rsi": 80.5,
+        "sma20": 17.06,
+        "vol_ratio": 0.84,
+        "change_pct": 1.22
+      },
+      "conviction": 3,
+      "realized_pnl": 9.91
     }
   ]
 }
