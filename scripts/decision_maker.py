@@ -107,18 +107,25 @@ def generate_decisions(portfolio, quotes, candles_map):
         change_pct = quote["change_pct"]
 
         existing_position = get_position(portfolio, symbol)
-        existing_value = existing_position["quantity"] * price if existing_position else 0
-        existing_cost = existing_position["avg_cost"] * existing_position["quantity"] if existing_position else 0
-        pnl_pct = ((price - existing_position["avg_cost"]) / existing_position["avg_cost"] * 100) if existing_position else 0
+        existing_qty = existing_position["quantity"] if existing_position else 0
+        existing_value = abs(existing_qty) * price if existing_position else 0
+        is_short = bool(existing_position and (existing_position.get("type") == "short" or existing_qty < 0))
+        if existing_position:
+            if is_short:
+                pnl_pct = ((existing_position["avg_cost"] - price) / existing_position["avg_cost"] * 100)
+            else:
+                pnl_pct = ((price - existing_position["avg_cost"]) / existing_position["avg_cost"] * 100)
+        else:
+            pnl_pct = 0
 
         reasoning_parts = []
         action = "HOLD"
         quantity = 0
         conviction = 2
 
-        # === SELL / STOP SIGNALS (check existing positions first) ===
-        if existing_position:
-            qty = existing_position["quantity"]
+        # === SELL / STOP SIGNALS (long positions only for now) ===
+        if existing_position and not is_short:
+            qty = existing_qty
 
             # Stop loss: down >15%
             if pnl_pct < -15:

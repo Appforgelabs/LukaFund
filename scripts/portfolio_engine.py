@@ -67,6 +67,10 @@ def execute_sell(portfolio, symbol, quantity, price, reasoning):
         print(f"  [SKIP] No position in {symbol} to sell")
         return None
 
+    if existing.get("type") == "short" or existing["quantity"] < 0:
+        print(f"  [SKIP] {symbol} is a short position. SELL is disabled until cover logic exists")
+        return None
+
     qty_to_sell = min(quantity, existing["quantity"])
     proceeds = round(qty_to_sell * price, 2)
     pnl = round((price - existing["avg_cost"]) * qty_to_sell, 2)
