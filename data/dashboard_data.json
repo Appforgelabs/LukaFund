@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-24 16:20 ET",
+  "generated_at": "2026-04-27 09:20 ET",
   "portfolio": {
     "name": "LukaFund",
     "inception_date": "2026-02-28",
@@ -53,7 +53,7 @@
     ],
     "total_value": 9295.76,
     "total_return_pct": -7.04,
-    "last_updated": "2026-04-24",
+    "last_updated": "2026-04-27",
     "benchmark": "SPY",
     "benchmark_start_price": 685.99
   },
@@ -323,6 +323,29 @@
   ],
   "recent_decisions": [
     {
+      "date": "2026-04-27",
+      "summary": "1 trades executed",
+      "portfolio_value": 9295.76,
+      "active_trades": [
+        {
+          "date": "2026-04-27",
+          "action": "SHORT",
+          "symbol": "RIVN",
+          "quantity": 42,
+          "price": 16.52,
+          "reasoning": "BEARISH PLAY: RIVN near resistance (RSI 61.2, 3.8% above SMA) \u2014 structurally weak EV play, simulating put via short position",
+          "conviction": 4,
+          "indicators": {
+            "rsi": 61.2,
+            "sma20": 15.91,
+            "vol_ratio": 0.99,
+            "change_pct": -2.54
+          }
+        }
+      ],
+      "holds": 6
+    },
+    {
       "date": "2026-04-24",
       "summary": "1 trades executed",
       "portfolio_value": 9224.23,
@@ -484,74 +507,6 @@
             "sma20": 6.17,
             "vol_ratio": 0.52,
             "change_pct": -2.49
-          }
-        }
-      ],
-      "holds": 3
-    },
-    {
-      "date": "2026-04-20",
-      "summary": "4 trades executed",
-      "portfolio_value": 9474.7,
-      "active_trades": [
-        {
-          "date": "2026-04-20",
-          "action": "SELL",
-          "symbol": "HOOD",
-          "quantity": 15,
-          "price": 90.75,
-          "reasoning": "PROFIT TAKE: position up 27.4% \u2014 harvesting 50% of gains, let the rest run",
-          "conviction": 4,
-          "indicators": {
-            "rsi": 85.0,
-            "sma20": 73.05,
-            "vol_ratio": 1.53,
-            "change_pct": 4.49
-          }
-        },
-        {
-          "date": "2026-04-20",
-          "action": "SELL",
-          "symbol": "SOFI",
-          "quantity": 21,
-          "price": 19.43,
-          "reasoning": "RSI 86.7 \u2014 overbought territory, trimming exposure",
-          "conviction": 3,
-          "indicators": {
-            "rsi": 86.7,
-            "sma20": 16.72,
-            "vol_ratio": 1.29,
-            "change_pct": 2.1
-          }
-        },
-        {
-          "date": "2026-04-20",
-          "action": "SELL",
-          "symbol": "RIVN",
-          "quantity": 1,
-          "price": 17.23,
-          "reasoning": "RSI 76.4 \u2014 overbought territory, trimming exposure",
-          "conviction": 3,
-          "indicators": {
-            "rsi": 76.4,
-            "sma20": 15.52,
-            "vol_ratio": 1.27,
-            "change_pct": 2.01
-          }
-        },
-        {
-          "date": "2026-04-20",
-          "action": "SELL",
-          "symbol": "NIO",
-          "quantity": 1,
-          "price": 6.83,
-          "reasoning": "RSI 76.2 \u2014 overbought territory, trimming exposure",
-          "conviction": 3,
-          "indicators": {
-            "rsi": 76.2,
-            "sma20": 6.11,
-            "vol_ratio": 0.84,
-            "change_pct": -0.58
           }
         }
       ],
@@ -798,6 +753,12 @@
       "value": 9295.76,
       "spy_value": 10407.44,
       "cash": 4237.6
+    },
+    {
+      "date": "2026-04-27",
+      "value": 9295.76,
+      "spy_value": 10407.44,
+      "cash": 4237.6
     }
   ],
   "stats": {
@@ -805,7 +766,7 @@
     "total_return_dollar": -704.24,
     "win_rate": 78.6,
     "total_trades": 35,
-    "days_active": 55,
+    "days_active": 58,
     "cash_pct": 45.6,
     "best_position": {
       "symbol": "HOOD",
