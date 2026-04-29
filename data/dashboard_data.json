@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-28 16:20 ET",
+  "generated_at": "2026-04-29 09:20 ET",
   "portfolio": {
     "name": "LukaFund",
     "inception_date": "2026-02-28",
@@ -53,7 +53,7 @@
     ],
     "total_value": 9245.66,
     "total_return_pct": -7.54,
-    "last_updated": "2026-04-28",
+    "last_updated": "2026-04-29",
     "benchmark": "SPY",
     "benchmark_start_price": 685.99
   },
@@ -323,6 +323,13 @@
   ],
   "recent_decisions": [
     {
+      "date": "2026-04-29",
+      "summary": "0 trades executed",
+      "portfolio_value": 9245.66,
+      "active_trades": [],
+      "holds": 7
+    },
+    {
       "date": "2026-04-28",
       "summary": "1 trades executed",
       "portfolio_value": 9294.68,
@@ -424,44 +431,6 @@
             "sma20": 15.78,
             "vol_ratio": 1.12,
             "change_pct": 3.44
-          }
-        }
-      ],
-      "holds": 5
-    },
-    {
-      "date": "2026-04-22",
-      "summary": "2 trades executed",
-      "portfolio_value": 9361.89,
-      "active_trades": [
-        {
-          "date": "2026-04-22",
-          "action": "SELL",
-          "symbol": "SOFI",
-          "quantity": 5,
-          "price": 18.83,
-          "reasoning": "RSI 76.1 \u2014 overbought territory, trimming exposure",
-          "conviction": 3,
-          "indicators": {
-            "rsi": 76.1,
-            "sma20": 16.94,
-            "vol_ratio": 1.18,
-            "change_pct": -3.44
-          }
-        },
-        {
-          "date": "2026-04-22",
-          "action": "SHORT",
-          "symbol": "RIVN",
-          "quantity": 40,
-          "price": 17.15,
-          "reasoning": "BEARISH PLAY: RIVN near resistance (RSI 74.1, 9.3% above SMA) \u2014 structurally weak EV play, simulating put via short position",
-          "conviction": 4,
-          "indicators": {
-            "rsi": 74.1,
-            "sma20": 15.69,
-            "vol_ratio": 0.93,
-            "change_pct": 1.36
           }
         }
       ],
@@ -720,6 +689,12 @@
       "value": 9245.66,
       "spy_value": 10374.64,
       "cash": 4237.6
+    },
+    {
+      "date": "2026-04-29",
+      "value": 9245.66,
+      "spy_value": 10374.64,
+      "cash": 4237.6
     }
   ],
   "stats": {
@@ -727,7 +702,7 @@
     "total_return_dollar": -754.34,
     "win_rate": 78.6,
     "total_trades": 35,
-    "days_active": 59,
+    "days_active": 60,
     "cash_pct": 45.8,
     "best_position": {
       "symbol": "SOFI",
