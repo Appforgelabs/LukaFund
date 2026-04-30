@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-29 16:20 ET",
+  "generated_at": "2026-04-30 09:20 ET",
   "portfolio": {
     "name": "LukaFund",
     "inception_date": "2026-02-28",
@@ -31,7 +31,7 @@
         "symbol": "SOFI",
         "quantity": 3,
         "avg_cost": 15.7579,
-        "current_price": 15.525,
+        "current_price": 15.53,
         "entry_date": "2026-04-01"
       },
       {
@@ -51,9 +51,9 @@
         "type": "short"
       }
     ],
-    "total_value": 9086.03,
+    "total_value": 9086.05,
     "total_return_pct": -9.14,
-    "last_updated": "2026-04-29",
+    "last_updated": "2026-04-30",
     "benchmark": "SPY",
     "benchmark_start_price": 685.99
   },
@@ -122,10 +122,10 @@
       "symbol": "SOFI",
       "quantity": 3,
       "avg_cost": 15.7579,
-      "current_price": 15.525,
-      "market_value": 46.58,
-      "pnl_dollar": -0.7,
-      "pnl_pct": -1.48,
+      "current_price": 15.53,
+      "market_value": 46.59,
+      "pnl_dollar": -0.68,
+      "pnl_pct": -1.45,
       "conviction": 2,
       "entry_date": "2026-04-01",
       "type": "long"
@@ -323,6 +323,13 @@
   ],
   "recent_decisions": [
     {
+      "date": "2026-04-30",
+      "summary": "0 trades executed",
+      "portfolio_value": 9086.05,
+      "active_trades": [],
+      "holds": 7
+    },
+    {
       "date": "2026-04-29",
       "summary": "0 trades executed",
       "portfolio_value": 9245.66,
@@ -397,44 +404,6 @@
         }
       ],
       "holds": 6
-    },
-    {
-      "date": "2026-04-23",
-      "summary": "2 trades executed",
-      "portfolio_value": 9449.42,
-      "active_trades": [
-        {
-          "date": "2026-04-23",
-          "action": "SELL",
-          "symbol": "SOFI",
-          "quantity": 3,
-          "price": 19.06,
-          "reasoning": "RSI 80.5 \u2014 overbought territory, trimming exposure",
-          "conviction": 3,
-          "indicators": {
-            "rsi": 80.5,
-            "sma20": 17.06,
-            "vol_ratio": 0.84,
-            "change_pct": 1.22
-          }
-        },
-        {
-          "date": "2026-04-23",
-          "action": "SHORT",
-          "symbol": "RIVN",
-          "quantity": 39,
-          "price": 17.74,
-          "reasoning": "BEARISH PLAY: RIVN near resistance (RSI 78.9, 12.4% above SMA) \u2014 structurally weak EV play, simulating put via short position",
-          "conviction": 4,
-          "indicators": {
-            "rsi": 78.9,
-            "sma20": 15.78,
-            "vol_ratio": 1.12,
-            "change_pct": 3.44
-          }
-        }
-      ],
-      "holds": 5
     }
   ],
   "equity_curve": [
@@ -695,14 +664,20 @@
       "value": 9086.03,
       "spy_value": 10373.04,
       "cash": 4237.6
+    },
+    {
+      "date": "2026-04-30",
+      "value": 9086.05,
+      "spy_value": 10373.04,
+      "cash": 4237.6
     }
   ],
   "stats": {
     "total_return_pct": -9.14,
-    "total_return_dollar": -913.97,
+    "total_return_dollar": -913.95,
     "win_rate": 78.6,
     "total_trades": 35,
-    "days_active": 60,
+    "days_active": 61,
     "cash_pct": 46.6,
     "best_position": {
       "symbol": "RIVN",
@@ -710,7 +685,7 @@
     },
     "worst_position": {
       "symbol": "SOFI",
-      "pnl_pct": -1.48
+      "pnl_pct": -1.45
     }
   }
 }
