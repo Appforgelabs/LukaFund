@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01 16:20 ET",
+  "generated_at": "2026-05-04 09:26 ET",
   "portfolio": {
     "name": "LukaFund",
     "inception_date": "2026-02-28",
@@ -53,7 +53,7 @@
     ],
     "total_value": 9395.47,
     "total_return_pct": -6.05,
-    "last_updated": "2026-05-01",
+    "last_updated": "2026-05-04",
     "benchmark": "SPY",
     "benchmark_start_price": 685.99
   },
@@ -323,6 +323,13 @@
   ],
   "recent_decisions": [
     {
+      "date": "2026-05-04",
+      "summary": "0 trades executed",
+      "portfolio_value": 9395.47,
+      "active_trades": [],
+      "holds": 7
+    },
+    {
       "date": "2026-04-30",
       "summary": "0 trades executed",
       "portfolio_value": 9086.05,
@@ -377,29 +384,6 @@
             "sma20": 15.91,
             "vol_ratio": 0.99,
             "change_pct": -2.54
-          }
-        }
-      ],
-      "holds": 6
-    },
-    {
-      "date": "2026-04-24",
-      "summary": "1 trades executed",
-      "portfolio_value": 9224.23,
-      "active_trades": [
-        {
-          "date": "2026-04-24",
-          "action": "SHORT",
-          "symbol": "RIVN",
-          "quantity": 40,
-          "price": 16.95,
-          "reasoning": "BEARISH PLAY: RIVN near resistance (RSI 65.0, 7.0% above SMA) \u2014 structurally weak EV play, simulating put via short position",
-          "conviction": 4,
-          "indicators": {
-            "rsi": 65.0,
-            "sma20": 15.84,
-            "vol_ratio": 1.03,
-            "change_pct": -4.45
           }
         }
       ],
@@ -676,6 +660,12 @@
       "value": 9395.47,
       "spy_value": 10505.26,
       "cash": 4237.6
+    },
+    {
+      "date": "2026-05-04",
+      "value": 9395.47,
+      "spy_value": 10505.26,
+      "cash": 4237.6
     }
   ],
   "stats": {
@@ -683,7 +673,7 @@
     "total_return_dollar": -604.53,
     "win_rate": 78.6,
     "total_trades": 35,
-    "days_active": 62,
+    "days_active": 65,
     "cash_pct": 45.1,
     "best_position": {
       "symbol": "NIO",
