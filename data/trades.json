@@ -661,6 +661,42 @@
         "change_pct": -1.4
       },
       "conviction": 3
+    },
+    {
+      "date": "2026-05-06",
+      "symbol": "HOOD",
+      "action": "BUY",
+      "quantity": 9,
+      "price": 77.03,
+      "total_cost": 693.27,
+      "reasoning": "OVERSOLD DIP: price $77.03 is 3.6% below 20-day SMA, RSI 36.2 \u2014 capitulation zone, small position entry",
+      "cash_after": 2847.73,
+      "portfolio_value_after": 9308.8,
+      "indicators": {
+        "rsi": 36.2,
+        "sma20": 79.93,
+        "vol_ratio": 0.69,
+        "change_pct": 0.63
+      },
+      "conviction": 3
+    },
+    {
+      "date": "2026-05-06",
+      "symbol": "SOFI",
+      "action": "BUY",
+      "quantity": 43,
+      "price": 16.02,
+      "total_cost": 688.86,
+      "reasoning": "OVERSOLD DIP: price $16.02 is 9.2% below 20-day SMA, RSI 31.1 \u2014 capitulation zone, small position entry",
+      "cash_after": 2158.87,
+      "portfolio_value_after": 9308.8,
+      "indicators": {
+        "rsi": 31.1,
+        "sma20": 17.64,
+        "vol_ratio": 0.81,
+        "change_pct": -1.11
+      },
+      "conviction": 3
     }
   ]
 }
