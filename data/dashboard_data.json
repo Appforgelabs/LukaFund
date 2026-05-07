@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-06 16:20 ET",
+  "generated_at": "2026-05-07 09:17 ET",
   "portfolio": {
     "name": "LukaFund",
     "inception_date": "2026-02-28",
@@ -53,7 +53,7 @@
     ],
     "total_value": 9399.46,
     "total_return_pct": -6.01,
-    "last_updated": "2026-05-06",
+    "last_updated": "2026-05-07",
     "benchmark": "SPY",
     "benchmark_start_price": 685.99
   },
@@ -320,6 +320,13 @@
   ],
   "recent_decisions": [
     {
+      "date": "2026-05-07",
+      "summary": "0 trades executed",
+      "portfolio_value": 9399.46,
+      "active_trades": [],
+      "holds": 7
+    },
+    {
       "date": "2026-05-06",
       "summary": "2 trades executed",
       "portfolio_value": 9308.8,
@@ -391,13 +398,6 @@
       "date": "2026-04-30",
       "summary": "0 trades executed",
       "portfolio_value": 9086.05,
-      "active_trades": [],
-      "holds": 7
-    },
-    {
-      "date": "2026-04-29",
-      "summary": "0 trades executed",
-      "portfolio_value": 9245.66,
       "active_trades": [],
       "holds": 7
     }
@@ -690,6 +690,12 @@
       "value": 9399.46,
       "spy_value": 10697.39,
       "cash": 2158.87
+    },
+    {
+      "date": "2026-05-07",
+      "value": 9399.46,
+      "spy_value": 10697.39,
+      "cash": 2158.87
     }
   ],
   "stats": {
@@ -697,7 +703,7 @@
     "total_return_dollar": -600.54,
     "win_rate": 78.6,
     "total_trades": 38,
-    "days_active": 67,
+    "days_active": 68,
     "cash_pct": 23.0,
     "best_position": {
       "symbol": "RIVN",
