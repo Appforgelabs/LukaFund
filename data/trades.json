@@ -697,6 +697,24 @@
         "change_pct": -1.11
       },
       "conviction": 3
+    },
+    {
+      "date": "2026-05-08",
+      "symbol": "HOOD",
+      "action": "BUY",
+      "quantity": 9,
+      "price": 76.28,
+      "total_cost": 686.52,
+      "reasoning": "OVERSOLD DIP: price $76.28 is 5.4% below 20-day SMA, RSI 30.7 \u2014 capitulation zone, small position entry",
+      "cash_after": 1472.35,
+      "portfolio_value_after": 9465.15,
+      "indicators": {
+        "rsi": 30.7,
+        "sma20": 80.6,
+        "vol_ratio": 0.62,
+        "change_pct": -3.5
+      },
+      "conviction": 3
     }
   ]
 }

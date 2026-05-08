@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-07 16:20 ET",
+  "generated_at": "2026-05-08 09:17 ET",
   "portfolio": {
     "name": "LukaFund",
     "inception_date": "2026-02-28",
     "starting_capital": 10000.0,
-    "cash": 2158.87,
+    "cash": 1472.35,
     "positions": [
       {
         "symbol": "TSLA",
@@ -15,8 +15,8 @@
       },
       {
         "symbol": "HOOD",
-        "quantity": 17,
-        "avg_cost": 74.3147,
+        "quantity": 26,
+        "avg_cost": 74.995,
         "current_price": 76.28,
         "entry_date": "2026-03-23"
       },
@@ -53,7 +53,7 @@
     ],
     "total_value": 9465.15,
     "total_return_pct": -5.35,
-    "last_updated": "2026-05-07",
+    "last_updated": "2026-05-08",
     "benchmark": "SPY",
     "benchmark_start_price": 685.99
   },
@@ -68,6 +68,18 @@
       "pnl_pct": 10.47,
       "conviction": 4,
       "entry_date": "2026-03-09",
+      "type": "long"
+    },
+    {
+      "symbol": "HOOD",
+      "quantity": 26,
+      "avg_cost": 74.995,
+      "current_price": 76.28,
+      "market_value": 1983.28,
+      "pnl_dollar": 33.41,
+      "pnl_pct": 1.71,
+      "conviction": 3,
+      "entry_date": "2026-03-23",
       "type": "long"
     },
     {
@@ -92,18 +104,6 @@
       "pnl_pct": -0.61,
       "conviction": 2,
       "entry_date": "2026-04-01",
-      "type": "long"
-    },
-    {
-      "symbol": "HOOD",
-      "quantity": 17,
-      "avg_cost": 74.3147,
-      "current_price": 76.28,
-      "market_value": 1296.76,
-      "pnl_dollar": 33.41,
-      "pnl_pct": 2.64,
-      "conviction": 3,
-      "entry_date": "2026-03-23",
       "type": "long"
     },
     {
@@ -132,6 +132,24 @@
     }
   ],
   "recent_trades": [
+    {
+      "date": "2026-05-08",
+      "symbol": "HOOD",
+      "action": "BUY",
+      "quantity": 9,
+      "price": 76.28,
+      "total_cost": 686.52,
+      "reasoning": "OVERSOLD DIP: price $76.28 is 5.4% below 20-day SMA, RSI 30.7 \u2014 capitulation zone, small position entry",
+      "cash_after": 1472.35,
+      "portfolio_value_after": 9465.15,
+      "indicators": {
+        "rsi": 30.7,
+        "sma20": 80.6,
+        "vol_ratio": 0.62,
+        "change_pct": -3.5
+      },
+      "conviction": 3
+    },
     {
       "date": "2026-05-06",
       "symbol": "SOFI",
@@ -297,28 +315,32 @@
       },
       "conviction": 4,
       "realized_pnl": 140.14
-    },
-    {
-      "date": "2026-04-20",
-      "symbol": "NIO",
-      "action": "SELL",
-      "quantity": 1,
-      "price": 6.83,
-      "total_cost": 6.83,
-      "reasoning": "RSI 76.2 \u2014 overbought territory, trimming exposure",
-      "cash_after": 3232.81,
-      "portfolio_value_after": 9474.7,
-      "indicators": {
-        "rsi": 76.2,
-        "sma20": 6.11,
-        "vol_ratio": 0.84,
-        "change_pct": -0.58
-      },
-      "conviction": 3,
-      "realized_pnl": -148.03
     }
   ],
   "recent_decisions": [
+    {
+      "date": "2026-05-08",
+      "summary": "1 trades executed",
+      "portfolio_value": 9465.15,
+      "active_trades": [
+        {
+          "date": "2026-05-08",
+          "action": "BUY",
+          "symbol": "HOOD",
+          "quantity": 9,
+          "price": 76.28,
+          "reasoning": "OVERSOLD DIP: price $76.28 is 5.4% below 20-day SMA, RSI 30.7 \u2014 capitulation zone, small position entry",
+          "conviction": 3,
+          "indicators": {
+            "rsi": 30.7,
+            "sma20": 80.6,
+            "vol_ratio": 0.62,
+            "change_pct": -3.5
+          }
+        }
+      ],
+      "holds": 6
+    },
     {
       "date": "2026-05-07",
       "summary": "0 trades executed",
@@ -391,13 +413,6 @@
       "date": "2026-05-04",
       "summary": "0 trades executed",
       "portfolio_value": 9395.47,
-      "active_trades": [],
-      "holds": 7
-    },
-    {
-      "date": "2026-04-30",
-      "summary": "0 trades executed",
-      "portfolio_value": 9086.05,
       "active_trades": [],
       "holds": 7
     }
@@ -696,15 +711,21 @@
       "value": 9465.15,
       "spy_value": 10664.59,
       "cash": 2158.87
+    },
+    {
+      "date": "2026-05-08",
+      "value": 9465.15,
+      "spy_value": 10664.59,
+      "cash": 1472.35
     }
   ],
   "stats": {
     "total_return_pct": -5.35,
     "total_return_dollar": -534.85,
     "win_rate": 78.6,
-    "total_trades": 38,
-    "days_active": 68,
-    "cash_pct": 22.8,
+    "total_trades": 39,
+    "days_active": 69,
+    "cash_pct": 15.6,
     "best_position": {
       "symbol": "RIVN",
       "pnl_pct": 16.19
