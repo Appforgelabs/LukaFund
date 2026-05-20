@@ -495,7 +495,7 @@ async function loadData() {
     renderTrades(data.recent_trades);
     renderDecisions(data.recent_decisions);
 
-    document.getElementById('updated-at').textContent = 'Last updated: ' + data.generated_at;
+    document.getElementById('updated-at').textContent = 'Last updated: ' + (data.last_updated || data.generated_at || '—');
 
   } catch (e) {
     console.error(e);
