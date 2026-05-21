@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-20 16:20 ET",
+  "generated_at": "2026-05-21 09:18 ET",
   "portfolio": {
     "name": "LukaFund",
     "inception_date": "2026-02-28",
@@ -53,7 +53,7 @@
     ],
     "total_value": 9506.39,
     "total_return_pct": -4.94,
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-05-21",
     "benchmark": "SPY",
     "benchmark_start_price": 685.99
   },
@@ -319,6 +319,13 @@
   ],
   "recent_decisions": [
     {
+      "date": "2026-05-21",
+      "summary": "0 trades executed",
+      "portfolio_value": 9506.39,
+      "active_trades": [],
+      "holds": 7
+    },
+    {
       "date": "2026-05-20",
       "summary": "0 trades executed",
       "portfolio_value": 9336.62,
@@ -392,29 +399,6 @@
         }
       ],
       "holds": 5
-    },
-    {
-      "date": "2026-05-05",
-      "summary": "1 trades executed",
-      "portfolio_value": 9459.43,
-      "active_trades": [
-        {
-          "date": "2026-05-05",
-          "action": "BUY",
-          "symbol": "SOFI",
-          "quantity": 43,
-          "price": 16.2,
-          "reasoning": "OVERSOLD DIP: price $16.2 is 8.2% below 20-day SMA, RSI 39.4 \u2014 capitulation zone, small position entry",
-          "conviction": 3,
-          "indicators": {
-            "rsi": 39.4,
-            "sma20": 17.64,
-            "vol_ratio": 1.0,
-            "change_pct": -1.4
-          }
-        }
-      ],
-      "holds": 6
     }
   ],
   "equity_curve": [
@@ -723,6 +707,12 @@
       "value": 9506.39,
       "spy_value": 10805.55,
       "cash": 1472.35
+    },
+    {
+      "date": "2026-05-21",
+      "value": 9506.39,
+      "spy_value": 10805.55,
+      "cash": 1472.35
     }
   ],
   "stats": {
@@ -730,7 +720,7 @@
     "total_return_dollar": -493.61,
     "win_rate": 78.6,
     "total_trades": 39,
-    "days_active": 81,
+    "days_active": 82,
     "cash_pct": 15.5,
     "best_position": {
       "symbol": "RIVN",
