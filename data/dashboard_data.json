@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21 16:20 ET",
+  "generated_at": "2026-05-22 09:17 ET",
   "portfolio": {
     "name": "LukaFund",
     "inception_date": "2026-02-28",
@@ -720,7 +720,7 @@
     "total_return_dollar": -504.04,
     "win_rate": 78.6,
     "total_trades": 39,
-    "days_active": 82,
+    "days_active": 83,
     "cash_pct": 15.5,
     "best_position": {
       "symbol": "RIVN",
