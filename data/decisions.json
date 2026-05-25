@@ -7060,30 +7060,48 @@
         },
         {
           "date": "2026-05-25",
-          "action": "SKIP",
+          "action": "HOLD",
           "symbol": "AMZN",
           "quantity": 0,
           "price": 266.32,
-          "reasoning": "Insufficient data (0 candles). Watching.",
-          "conviction": 0
+          "reasoning": "HOLD: no signal. Price $266.32 (-0.3% vs SMA20 $267.1), RSI 43.3, vol ratio 0.6x. Watching.",
+          "conviction": 1,
+          "indicators": {
+            "rsi": 43.3,
+            "sma20": 267.1,
+            "vol_ratio": 0.63,
+            "change_pct": -0.8
+          }
         },
         {
           "date": "2026-05-25",
-          "action": "SKIP",
+          "action": "HOLD",
           "symbol": "PLTR",
           "quantity": 0,
           "price": 136.88,
-          "reasoning": "Insufficient data (0 candles). Watching.",
-          "conviction": 0
+          "reasoning": "HOLD: no signal. Price $136.88 (-0.4% vs SMA20 $137.43), RSI 35.7, vol ratio 0.7x. Watching.",
+          "conviction": 1,
+          "indicators": {
+            "rsi": 35.7,
+            "sma20": 137.43,
+            "vol_ratio": 0.68,
+            "change_pct": -0.39
+          }
         },
         {
           "date": "2026-05-25",
-          "action": "SKIP",
+          "action": "HOLD",
           "symbol": "HOOD",
           "quantity": 0,
           "price": 73.64,
-          "reasoning": "Insufficient data (0 candles). Watching.",
-          "conviction": 0
+          "reasoning": "HOLD: no signal. Price $73.64 (-4.4% vs SMA20 $77.0), RSI 44.9, vol ratio 0.8x. Watching.",
+          "conviction": 1,
+          "indicators": {
+            "rsi": 44.9,
+            "sma20": 77.0,
+            "vol_ratio": 0.82,
+            "change_pct": -3.0
+          }
         },
         {
           "date": "2026-05-25",
@@ -7105,12 +7123,18 @@
         },
         {
           "date": "2026-05-25",
-          "action": "SKIP",
+          "action": "HOLD",
           "symbol": "NIO",
           "quantity": 0,
           "price": 5.2,
-          "reasoning": "Insufficient data (0 candles). Watching.",
-          "conviction": 0
+          "reasoning": "HOLD: no signal. Price $5.2 (-13.3% vs SMA20 $6.0), RSI 30.8, vol ratio 2.3x. Watching.",
+          "conviction": 1,
+          "indicators": {
+            "rsi": 30.8,
+            "sma20": 6.0,
+            "vol_ratio": 2.3,
+            "change_pct": -7.14
+          }
         }
       ],
       "portfolio_value": 9515.01,

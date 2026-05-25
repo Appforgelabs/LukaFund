@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-25 09:16 ET",
+  "generated_at": "2026-05-25 16:20 ET",
   "portfolio": {
     "name": "LukaFund",
     "inception_date": "2026-02-28",
@@ -323,7 +323,7 @@
       "summary": "0 trades executed",
       "portfolio_value": 9515.01,
       "active_trades": [],
-      "holds": 0
+      "holds": 4
     },
     {
       "date": "2026-05-22",
