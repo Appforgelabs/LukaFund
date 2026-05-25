@@ -7045,6 +7045,77 @@
       "portfolio_value": 9495.89,
       "cash": 1472.35,
       "summary": "0 trades executed"
+    },
+    {
+      "date": "2026-05-25",
+      "decisions": [
+        {
+          "date": "2026-05-25",
+          "action": "SKIP",
+          "symbol": "TSLA",
+          "quantity": 0,
+          "price": 426.01,
+          "reasoning": "Insufficient data (0 candles). Watching.",
+          "conviction": 0
+        },
+        {
+          "date": "2026-05-25",
+          "action": "SKIP",
+          "symbol": "AMZN",
+          "quantity": 0,
+          "price": 266.32,
+          "reasoning": "Insufficient data (0 candles). Watching.",
+          "conviction": 0
+        },
+        {
+          "date": "2026-05-25",
+          "action": "SKIP",
+          "symbol": "PLTR",
+          "quantity": 0,
+          "price": 136.88,
+          "reasoning": "Insufficient data (0 candles). Watching.",
+          "conviction": 0
+        },
+        {
+          "date": "2026-05-25",
+          "action": "SKIP",
+          "symbol": "HOOD",
+          "quantity": 0,
+          "price": 73.64,
+          "reasoning": "Insufficient data (0 candles). Watching.",
+          "conviction": 0
+        },
+        {
+          "date": "2026-05-25",
+          "action": "SKIP",
+          "symbol": "SOFI",
+          "quantity": 0,
+          "price": 15.62,
+          "reasoning": "Insufficient data (0 candles). Watching.",
+          "conviction": 0
+        },
+        {
+          "date": "2026-05-25",
+          "action": "SKIP",
+          "symbol": "RIVN",
+          "quantity": 0,
+          "price": 14.22,
+          "reasoning": "Insufficient data (0 candles). Watching.",
+          "conviction": 0
+        },
+        {
+          "date": "2026-05-25",
+          "action": "SKIP",
+          "symbol": "NIO",
+          "quantity": 0,
+          "price": 5.2,
+          "reasoning": "Insufficient data (0 candles). Watching.",
+          "conviction": 0
+        }
+      ],
+      "portfolio_value": 9515.01,
+      "cash": 1472.35,
+      "summary": "0 trades executed"
     }
   ]
 }

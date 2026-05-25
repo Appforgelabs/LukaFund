@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-22 16:20 ET",
+  "generated_at": "2026-05-25 09:16 ET",
   "portfolio": {
     "name": "LukaFund",
     "inception_date": "2026-02-28",
@@ -53,7 +53,7 @@
     ],
     "total_value": 9515.01,
     "total_return_pct": -4.85,
-    "last_updated": "2026-05-22",
+    "last_updated": "2026-05-25",
     "benchmark": "SPY",
     "benchmark_start_price": 685.99
   },
@@ -319,6 +319,13 @@
   ],
   "recent_decisions": [
     {
+      "date": "2026-05-25",
+      "summary": "0 trades executed",
+      "portfolio_value": 9515.01,
+      "active_trades": [],
+      "holds": 0
+    },
+    {
       "date": "2026-05-22",
       "summary": "0 trades executed",
       "portfolio_value": 9495.89,
@@ -361,13 +368,6 @@
         }
       ],
       "holds": 6
-    },
-    {
-      "date": "2026-05-07",
-      "summary": "0 trades executed",
-      "portfolio_value": 9399.46,
-      "active_trades": [],
-      "holds": 7
     }
   ],
   "equity_curve": [
@@ -688,6 +688,12 @@
       "value": 9515.01,
       "spy_value": 10869.55,
       "cash": 1472.35
+    },
+    {
+      "date": "2026-05-25",
+      "value": 9515.01,
+      "spy_value": 10869.55,
+      "cash": 1472.35
     }
   ],
   "stats": {
@@ -695,7 +701,7 @@
     "total_return_dollar": -484.99,
     "win_rate": 78.6,
     "total_trades": 39,
-    "days_active": 83,
+    "days_active": 86,
     "cash_pct": 15.5,
     "best_position": {
       "symbol": "NIO",
