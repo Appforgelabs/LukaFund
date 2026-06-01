@@ -2,7 +2,7 @@
   "name": "LukaFund",
   "inception_date": "2026-02-28",
   "starting_capital": 10000.0,
-  "cash": 1472.35,
+  "cash": 2698.25,
   "positions": [
     {
       "symbol": "TSLA",
@@ -13,7 +13,7 @@
     },
     {
       "symbol": "HOOD",
-      "quantity": 26,
+      "quantity": 13,
       "avg_cost": 74.995,
       "current_price": 94.3,
       "entry_date": "2026-03-23"
@@ -51,7 +51,7 @@
   ],
   "total_value": 10489.81,
   "total_return_pct": 4.9,
-  "last_updated": "2026-05-29",
+  "last_updated": "2026-06-01",
   "benchmark": "SPY",
   "benchmark_start_price": 685.99
 }
