@@ -734,6 +734,25 @@
       },
       "conviction": 4,
       "realized_pnl": 250.96
+    },
+    {
+      "date": "2026-06-02",
+      "symbol": "PLTR",
+      "action": "SELL",
+      "quantity": 7,
+      "price": 160.65,
+      "total_cost": 1124.55,
+      "reasoning": "RSI 75.1 \u2014 overbought territory, trimming exposure",
+      "cash_after": 3822.8,
+      "portfolio_value_after": 10346.59,
+      "indicators": {
+        "rsi": 75.1,
+        "sma20": 138.64,
+        "vol_ratio": 1.25,
+        "change_pct": 2.63
+      },
+      "conviction": 3,
+      "realized_pnl": 160.87
     }
   ]
 }
