@@ -8,35 +8,35 @@
       "symbol": "TSLA",
       "quantity": 6,
       "avg_cost": 372.7683,
-      "current_price": 423.74,
+      "current_price": 423.7,
       "entry_date": "2026-03-09"
     },
     {
       "symbol": "HOOD",
       "quantity": 13,
       "avg_cost": 74.995,
-      "current_price": 88.16,
+      "current_price": 82.85,
       "entry_date": "2026-03-23"
     },
     {
       "symbol": "PLTR",
       "quantity": 7,
       "avg_cost": 137.6679,
-      "current_price": 152.17,
+      "current_price": 142.2,
       "entry_date": "2026-03-30"
     },
     {
       "symbol": "SOFI",
       "quantity": 89,
       "avg_cost": 16.0981,
-      "current_price": 17.74,
+      "current_price": 16.68,
       "entry_date": "2026-04-01"
     },
     {
       "symbol": "RIVN",
       "quantity": -41,
       "avg_cost": 16.92,
-      "current_price": 17.29,
+      "current_price": 18.27,
       "entry_date": "2026-04-21",
       "type": "short"
     },
@@ -44,14 +44,14 @@
       "symbol": "NIO",
       "quantity": -106,
       "avg_cost": 6.66,
-      "current_price": 6.01,
+      "current_price": 5.75,
       "entry_date": "2026-04-21",
       "type": "short"
     }
   ],
-  "total_value": 10209.1,
-  "total_return_pct": 2.09,
-  "last_updated": "2026-06-02",
+  "total_value": 9963.08,
+  "total_return_pct": -0.37,
+  "last_updated": "2026-06-03",
   "benchmark": "SPY",
   "benchmark_start_price": 685.99
 }

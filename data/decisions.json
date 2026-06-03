@@ -7692,6 +7692,119 @@
       "portfolio_value": 10346.59,
       "cash": 3822.8,
       "summary": "2 trades executed"
+    },
+    {
+      "date": "2026-06-03",
+      "decisions": [
+        {
+          "date": "2026-06-03",
+          "action": "HOLD",
+          "symbol": "TSLA",
+          "quantity": 0,
+          "price": 423.74,
+          "reasoning": "HOLD: no signal. Price $423.74 (-0.1% vs SMA20 $424.21), RSI 46.1, vol ratio 0.7x. Watching.",
+          "conviction": 1,
+          "indicators": {
+            "rsi": 46.1,
+            "sma20": 424.21,
+            "vol_ratio": 0.74,
+            "change_pct": 1.89
+          }
+        },
+        {
+          "date": "2026-06-03",
+          "action": "HOLD",
+          "symbol": "AMZN",
+          "quantity": 0,
+          "price": 256.52,
+          "reasoning": "HOLD: no signal. Price $256.52 (-4.1% vs SMA20 $267.61), RSI 41.5, vol ratio 1.1x. Watching.",
+          "conviction": 1,
+          "indicators": {
+            "rsi": 41.5,
+            "sma20": 267.61,
+            "vol_ratio": 1.06,
+            "change_pct": -1.81
+          }
+        },
+        {
+          "date": "2026-06-03",
+          "action": "HOLD",
+          "symbol": "PLTR",
+          "quantity": 0,
+          "price": 152.17,
+          "reasoning": "HOLD: no signal. Price $152.17 (+9.5% vs SMA20 $138.94), RSI 64.7, vol ratio 1.0x. Watching.",
+          "conviction": 1,
+          "indicators": {
+            "rsi": 64.7,
+            "sma20": 138.94,
+            "vol_ratio": 0.96,
+            "change_pct": -5.28
+          }
+        },
+        {
+          "date": "2026-06-03",
+          "action": "HOLD",
+          "symbol": "HOOD",
+          "quantity": 0,
+          "price": 88.16,
+          "reasoning": "HOLD: no signal. Price $88.16 (+11.0% vs SMA20 $79.4), RSI 61.5, vol ratio 1.0x. Watching.",
+          "conviction": 1,
+          "indicators": {
+            "rsi": 61.5,
+            "sma20": 79.4,
+            "vol_ratio": 1.04,
+            "change_pct": -2.83
+          }
+        },
+        {
+          "date": "2026-06-03",
+          "action": "HOLD",
+          "symbol": "SOFI",
+          "quantity": 0,
+          "price": 17.74,
+          "reasoning": "HOLD: no signal. Price $17.74 (+9.2% vs SMA20 $16.24), RSI 63.9, vol ratio 1.1x. Watching.",
+          "conviction": 1,
+          "indicators": {
+            "rsi": 63.9,
+            "sma20": 16.24,
+            "vol_ratio": 1.14,
+            "change_pct": -4.52
+          }
+        },
+        {
+          "date": "2026-06-03",
+          "action": "SHORT",
+          "symbol": "RIVN",
+          "quantity": 44,
+          "price": 17.29,
+          "reasoning": "BEARISH PLAY: RIVN near resistance (RSI 75.4, 18.7% above SMA) \u2014 structurally weak EV play, simulating put via short position",
+          "conviction": 4,
+          "indicators": {
+            "rsi": 75.4,
+            "sma20": 14.56,
+            "vol_ratio": 1.24,
+            "change_pct": 2.01
+          }
+        },
+        {
+          "date": "2026-06-03",
+          "action": "HOLD",
+          "symbol": "NIO",
+          "quantity": 0,
+          "price": 6.01,
+          "reasoning": "HOLD: no signal. Price $6.01 (+2.9% vs SMA20 $5.84), RSI 48.8, vol ratio 0.8x. Watching.",
+          "conviction": 1,
+          "indicators": {
+            "rsi": 48.8,
+            "sma20": 5.84,
+            "vol_ratio": 0.82,
+            "change_pct": 0.5
+          }
+        }
+      ],
+      "portfolio_value": 10209.1,
+      "cash": 3822.8,
+      "summary": "1 trades executed"
     }
   ]
 }
