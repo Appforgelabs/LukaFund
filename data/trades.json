@@ -771,6 +771,24 @@
         "change_pct": -2.53
       },
       "conviction": 3
+    },
+    {
+      "date": "2026-06-12",
+      "symbol": "AMZN",
+      "action": "BUY",
+      "quantity": 3,
+      "price": 241.51,
+      "total_cost": 724.53,
+      "reasoning": "OVERSOLD DIP: price $241.51 is 6.6% below 20-day SMA, RSI 27.1 \u2014 capitulation zone, small position entry",
+      "cash_after": 2598.23,
+      "portfolio_value_after": 10009.02,
+      "indicators": {
+        "rsi": 27.1,
+        "sma20": 258.68,
+        "vol_ratio": 1.01,
+        "change_pct": 1.47
+      },
+      "conviction": 3
     }
   ]
 }
