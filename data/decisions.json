@@ -7918,6 +7918,95 @@
       "portfolio_value": 9963.08,
       "cash": 3322.76,
       "summary": "2 trades executed"
+    },
+    {
+      "date": "2026-06-11",
+      "decisions": [
+        {
+          "date": "2026-06-11",
+          "action": "SKIP",
+          "symbol": "TSLA",
+          "quantity": 0,
+          "price": 399.15,
+          "reasoning": "Insufficient data (0 candles). Watching.",
+          "conviction": 0
+        },
+        {
+          "date": "2026-06-11",
+          "action": "SKIP",
+          "symbol": "AMZN",
+          "quantity": 0,
+          "price": 241.51,
+          "reasoning": "Insufficient data (0 candles). Watching.",
+          "conviction": 0
+        },
+        {
+          "date": "2026-06-11",
+          "action": "SKIP",
+          "symbol": "PLTR",
+          "quantity": 0,
+          "price": 131.08,
+          "reasoning": "Insufficient data (0 candles). Watching.",
+          "conviction": 0
+        },
+        {
+          "date": "2026-06-11",
+          "action": "HOLD",
+          "symbol": "HOOD",
+          "quantity": 0,
+          "price": 92.23,
+          "reasoning": "HOLD: no signal. Price $92.23 (+13.3% vs SMA20 $81.42), RSI 60.1, vol ratio 1.5x. Watching.",
+          "conviction": 1,
+          "indicators": {
+            "rsi": 60.1,
+            "sma20": 81.42,
+            "vol_ratio": 1.49,
+            "change_pct": 6.8
+          }
+        },
+        {
+          "date": "2026-06-11",
+          "action": "HOLD",
+          "symbol": "SOFI",
+          "quantity": 0,
+          "price": 16.67,
+          "reasoning": "HOLD: no signal. Price $16.67 (+1.9% vs SMA20 $16.36), RSI 51.2, vol ratio 1.2x. Watching.",
+          "conviction": 1,
+          "indicators": {
+            "rsi": 51.2,
+            "sma20": 16.36,
+            "vol_ratio": 1.18,
+            "change_pct": 5.04
+          }
+        },
+        {
+          "date": "2026-06-11",
+          "action": "HOLD",
+          "symbol": "RIVN",
+          "quantity": 0,
+          "price": 15.54,
+          "reasoning": "HOLD: no signal. Price $15.54 (+1.6% vs SMA20 $15.29), RSI 55.7, vol ratio 0.7x. Watching.",
+          "conviction": 1,
+          "indicators": {
+            "rsi": 55.7,
+            "sma20": 15.29,
+            "vol_ratio": 0.74,
+            "change_pct": 5.28
+          }
+        },
+        {
+          "date": "2026-06-11",
+          "action": "SKIP",
+          "symbol": "NIO",
+          "quantity": 0,
+          "price": 5.23,
+          "reasoning": "Insufficient data (0 candles). Watching.",
+          "conviction": 0
+        }
+      ],
+      "portfolio_value": 10009.02,
+      "cash": 3322.76,
+      "summary": "0 trades executed"
     }
   ]
 }
