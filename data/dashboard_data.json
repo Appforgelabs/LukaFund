@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16 09:15 ET",
+  "generated_at": "2026-06-16 16:20 ET",
   "portfolio": {
     "name": "LukaFund",
     "inception_date": "2026-02-28",
@@ -10,35 +10,35 @@
         "symbol": "TSLA",
         "quantity": 6,
         "avg_cost": 372.7683,
-        "current_price": 411.15,
+        "current_price": 404.66,
         "entry_date": "2026-03-09"
       },
       {
         "symbol": "HOOD",
         "quantity": 13,
         "avg_cost": 74.995,
-        "current_price": 98.12,
+        "current_price": 96.71,
         "entry_date": "2026-03-23"
       },
       {
         "symbol": "PLTR",
         "quantity": 7,
         "avg_cost": 137.6679,
-        "current_price": 134.71,
+        "current_price": 133.25,
         "entry_date": "2026-03-30"
       },
       {
         "symbol": "SOFI",
         "quantity": 89,
         "avg_cost": 16.0981,
-        "current_price": 17.13,
+        "current_price": 17.71,
         "entry_date": "2026-04-01"
       },
       {
         "symbol": "RIVN",
         "quantity": -41,
         "avg_cost": 16.92,
-        "current_price": 16.68,
+        "current_price": 15.93,
         "entry_date": "2026-04-21",
         "type": "short"
       },
@@ -46,7 +46,7 @@
         "symbol": "NIO",
         "quantity": -106,
         "avg_cost": 6.66,
-        "current_price": 5.2,
+        "current_price": 5.01,
         "entry_date": "2026-04-21",
         "type": "short"
       },
@@ -54,12 +54,12 @@
         "symbol": "AMZN",
         "quantity": 8,
         "avg_cost": 242.5275,
-        "current_price": 246.02,
+        "current_price": 246,
         "entry_date": "2026-06-04"
       }
     ],
-    "total_value": 10225.34,
-    "total_return_pct": 2.25,
+    "total_value": 10260.2,
+    "total_return_pct": 2.6,
     "last_updated": "2026-06-16",
     "benchmark": "SPY",
     "benchmark_start_price": 685.99
@@ -69,11 +69,11 @@
       "symbol": "TSLA",
       "quantity": 6,
       "avg_cost": 372.7683,
-      "current_price": 411.15,
-      "market_value": 2466.9,
-      "pnl_dollar": 230.29,
-      "pnl_pct": 10.3,
-      "conviction": 4,
+      "current_price": 404.66,
+      "market_value": 2427.96,
+      "pnl_dollar": 191.35,
+      "pnl_pct": 8.56,
+      "conviction": 3,
       "entry_date": "2026-03-09",
       "type": "long"
     },
@@ -81,10 +81,10 @@
       "symbol": "AMZN",
       "quantity": 8,
       "avg_cost": 242.5275,
-      "current_price": 246.02,
-      "market_value": 1968.16,
-      "pnl_dollar": 27.94,
-      "pnl_pct": 1.44,
+      "current_price": 246,
+      "market_value": 1968,
+      "pnl_dollar": 27.78,
+      "pnl_pct": 1.43,
       "conviction": 3,
       "entry_date": "2026-06-04",
       "type": "long"
@@ -93,11 +93,11 @@
       "symbol": "SOFI",
       "quantity": 89,
       "avg_cost": 16.0981,
-      "current_price": 17.13,
-      "market_value": 1524.57,
-      "pnl_dollar": 91.84,
-      "pnl_pct": 6.41,
-      "conviction": 3,
+      "current_price": 17.71,
+      "market_value": 1576.19,
+      "pnl_dollar": 143.46,
+      "pnl_pct": 10.01,
+      "conviction": 4,
       "entry_date": "2026-04-01",
       "type": "long"
     },
@@ -105,10 +105,10 @@
       "symbol": "HOOD",
       "quantity": 13,
       "avg_cost": 74.995,
-      "current_price": 98.12,
-      "market_value": 1275.56,
-      "pnl_dollar": 300.62,
-      "pnl_pct": 30.84,
+      "current_price": 96.71,
+      "market_value": 1257.23,
+      "pnl_dollar": 282.29,
+      "pnl_pct": 28.96,
       "conviction": 5,
       "entry_date": "2026-03-23",
       "type": "long"
@@ -117,10 +117,10 @@
       "symbol": "PLTR",
       "quantity": 7,
       "avg_cost": 137.6679,
-      "current_price": 134.71,
-      "market_value": 942.97,
-      "pnl_dollar": -20.71,
-      "pnl_pct": -2.15,
+      "current_price": 133.25,
+      "market_value": 932.75,
+      "pnl_dollar": -30.93,
+      "pnl_pct": -3.21,
       "conviction": 2,
       "entry_date": "2026-03-30",
       "type": "long"
@@ -129,10 +129,10 @@
       "symbol": "RIVN",
       "quantity": -41,
       "avg_cost": 16.92,
-      "current_price": 16.68,
-      "market_value": 683.88,
-      "pnl_dollar": 9.84,
-      "pnl_pct": 1.42,
+      "current_price": 15.93,
+      "market_value": 653.13,
+      "pnl_dollar": 40.59,
+      "pnl_pct": 5.85,
       "conviction": 3,
       "entry_date": "2026-04-21",
       "type": "short"
@@ -141,10 +141,10 @@
       "symbol": "NIO",
       "quantity": -106,
       "avg_cost": 6.66,
-      "current_price": 5.2,
-      "market_value": 551.2,
-      "pnl_dollar": 154.76,
-      "pnl_pct": 21.92,
+      "current_price": 5.01,
+      "market_value": 531.06,
+      "pnl_dollar": 174.9,
+      "pnl_pct": 24.77,
       "conviction": 5,
       "entry_date": "2026-04-21",
       "type": "short"
@@ -843,25 +843,25 @@
     },
     {
       "date": "2026-06-16",
-      "value": 10225.34,
-      "spy_value": 11003.51,
+      "value": 10260.2,
+      "spy_value": 10937.91,
       "cash": 1882.58
     }
   ],
   "stats": {
-    "total_return_pct": 2.25,
-    "total_return_dollar": 225.34,
+    "total_return_pct": 2.6,
+    "total_return_dollar": 260.2,
     "win_rate": 81.2,
     "total_trades": 44,
     "days_active": 108,
-    "cash_pct": 18.4,
+    "cash_pct": 18.3,
     "best_position": {
       "symbol": "HOOD",
-      "pnl_pct": 30.84
+      "pnl_pct": 28.96
     },
     "worst_position": {
       "symbol": "PLTR",
-      "pnl_pct": -2.15
+      "pnl_pct": -3.21
     }
   }
 }
