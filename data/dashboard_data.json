@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16 16:20 ET",
+  "generated_at": "2026-06-17 09:16 ET",
   "portfolio": {
     "name": "LukaFund",
     "inception_date": "2026-02-28",
@@ -853,7 +853,7 @@
     "total_return_dollar": 260.2,
     "win_rate": 81.2,
     "total_trades": 44,
-    "days_active": 108,
+    "days_active": 109,
     "cash_pct": 18.3,
     "best_position": {
       "symbol": "HOOD",
