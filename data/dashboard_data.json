@@ -4,7 +4,7 @@
     "name": "LukaFund",
     "inception_date": "2026-02-28",
     "starting_capital": 10000.0,
-    "cash": 1882.58,
+    "cash": 2462.84,
     "positions": [
       {
         "symbol": "TSLA",
@@ -15,7 +15,7 @@
       },
       {
         "symbol": "HOOD",
-        "quantity": 13,
+        "quantity": 7,
         "avg_cost": 74.995,
         "current_price": 96.71,
         "entry_date": "2026-03-23"
@@ -60,7 +60,7 @@
     ],
     "total_value": 10260.2,
     "total_return_pct": 2.6,
-    "last_updated": "2026-06-16",
+    "last_updated": "2026-06-17",
     "benchmark": "SPY",
     "benchmark_start_price": 685.99
   },
@@ -102,18 +102,6 @@
       "type": "long"
     },
     {
-      "symbol": "HOOD",
-      "quantity": 13,
-      "avg_cost": 74.995,
-      "current_price": 96.71,
-      "market_value": 1257.23,
-      "pnl_dollar": 282.29,
-      "pnl_pct": 28.96,
-      "conviction": 5,
-      "entry_date": "2026-03-23",
-      "type": "long"
-    },
-    {
       "symbol": "PLTR",
       "quantity": 7,
       "avg_cost": 137.6679,
@@ -123,6 +111,18 @@
       "pnl_pct": -3.21,
       "conviction": 2,
       "entry_date": "2026-03-30",
+      "type": "long"
+    },
+    {
+      "symbol": "HOOD",
+      "quantity": 7,
+      "avg_cost": 74.995,
+      "current_price": 96.71,
+      "market_value": 676.97,
+      "pnl_dollar": 152.0,
+      "pnl_pct": 28.96,
+      "conviction": 5,
+      "entry_date": "2026-03-23",
       "type": "long"
     },
     {
@@ -151,6 +151,25 @@
     }
   ],
   "recent_trades": [
+    {
+      "date": "2026-06-17",
+      "symbol": "HOOD",
+      "action": "SELL",
+      "quantity": 6,
+      "price": 96.71,
+      "total_cost": 580.26,
+      "reasoning": "PROFIT TAKE: position up 29.0% \u2014 harvesting 50% of gains, let the rest run",
+      "cash_after": 2462.84,
+      "portfolio_value_after": 10260.2,
+      "indicators": {
+        "rsi": 66.9,
+        "sma20": 84.84,
+        "vol_ratio": 1.02,
+        "change_pct": -1.44
+      },
+      "conviction": 4,
+      "realized_pnl": 130.29
+    },
     {
       "date": "2026-06-15",
       "symbol": "AMZN",
@@ -314,28 +333,32 @@
         "change_pct": -1.4
       },
       "conviction": 3
-    },
-    {
-      "date": "2026-04-23",
-      "symbol": "SOFI",
-      "action": "SELL",
-      "quantity": 3,
-      "price": 19.06,
-      "total_cost": 57.18,
-      "reasoning": "RSI 80.5 \u2014 overbought territory, trimming exposure",
-      "cash_after": 4237.6,
-      "portfolio_value_after": 9449.42,
-      "indicators": {
-        "rsi": 80.5,
-        "sma20": 17.06,
-        "vol_ratio": 0.84,
-        "change_pct": 1.22
-      },
-      "conviction": 3,
-      "realized_pnl": 9.91
     }
   ],
   "recent_decisions": [
+    {
+      "date": "2026-06-17",
+      "summary": "1 trades executed",
+      "portfolio_value": 10260.2,
+      "active_trades": [
+        {
+          "date": "2026-06-17",
+          "action": "SELL",
+          "symbol": "HOOD",
+          "quantity": 6,
+          "price": 96.71,
+          "reasoning": "PROFIT TAKE: position up 29.0% \u2014 harvesting 50% of gains, let the rest run",
+          "conviction": 4,
+          "indicators": {
+            "rsi": 66.9,
+            "sma20": 84.84,
+            "vol_ratio": 1.02,
+            "change_pct": -1.44
+          }
+        }
+      ],
+      "holds": 5
+    },
     {
       "date": "2026-06-16",
       "summary": "0 trades executed",
@@ -410,44 +433,6 @@
       "portfolio_value": 10009.02,
       "active_trades": [],
       "holds": 3
-    },
-    {
-      "date": "2026-06-04",
-      "summary": "2 trades executed",
-      "portfolio_value": 9963.08,
-      "active_trades": [
-        {
-          "date": "2026-06-04",
-          "action": "BUY",
-          "symbol": "AMZN",
-          "quantity": 2,
-          "price": 250.02,
-          "reasoning": "OVERSOLD DIP: price $250.02 is 6.2% below 20-day SMA, RSI 32.4 \u2014 capitulation zone, small position entry",
-          "conviction": 3,
-          "indicators": {
-            "rsi": 32.4,
-            "sma20": 266.44,
-            "vol_ratio": 1.29,
-            "change_pct": -2.53
-          }
-        },
-        {
-          "date": "2026-06-04",
-          "action": "SHORT",
-          "symbol": "RIVN",
-          "quantity": 40,
-          "price": 18.27,
-          "reasoning": "BEARISH PLAY: RIVN near resistance (RSI 77.6, 23.9% above SMA) \u2014 structurally weak EV play, simulating put via short position",
-          "conviction": 4,
-          "indicators": {
-            "rsi": 77.6,
-            "sma20": 14.75,
-            "vol_ratio": 1.58,
-            "change_pct": 5.67
-          }
-        }
-      ],
-      "holds": 5
     }
   ],
   "equity_curve": [
@@ -846,15 +831,21 @@
       "value": 10260.2,
       "spy_value": 10937.91,
       "cash": 1882.58
+    },
+    {
+      "date": "2026-06-17",
+      "value": 10260.2,
+      "spy_value": 10937.91,
+      "cash": 2462.84
     }
   ],
   "stats": {
     "total_return_pct": 2.6,
     "total_return_dollar": 260.2,
-    "win_rate": 81.2,
-    "total_trades": 44,
+    "win_rate": 82.4,
+    "total_trades": 45,
     "days_active": 109,
-    "cash_pct": 18.3,
+    "cash_pct": 24.0,
     "best_position": {
       "symbol": "HOOD",
       "pnl_pct": 28.96
