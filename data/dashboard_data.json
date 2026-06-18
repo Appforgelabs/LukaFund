@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-17 16:20 ET",
+  "generated_at": "2026-06-18 09:17 ET",
   "portfolio": {
     "name": "LukaFund",
     "inception_date": "2026-02-28",
     "starting_capital": 10000.0,
-    "cash": 2462.84,
+    "cash": 2778.44,
     "positions": [
       {
         "symbol": "TSLA",
@@ -15,7 +15,7 @@
       },
       {
         "symbol": "HOOD",
-        "quantity": 7,
+        "quantity": 4,
         "avg_cost": 74.995,
         "current_price": 105.2,
         "entry_date": "2026-03-23"
@@ -60,7 +60,7 @@
     ],
     "total_value": 10140.03,
     "total_return_pct": 1.4,
-    "last_updated": "2026-06-17",
+    "last_updated": "2026-06-18",
     "benchmark": "SPY",
     "benchmark_start_price": 685.99
   },
@@ -114,18 +114,6 @@
       "type": "long"
     },
     {
-      "symbol": "HOOD",
-      "quantity": 7,
-      "avg_cost": 74.995,
-      "current_price": 105.2,
-      "market_value": 736.4,
-      "pnl_dollar": 211.44,
-      "pnl_pct": 40.28,
-      "conviction": 5,
-      "entry_date": "2026-03-23",
-      "type": "long"
-    },
-    {
       "symbol": "RIVN",
       "quantity": -41,
       "avg_cost": 16.92,
@@ -148,9 +136,40 @@
       "conviction": 5,
       "entry_date": "2026-04-21",
       "type": "short"
+    },
+    {
+      "symbol": "HOOD",
+      "quantity": 4,
+      "avg_cost": 74.995,
+      "current_price": 105.2,
+      "market_value": 420.8,
+      "pnl_dollar": 120.82,
+      "pnl_pct": 40.28,
+      "conviction": 5,
+      "entry_date": "2026-03-23",
+      "type": "long"
     }
   ],
   "recent_trades": [
+    {
+      "date": "2026-06-18",
+      "symbol": "HOOD",
+      "action": "SELL",
+      "quantity": 3,
+      "price": 105.2,
+      "total_cost": 315.6,
+      "reasoning": "PROFIT TAKE: position up 40.3% \u2014 harvesting 50% of gains, let the rest run",
+      "cash_after": 2778.44,
+      "portfolio_value_after": 10140.03,
+      "indicators": {
+        "rsi": 66.9,
+        "sma20": 86.4,
+        "vol_ratio": 2.11,
+        "change_pct": 8.78
+      },
+      "conviction": 4,
+      "realized_pnl": 90.61
+    },
     {
       "date": "2026-06-17",
       "symbol": "HOOD",
@@ -315,27 +334,32 @@
         "change_pct": 0.63
       },
       "conviction": 3
-    },
-    {
-      "date": "2026-05-05",
-      "symbol": "SOFI",
-      "action": "BUY",
-      "quantity": 43,
-      "price": 16.2,
-      "total_cost": 696.6,
-      "reasoning": "OVERSOLD DIP: price $16.2 is 8.2% below 20-day SMA, RSI 39.4 \u2014 capitulation zone, small position entry",
-      "cash_after": 3541.0,
-      "portfolio_value_after": 9459.43,
-      "indicators": {
-        "rsi": 39.4,
-        "sma20": 17.64,
-        "vol_ratio": 1.0,
-        "change_pct": -1.4
-      },
-      "conviction": 3
     }
   ],
   "recent_decisions": [
+    {
+      "date": "2026-06-18",
+      "summary": "1 trades executed",
+      "portfolio_value": 10140.03,
+      "active_trades": [
+        {
+          "date": "2026-06-18",
+          "action": "SELL",
+          "symbol": "HOOD",
+          "quantity": 3,
+          "price": 105.2,
+          "reasoning": "PROFIT TAKE: position up 40.3% \u2014 harvesting 50% of gains, let the rest run",
+          "conviction": 4,
+          "indicators": {
+            "rsi": 66.9,
+            "sma20": 86.4,
+            "vol_ratio": 2.11,
+            "change_pct": 8.78
+          }
+        }
+      ],
+      "holds": 6
+    },
     {
       "date": "2026-06-17",
       "summary": "1 trades executed",
@@ -426,13 +450,6 @@
         }
       ],
       "holds": 6
-    },
-    {
-      "date": "2026-06-11",
-      "summary": "0 trades executed",
-      "portfolio_value": 10009.02,
-      "active_trades": [],
-      "holds": 3
     }
   ],
   "equity_curve": [
@@ -837,15 +854,21 @@
       "value": 10140.03,
       "spy_value": 10801.32,
       "cash": 2462.84
+    },
+    {
+      "date": "2026-06-18",
+      "value": 10140.03,
+      "spy_value": 10801.32,
+      "cash": 2778.44
     }
   ],
   "stats": {
     "total_return_pct": 1.4,
     "total_return_dollar": 140.03,
-    "win_rate": 82.4,
-    "total_trades": 45,
-    "days_active": 109,
-    "cash_pct": 24.3,
+    "win_rate": 83.3,
+    "total_trades": 46,
+    "days_active": 110,
+    "cash_pct": 27.4,
     "best_position": {
       "symbol": "HOOD",
       "pnl_pct": 40.28

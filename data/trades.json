@@ -826,6 +826,25 @@
       },
       "conviction": 4,
       "realized_pnl": 130.29
+    },
+    {
+      "date": "2026-06-18",
+      "symbol": "HOOD",
+      "action": "SELL",
+      "quantity": 3,
+      "price": 105.2,
+      "total_cost": 315.6,
+      "reasoning": "PROFIT TAKE: position up 40.3% \u2014 harvesting 50% of gains, let the rest run",
+      "cash_after": 2778.44,
+      "portfolio_value_after": 10140.03,
+      "indicators": {
+        "rsi": 66.9,
+        "sma20": 86.4,
+        "vol_ratio": 2.11,
+        "change_pct": 8.78
+      },
+      "conviction": 4,
+      "realized_pnl": 90.61
     }
   ]
 }
