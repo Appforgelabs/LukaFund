@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-18 16:21 ET",
+  "generated_at": "2026-06-19 16:20 ET",
   "portfolio": {
     "name": "LukaFund",
     "inception_date": "2026-02-28",
     "starting_capital": 10000.0,
-    "cash": 2778.44,
+    "cash": 2352.39,
     "positions": [
       {
         "symbol": "TSLA",
@@ -15,15 +15,15 @@
       },
       {
         "symbol": "HOOD",
-        "quantity": 4,
+        "quantity": 2,
         "avg_cost": 74.995,
         "current_price": 108.15,
         "entry_date": "2026-03-23"
       },
       {
         "symbol": "PLTR",
-        "quantity": 7,
-        "avg_cost": 137.6679,
+        "quantity": 12,
+        "avg_cost": 133.8354,
         "current_price": 128.47,
         "entry_date": "2026-03-30"
       },
@@ -60,7 +60,7 @@
     ],
     "total_value": 10252.62,
     "total_return_pct": 2.53,
-    "last_updated": "2026-06-18",
+    "last_updated": "2026-06-19",
     "benchmark": "SPY",
     "benchmark_start_price": 685.99
   },
@@ -103,12 +103,12 @@
     },
     {
       "symbol": "PLTR",
-      "quantity": 7,
-      "avg_cost": 137.6679,
+      "quantity": 12,
+      "avg_cost": 133.8354,
       "current_price": 128.47,
-      "market_value": 899.29,
-      "pnl_dollar": -64.39,
-      "pnl_pct": -6.68,
+      "market_value": 1541.64,
+      "pnl_dollar": -64.38,
+      "pnl_pct": -4.01,
       "conviction": 2,
       "entry_date": "2026-03-30",
       "type": "long"
@@ -139,11 +139,11 @@
     },
     {
       "symbol": "HOOD",
-      "quantity": 4,
+      "quantity": 2,
       "avg_cost": 74.995,
       "current_price": 108.15,
-      "market_value": 432.6,
-      "pnl_dollar": 132.62,
+      "market_value": 216.3,
+      "pnl_dollar": 66.31,
       "pnl_pct": 44.21,
       "conviction": 5,
       "entry_date": "2026-03-23",
@@ -151,6 +151,43 @@
     }
   ],
   "recent_trades": [
+    {
+      "date": "2026-06-19",
+      "symbol": "HOOD",
+      "action": "SELL",
+      "quantity": 2,
+      "price": 108.15,
+      "total_cost": 216.3,
+      "reasoning": "PROFIT TAKE: position up 44.2% \u2014 harvesting 50% of gains, let the rest run",
+      "cash_after": 2352.39,
+      "portfolio_value_after": 10252.62,
+      "indicators": {
+        "rsi": 62.9,
+        "sma20": 88.02,
+        "vol_ratio": 1.14,
+        "change_pct": 2.8
+      },
+      "conviction": 4,
+      "realized_pnl": 66.31
+    },
+    {
+      "date": "2026-06-19",
+      "symbol": "PLTR",
+      "action": "BUY",
+      "quantity": 5,
+      "price": 128.47,
+      "total_cost": 642.35,
+      "reasoning": "OVERSOLD DIP: price $128.47 is 6.9% below 20-day SMA, RSI 23.7 \u2014 capitulation zone, small position entry",
+      "cash_after": 2136.09,
+      "portfolio_value_after": 10252.62,
+      "indicators": {
+        "rsi": 23.7,
+        "sma20": 138.02,
+        "vol_ratio": 1.38,
+        "change_pct": -1.65
+      },
+      "conviction": 3
+    },
     {
       "date": "2026-06-18",
       "symbol": "HOOD",
@@ -298,45 +335,47 @@
         "change_pct": -3.5
       },
       "conviction": 3
-    },
-    {
-      "date": "2026-05-06",
-      "symbol": "SOFI",
-      "action": "BUY",
-      "quantity": 43,
-      "price": 16.02,
-      "total_cost": 688.86,
-      "reasoning": "OVERSOLD DIP: price $16.02 is 9.2% below 20-day SMA, RSI 31.1 \u2014 capitulation zone, small position entry",
-      "cash_after": 2158.87,
-      "portfolio_value_after": 9308.8,
-      "indicators": {
-        "rsi": 31.1,
-        "sma20": 17.64,
-        "vol_ratio": 0.81,
-        "change_pct": -1.11
-      },
-      "conviction": 3
-    },
-    {
-      "date": "2026-05-06",
-      "symbol": "HOOD",
-      "action": "BUY",
-      "quantity": 9,
-      "price": 77.03,
-      "total_cost": 693.27,
-      "reasoning": "OVERSOLD DIP: price $77.03 is 3.6% below 20-day SMA, RSI 36.2 \u2014 capitulation zone, small position entry",
-      "cash_after": 2847.73,
-      "portfolio_value_after": 9308.8,
-      "indicators": {
-        "rsi": 36.2,
-        "sma20": 79.93,
-        "vol_ratio": 0.69,
-        "change_pct": 0.63
-      },
-      "conviction": 3
     }
   ],
   "recent_decisions": [
+    {
+      "date": "2026-06-19",
+      "summary": "2 trades executed",
+      "portfolio_value": 10252.62,
+      "active_trades": [
+        {
+          "date": "2026-06-19",
+          "action": "BUY",
+          "symbol": "PLTR",
+          "quantity": 5,
+          "price": 128.47,
+          "reasoning": "OVERSOLD DIP: price $128.47 is 6.9% below 20-day SMA, RSI 23.7 \u2014 capitulation zone, small position entry",
+          "conviction": 3,
+          "indicators": {
+            "rsi": 23.7,
+            "sma20": 138.02,
+            "vol_ratio": 1.38,
+            "change_pct": -1.65
+          }
+        },
+        {
+          "date": "2026-06-19",
+          "action": "SELL",
+          "symbol": "HOOD",
+          "quantity": 2,
+          "price": 108.15,
+          "reasoning": "PROFIT TAKE: position up 44.2% \u2014 harvesting 50% of gains, let the rest run",
+          "conviction": 4,
+          "indicators": {
+            "rsi": 62.9,
+            "sma20": 88.02,
+            "vol_ratio": 1.14,
+            "change_pct": 2.8
+          }
+        }
+      ],
+      "holds": 5
+    },
     {
       "date": "2026-06-18",
       "summary": "1 trades executed",
@@ -427,29 +466,6 @@
         }
       ],
       "holds": 5
-    },
-    {
-      "date": "2026-06-12",
-      "summary": "1 trades executed",
-      "portfolio_value": 10009.02,
-      "active_trades": [
-        {
-          "date": "2026-06-12",
-          "action": "BUY",
-          "symbol": "AMZN",
-          "quantity": 3,
-          "price": 241.51,
-          "reasoning": "OVERSOLD DIP: price $241.51 is 6.6% below 20-day SMA, RSI 27.1 \u2014 capitulation zone, small position entry",
-          "conviction": 3,
-          "indicators": {
-            "rsi": 27.1,
-            "sma20": 258.68,
-            "vol_ratio": 1.01,
-            "change_pct": 1.47
-          }
-        }
-      ],
-      "holds": 6
     }
   ],
   "equity_curve": [
@@ -860,22 +876,28 @@
       "value": 10252.62,
       "spy_value": 10885.58,
       "cash": 2778.44
+    },
+    {
+      "date": "2026-06-19",
+      "value": 10252.62,
+      "spy_value": 10885.58,
+      "cash": 2352.39
     }
   ],
   "stats": {
     "total_return_pct": 2.53,
     "total_return_dollar": 252.62,
-    "win_rate": 83.3,
-    "total_trades": 46,
-    "days_active": 110,
-    "cash_pct": 27.1,
+    "win_rate": 84.2,
+    "total_trades": 48,
+    "days_active": 111,
+    "cash_pct": 22.9,
     "best_position": {
       "symbol": "HOOD",
       "pnl_pct": 44.21
     },
     "worst_position": {
       "symbol": "PLTR",
-      "pnl_pct": -6.68
+      "pnl_pct": -4.01
     }
   }
 }

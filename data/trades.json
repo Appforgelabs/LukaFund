@@ -845,6 +845,43 @@
       },
       "conviction": 4,
       "realized_pnl": 90.61
+    },
+    {
+      "date": "2026-06-19",
+      "symbol": "PLTR",
+      "action": "BUY",
+      "quantity": 5,
+      "price": 128.47,
+      "total_cost": 642.35,
+      "reasoning": "OVERSOLD DIP: price $128.47 is 6.9% below 20-day SMA, RSI 23.7 \u2014 capitulation zone, small position entry",
+      "cash_after": 2136.09,
+      "portfolio_value_after": 10252.62,
+      "indicators": {
+        "rsi": 23.7,
+        "sma20": 138.02,
+        "vol_ratio": 1.38,
+        "change_pct": -1.65
+      },
+      "conviction": 3
+    },
+    {
+      "date": "2026-06-19",
+      "symbol": "HOOD",
+      "action": "SELL",
+      "quantity": 2,
+      "price": 108.15,
+      "total_cost": 216.3,
+      "reasoning": "PROFIT TAKE: position up 44.2% \u2014 harvesting 50% of gains, let the rest run",
+      "cash_after": 2352.39,
+      "portfolio_value_after": 10252.62,
+      "indicators": {
+        "rsi": 62.9,
+        "sma20": 88.02,
+        "vol_ratio": 1.14,
+        "change_pct": 2.8
+      },
+      "conviction": 4,
+      "realized_pnl": 66.31
     }
   ]
 }
