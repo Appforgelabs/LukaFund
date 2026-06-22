@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19 16:20 ET",
+  "generated_at": "2026-06-22 09:15 ET",
   "portfolio": {
     "name": "LukaFund",
     "inception_date": "2026-02-28",
@@ -60,7 +60,7 @@
     ],
     "total_value": 10252.62,
     "total_return_pct": 2.53,
-    "last_updated": "2026-06-19",
+    "last_updated": "2026-06-22",
     "benchmark": "SPY",
     "benchmark_start_price": 685.99
   },
@@ -339,6 +339,13 @@
   ],
   "recent_decisions": [
     {
+      "date": "2026-06-22",
+      "summary": "0 trades executed",
+      "portfolio_value": 10252.62,
+      "active_trades": [],
+      "holds": 0
+    },
+    {
       "date": "2026-06-19",
       "summary": "2 trades executed",
       "portfolio_value": 10252.62,
@@ -428,44 +435,6 @@
       "portfolio_value": 10225.34,
       "active_trades": [],
       "holds": 0
-    },
-    {
-      "date": "2026-06-15",
-      "summary": "2 trades executed",
-      "portfolio_value": 9972.84,
-      "active_trades": [
-        {
-          "date": "2026-06-15",
-          "action": "BUY",
-          "symbol": "AMZN",
-          "quantity": 3,
-          "price": 238.55,
-          "reasoning": "OVERSOLD DIP: price $238.55 is 7.3% below 20-day SMA, RSI 26.8 \u2014 capitulation zone, small position entry",
-          "conviction": 3,
-          "indicators": {
-            "rsi": 26.8,
-            "sma20": 257.25,
-            "vol_ratio": 1.23,
-            "change_pct": -1.23
-          }
-        },
-        {
-          "date": "2026-06-15",
-          "action": "SHORT",
-          "symbol": "RIVN",
-          "quantity": 44,
-          "price": 16.76,
-          "reasoning": "BEARISH PLAY: RIVN near resistance (RSI 62.0, 8.3% above SMA) \u2014 structurally weak EV play, simulating put via short position",
-          "conviction": 4,
-          "indicators": {
-            "rsi": 62.0,
-            "sma20": 15.47,
-            "vol_ratio": 0.92,
-            "change_pct": 7.85
-          }
-        }
-      ],
-      "holds": 5
     }
   ],
   "equity_curve": [
@@ -882,6 +851,12 @@
       "value": 10252.62,
       "spy_value": 10885.58,
       "cash": 2352.39
+    },
+    {
+      "date": "2026-06-22",
+      "value": 10252.62,
+      "spy_value": 10885.58,
+      "cash": 2352.39
     }
   ],
   "stats": {
@@ -889,7 +864,7 @@
     "total_return_dollar": 252.62,
     "win_rate": 84.2,
     "total_trades": 48,
-    "days_active": 111,
+    "days_active": 114,
     "cash_pct": 22.9,
     "best_position": {
       "symbol": "HOOD",

@@ -8637,6 +8637,77 @@
       "portfolio_value": 10252.62,
       "cash": 2352.39,
       "summary": "2 trades executed"
+    },
+    {
+      "date": "2026-06-22",
+      "decisions": [
+        {
+          "date": "2026-06-22",
+          "action": "SKIP",
+          "symbol": "TSLA",
+          "quantity": 0,
+          "price": 400.49,
+          "reasoning": "Insufficient data (0 candles). Watching.",
+          "conviction": 0
+        },
+        {
+          "date": "2026-06-22",
+          "action": "SKIP",
+          "symbol": "AMZN",
+          "quantity": 0,
+          "price": 244.39,
+          "reasoning": "Insufficient data (0 candles). Watching.",
+          "conviction": 0
+        },
+        {
+          "date": "2026-06-22",
+          "action": "SKIP",
+          "symbol": "PLTR",
+          "quantity": 0,
+          "price": 128.47,
+          "reasoning": "Insufficient data (0 candles). Watching.",
+          "conviction": 0
+        },
+        {
+          "date": "2026-06-22",
+          "action": "SKIP",
+          "symbol": "HOOD",
+          "quantity": 0,
+          "price": 108.15,
+          "reasoning": "Insufficient data (0 candles). Watching.",
+          "conviction": 0
+        },
+        {
+          "date": "2026-06-22",
+          "action": "SKIP",
+          "symbol": "SOFI",
+          "quantity": 0,
+          "price": 17.91,
+          "reasoning": "Insufficient data (0 candles). Watching.",
+          "conviction": 0
+        },
+        {
+          "date": "2026-06-22",
+          "action": "SKIP",
+          "symbol": "RIVN",
+          "quantity": 0,
+          "price": 16.52,
+          "reasoning": "Insufficient data (0 candles). Watching.",
+          "conviction": 0
+        },
+        {
+          "date": "2026-06-22",
+          "action": "SKIP",
+          "symbol": "NIO",
+          "quantity": 0,
+          "price": 5.02,
+          "reasoning": "Insufficient data (0 candles). Watching.",
+          "conviction": 0
+        }
+      ],
+      "portfolio_value": 10252.62,
+      "cash": 2352.39,
+      "summary": "0 trades executed"
     }
   ]
 }
