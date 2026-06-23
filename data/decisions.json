@@ -8765,42 +8765,36 @@
         },
         {
           "date": "2026-06-23",
-          "action": "SKIP",
+          "action": "HOLD",
           "symbol": "AMZN",
           "quantity": 0,
           "price": 232.79,
+          "reasoning": "HOLD: no signal. Price $232.79 (-7.4% vs SMA20 $251.49), RSI 30.2, vol ratio 1.5x. Watching.",
+          "conviction": 1,
+          "indicators": {
+            "rsi": 30.2,
+            "sma20": 251.49,
+            "vol_ratio": 1.5,
+            "change_pct": -4.75
+          }
+        },
+        {
+          "date": "2026-06-23",
+          "action": "SKIP",
+          "symbol": "PLTR",
+          "quantity": 0,
+          "price": 119.5,
           "reasoning": "Insufficient data (0 candles). Watching.",
           "conviction": 0
         },
         {
           "date": "2026-06-23",
-          "action": "BUY",
-          "symbol": "PLTR",
-          "quantity": 6,
-          "price": 119.5,
-          "reasoning": "OVERSOLD DIP: price $119.5 is 12.9% below 20-day SMA, RSI 14.7 \u2014 capitulation zone, small position entry",
-          "conviction": 3,
-          "indicators": {
-            "rsi": 14.7,
-            "sma20": 137.12,
-            "vol_ratio": 1.36,
-            "change_pct": -6.98
-          }
-        },
-        {
-          "date": "2026-06-23",
-          "action": "SELL",
+          "action": "SKIP",
           "symbol": "HOOD",
-          "quantity": 1,
+          "quantity": 0,
           "price": 105.71,
-          "reasoning": "PROFIT TAKE: position up 41.0% \u2014 harvesting 50% of gains, let the rest run",
-          "conviction": 4,
-          "indicators": {
-            "rsi": 64.2,
-            "sma20": 89.51,
-            "vol_ratio": 0.9,
-            "change_pct": -2.26
-          }
+          "reasoning": "Insufficient data (0 candles). Watching.",
+          "conviction": 0
         },
         {
           "date": "2026-06-23",
@@ -8828,17 +8822,23 @@
         },
         {
           "date": "2026-06-23",
-          "action": "SKIP",
+          "action": "HOLD",
           "symbol": "NIO",
           "quantity": 0,
           "price": 5.05,
-          "reasoning": "Insufficient data (0 candles). Watching.",
-          "conviction": 0
+          "reasoning": "HOLD: no signal. Price $5.05 (-6.3% vs SMA20 $5.39), RSI 17.0, vol ratio 0.8x. Watching.",
+          "conviction": 1,
+          "indicators": {
+            "rsi": 17.0,
+            "sma20": 5.39,
+            "vol_ratio": 0.77,
+            "change_pct": 0.6
+          }
         }
       ],
       "portfolio_value": 10060.05,
-      "cash": 1849.25,
-      "summary": "2 trades executed"
+      "cash": 2460.54,
+      "summary": "0 trades executed"
     }
   ]
 }
