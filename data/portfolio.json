@@ -2,7 +2,7 @@
   "name": "LukaFund",
   "inception_date": "2026-02-28",
   "starting_capital": 10000.0,
-  "cash": 2460.54,
+  "cash": 1760.34,
   "positions": [
     {
       "symbol": "TSLA",
@@ -20,8 +20,8 @@
     },
     {
       "symbol": "PLTR",
-      "quantity": 12,
-      "avg_cost": 133.8354,
+      "quantity": 18,
+      "avg_cost": 128.1236,
       "current_price": 116.7,
       "entry_date": "2026-03-30"
     },
@@ -58,7 +58,7 @@
   ],
   "total_value": 9915.19,
   "total_return_pct": -0.85,
-  "last_updated": "2026-06-23",
+  "last_updated": "2026-06-24",
   "benchmark": "SPY",
   "benchmark_start_price": 685.99
 }

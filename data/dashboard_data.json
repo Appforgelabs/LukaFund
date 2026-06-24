@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-23 16:20 ET",
+  "generated_at": "2026-06-24 09:15 ET",
   "portfolio": {
     "name": "LukaFund",
     "inception_date": "2026-02-28",
     "starting_capital": 10000.0,
-    "cash": 2460.54,
+    "cash": 1760.34,
     "positions": [
       {
         "symbol": "TSLA",
@@ -22,8 +22,8 @@
       },
       {
         "symbol": "PLTR",
-        "quantity": 12,
-        "avg_cost": 133.8354,
+        "quantity": 18,
+        "avg_cost": 128.1236,
         "current_price": 116.7,
         "entry_date": "2026-03-30"
       },
@@ -60,7 +60,7 @@
     ],
     "total_value": 9915.19,
     "total_return_pct": -0.85,
-    "last_updated": "2026-06-23",
+    "last_updated": "2026-06-24",
     "benchmark": "SPY",
     "benchmark_start_price": 685.99
   },
@@ -75,6 +75,18 @@
       "pnl_pct": 2.37,
       "conviction": 3,
       "entry_date": "2026-03-09",
+      "type": "long"
+    },
+    {
+      "symbol": "PLTR",
+      "quantity": 18,
+      "avg_cost": 128.1236,
+      "current_price": 116.7,
+      "market_value": 2100.6,
+      "pnl_dollar": -205.62,
+      "pnl_pct": -8.92,
+      "conviction": 2,
+      "entry_date": "2026-03-30",
       "type": "long"
     },
     {
@@ -99,18 +111,6 @@
       "pnl_pct": 7.4,
       "conviction": 3,
       "entry_date": "2026-04-01",
-      "type": "long"
-    },
-    {
-      "symbol": "PLTR",
-      "quantity": 12,
-      "avg_cost": 133.8354,
-      "current_price": 116.7,
-      "market_value": 1400.4,
-      "pnl_dollar": -205.62,
-      "pnl_pct": -12.8,
-      "conviction": 1,
-      "entry_date": "2026-03-30",
       "type": "long"
     },
     {
@@ -151,6 +151,24 @@
     }
   ],
   "recent_trades": [
+    {
+      "date": "2026-06-24",
+      "symbol": "PLTR",
+      "action": "BUY",
+      "quantity": 6,
+      "price": 116.7,
+      "total_cost": 700.2,
+      "reasoning": "OVERSOLD DIP: price $116.7 is 14.3% below 20-day SMA, RSI 16.2 \u2014 capitulation zone, small position entry",
+      "cash_after": 1760.34,
+      "portfolio_value_after": 9915.19,
+      "indicators": {
+        "rsi": 16.2,
+        "sma20": 136.12,
+        "vol_ratio": 1.05,
+        "change_pct": -2.34
+      },
+      "conviction": 3
+    },
     {
       "date": "2026-06-22",
       "symbol": "HOOD",
@@ -317,28 +335,32 @@
       },
       "conviction": 3,
       "realized_pnl": 160.87
-    },
-    {
-      "date": "2026-06-01",
-      "symbol": "HOOD",
-      "action": "SELL",
-      "quantity": 13,
-      "price": 94.3,
-      "total_cost": 1225.9,
-      "reasoning": "PROFIT TAKE: position up 25.7% \u2014 harvesting 50% of gains, let the rest run",
-      "cash_after": 2698.25,
-      "portfolio_value_after": 10489.81,
-      "indicators": {
-        "rsi": 70.1,
-        "sma20": 77.97,
-        "vol_ratio": 2.58,
-        "change_pct": 11.15
-      },
-      "conviction": 4,
-      "realized_pnl": 250.96
     }
   ],
   "recent_decisions": [
+    {
+      "date": "2026-06-24",
+      "summary": "1 trades executed",
+      "portfolio_value": 9915.19,
+      "active_trades": [
+        {
+          "date": "2026-06-24",
+          "action": "BUY",
+          "symbol": "PLTR",
+          "quantity": 6,
+          "price": 116.7,
+          "reasoning": "OVERSOLD DIP: price $116.7 is 14.3% below 20-day SMA, RSI 16.2 \u2014 capitulation zone, small position entry",
+          "conviction": 3,
+          "indicators": {
+            "rsi": 16.2,
+            "sma20": 136.12,
+            "vol_ratio": 1.05,
+            "change_pct": -2.34
+          }
+        }
+      ],
+      "holds": 0
+    },
     {
       "date": "2026-06-23",
       "summary": "0 trades executed",
@@ -429,29 +451,6 @@
         }
       ],
       "holds": 6
-    },
-    {
-      "date": "2026-06-17",
-      "summary": "1 trades executed",
-      "portfolio_value": 10260.2,
-      "active_trades": [
-        {
-          "date": "2026-06-17",
-          "action": "SELL",
-          "symbol": "HOOD",
-          "quantity": 6,
-          "price": 96.71,
-          "reasoning": "PROFIT TAKE: position up 29.0% \u2014 harvesting 50% of gains, let the rest run",
-          "conviction": 4,
-          "indicators": {
-            "rsi": 66.9,
-            "sma20": 84.84,
-            "vol_ratio": 1.02,
-            "change_pct": -1.44
-          }
-        }
-      ],
-      "holds": 5
     }
   ],
   "equity_curve": [
@@ -880,22 +879,28 @@
       "value": 9915.19,
       "spy_value": 10693.74,
       "cash": 2460.54
+    },
+    {
+      "date": "2026-06-24",
+      "value": 9915.19,
+      "spy_value": 10693.74,
+      "cash": 1760.34
     }
   ],
   "stats": {
     "total_return_pct": -0.85,
     "total_return_dollar": -84.81,
     "win_rate": 85.0,
-    "total_trades": 49,
-    "days_active": 115,
-    "cash_pct": 24.8,
+    "total_trades": 50,
+    "days_active": 116,
+    "cash_pct": 17.8,
     "best_position": {
       "symbol": "HOOD",
       "pnl_pct": 37.68
     },
     "worst_position": {
       "symbol": "PLTR",
-      "pnl_pct": -12.8
+      "pnl_pct": -8.92
     }
   }
 }
