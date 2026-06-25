@@ -8916,6 +8916,83 @@
       "portfolio_value": 9915.19,
       "cash": 1760.34,
       "summary": "1 trades executed"
+    },
+    {
+      "date": "2026-06-25",
+      "decisions": [
+        {
+          "date": "2026-06-25",
+          "action": "SKIP",
+          "symbol": "TSLA",
+          "quantity": 0,
+          "price": 375.53,
+          "reasoning": "Insufficient data (0 candles). Watching.",
+          "conviction": 0
+        },
+        {
+          "date": "2026-06-25",
+          "action": "HOLD",
+          "symbol": "AMZN",
+          "quantity": 0,
+          "price": 234.27,
+          "reasoning": "HOLD: no signal. Price $234.27 (-5.7% vs SMA20 $248.33), RSI 37.3, vol ratio 1.4x. Watching.",
+          "conviction": 1,
+          "indicators": {
+            "rsi": 37.3,
+            "sma20": 248.33,
+            "vol_ratio": 1.44,
+            "change_pct": 0.07
+          }
+        },
+        {
+          "date": "2026-06-25",
+          "action": "SKIP",
+          "symbol": "PLTR",
+          "quantity": 0,
+          "price": 113.5,
+          "reasoning": "Insufficient data (0 candles). Watching.",
+          "conviction": 0
+        },
+        {
+          "date": "2026-06-25",
+          "action": "SKIP",
+          "symbol": "HOOD",
+          "quantity": 0,
+          "price": 97.19,
+          "reasoning": "Insufficient data (0 candles). Watching.",
+          "conviction": 0
+        },
+        {
+          "date": "2026-06-25",
+          "action": "SKIP",
+          "symbol": "SOFI",
+          "quantity": 0,
+          "price": 17.31,
+          "reasoning": "Insufficient data (0 candles). Watching.",
+          "conviction": 0
+        },
+        {
+          "date": "2026-06-25",
+          "action": "SKIP",
+          "symbol": "RIVN",
+          "quantity": 0,
+          "price": 14.64,
+          "reasoning": "Insufficient data (0 candles). Watching.",
+          "conviction": 0
+        },
+        {
+          "date": "2026-06-25",
+          "action": "SKIP",
+          "symbol": "NIO",
+          "quantity": 0,
+          "price": 4.9,
+          "reasoning": "Insufficient data (0 candles). Watching.",
+          "conviction": 0
+        }
+      ],
+      "portfolio_value": 9848.5,
+      "cash": 1760.34,
+      "summary": "0 trades executed"
     }
   ]
 }

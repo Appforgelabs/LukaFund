@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24 16:20 ET",
+  "generated_at": "2026-06-25 09:15 ET",
   "portfolio": {
     "name": "LukaFund",
     "inception_date": "2026-02-28",
@@ -60,7 +60,7 @@
     ],
     "total_value": 9848.5,
     "total_return_pct": -1.52,
-    "last_updated": "2026-06-24",
+    "last_updated": "2026-06-25",
     "benchmark": "SPY",
     "benchmark_start_price": 685.99
   },
@@ -339,6 +339,13 @@
   ],
   "recent_decisions": [
     {
+      "date": "2026-06-25",
+      "summary": "0 trades executed",
+      "portfolio_value": 9848.5,
+      "active_trades": [],
+      "holds": 1
+    },
+    {
       "date": "2026-06-24",
       "summary": "1 trades executed",
       "portfolio_value": 9915.19,
@@ -428,29 +435,6 @@
         }
       ],
       "holds": 5
-    },
-    {
-      "date": "2026-06-18",
-      "summary": "1 trades executed",
-      "portfolio_value": 10140.03,
-      "active_trades": [
-        {
-          "date": "2026-06-18",
-          "action": "SELL",
-          "symbol": "HOOD",
-          "quantity": 3,
-          "price": 105.2,
-          "reasoning": "PROFIT TAKE: position up 40.3% \u2014 harvesting 50% of gains, let the rest run",
-          "conviction": 4,
-          "indicators": {
-            "rsi": 66.9,
-            "sma20": 86.4,
-            "vol_ratio": 2.11,
-            "change_pct": 8.78
-          }
-        }
-      ],
-      "holds": 6
     }
   ],
   "equity_curve": [
@@ -885,6 +869,12 @@
       "value": 9848.5,
       "spy_value": 10688.79,
       "cash": 1760.34
+    },
+    {
+      "date": "2026-06-25",
+      "value": 9848.5,
+      "spy_value": 10688.79,
+      "cash": 1760.34
     }
   ],
   "stats": {
@@ -892,7 +882,7 @@
     "total_return_dollar": -151.5,
     "win_rate": 85.0,
     "total_trades": 50,
-    "days_active": 116,
+    "days_active": 117,
     "cash_pct": 17.9,
     "best_position": {
       "symbol": "HOOD",
