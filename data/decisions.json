@@ -8922,27 +8922,27 @@
       "decisions": [
         {
           "date": "2026-06-25",
-          "action": "SKIP",
+          "action": "HOLD",
           "symbol": "TSLA",
           "quantity": 0,
           "price": 375.53,
-          "reasoning": "Insufficient data (0 candles). Watching.",
-          "conviction": 0
+          "reasoning": "HOLD: no signal. Price $375.53 (-7.9% vs SMA20 $407.93), RSI 35.0, vol ratio 0.8x. Watching.",
+          "conviction": 1,
+          "indicators": {
+            "rsi": 35.0,
+            "sma20": 407.93,
+            "vol_ratio": 0.79,
+            "change_pct": -1.59
+          }
         },
         {
           "date": "2026-06-25",
-          "action": "HOLD",
+          "action": "SKIP",
           "symbol": "AMZN",
           "quantity": 0,
           "price": 234.27,
-          "reasoning": "HOLD: no signal. Price $234.27 (-5.7% vs SMA20 $248.33), RSI 37.3, vol ratio 1.4x. Watching.",
-          "conviction": 1,
-          "indicators": {
-            "rsi": 37.3,
-            "sma20": 248.33,
-            "vol_ratio": 1.44,
-            "change_pct": 0.07
-          }
+          "reasoning": "Insufficient data (0 candles). Watching.",
+          "conviction": 0
         },
         {
           "date": "2026-06-25",
@@ -8982,12 +8982,18 @@
         },
         {
           "date": "2026-06-25",
-          "action": "SKIP",
+          "action": "HOLD",
           "symbol": "NIO",
           "quantity": 0,
           "price": 4.9,
-          "reasoning": "Insufficient data (0 candles). Watching.",
-          "conviction": 0
+          "reasoning": "HOLD: no signal. Price $4.9 (-8.8% vs SMA20 $5.37), RSI 18.5, vol ratio 0.7x. Watching.",
+          "conviction": 1,
+          "indicators": {
+            "rsi": 18.5,
+            "sma20": 5.37,
+            "vol_ratio": 0.71,
+            "change_pct": -3.73
+          }
         }
       ],
       "portfolio_value": 9848.5,
