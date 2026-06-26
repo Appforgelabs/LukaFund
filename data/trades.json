@@ -919,6 +919,25 @@
         "change_pct": -2.34
       },
       "conviction": 3
+    },
+    {
+      "date": "2026-06-26",
+      "symbol": "PLTR",
+      "action": "SELL",
+      "quantity": 18,
+      "price": 107.27,
+      "total_cost": 1930.86,
+      "reasoning": "STOP LOSS: position down -16.3% \u2014 cutting losses, discipline over hope",
+      "cash_after": 3691.2,
+      "portfolio_value_after": 9680.21,
+      "indicators": {
+        "rsi": 16.6,
+        "sma20": 133.7,
+        "vol_ratio": 1.38,
+        "change_pct": -5.49
+      },
+      "conviction": 5,
+      "realized_pnl": -375.36
     }
   ]
 }
